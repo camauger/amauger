@@ -1,7 +1,12 @@
 {
-    "name": "idoine",
+    "name": "christianamauger.com",
     "version": "1.0.0",
-    "description": "Gabarit de site/blog modulable avec support multilingue",
+    "description": "Site personnel basé sur le template Idoine",
+    "template": {
+        "repository": "https://github.com/camauger/idoine",
+        "version": "1.0.0",
+        "lastUpdated": "2025-02-24"
+    },
     "main": "Gruntfile.js",
     "scripts": {
         "dev": "grunt dev",
