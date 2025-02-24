@@ -36,11 +36,18 @@
     .post-meta {
       max-width: var(--post-width);
       margin-inline: auto;
+      margin-bottom: var(--spacing-3);
+      display: grid;
+      grid-template-columns: max-content max-content;
+
+      dd {
+        margin-left: 0.5ch;
+      }
     }
     .meta-item {
       display: flex;
       dd {
-        margin-left: 0.5ch;
+        margin: 0;
       }
     }
   }

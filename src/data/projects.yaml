@@ -1,0 +1,50 @@
+frontend:
+  - title: "Site Web de Portfolio"
+    description: "Un site web de portfolio moderne et réactif."
+    image: "assets/images/landscape.jpg"
+    technologies: ["HTML", "CSS", "JavaScript"]
+    link: "/projects/portfolio-site"
+  - title: "Application de Gestion de Tâches"
+    description: "Une application web pour gérer vos tâches quotidiennes."
+    image: "assets/images/landscape.jpg"
+    technologies: ["React", "Redux", "CSS"]
+    link: "/projects/task-manager"
+  - title: "Blog Personnel"
+    description: "Un blog personnel avec des fonctionnalités de publication et de commentaire."
+    image: "assets/images/landscape.jpg"
+    technologies: ["Gatsby", "GraphQL", "Sass"]
+    link: "/projects/personal-blog"
+
+jeux_de_role:
+  - title: "Aventure Épique"
+    description: "Un jeu de rôle épique avec des quêtes et des aventures."
+    image: "assets/images/landscape.jpg"
+    technologies: ["Unity", "C#"]
+    link: "/projects/epic-adventure"
+  - title: "Mystères Enigmatique"
+    description: "Un jeu de rôle mystérieux avec des énigmes à résoudre."
+    image: "assets/images/landscape.jpg"
+    technologies: ["Unreal Engine", "Blueprints"]
+    link: "/projects/mystery-game"
+  - title: "Royaume Fantastique"
+    description: "Un jeu de rôle fantastique avec des créatures magiques."
+    image: "assets/images/landscape.jpg"
+    technologies: ["Godot", "GDScript"]
+    link: "/projects/fantasy-realm"
+
+strategie_numerique:
+  - title: "Campagne de Marketing Digital"
+    description: "Une campagne de marketing digital pour augmenter la visibilité en ligne."
+    image: "assets/images/landscape.jpg"
+    technologies: ["SEO", "Google Ads", "Analytics"]
+    link: "/projects/digital-marketing-campaign"
+  - title: "Optimisation du Référencement"
+    description: "Optimisation du référencement pour améliorer le classement dans les moteurs de recherche."
+    image: "assets/images/landscape.jpg"
+    technologies: ["SEO", "Content Marketing", "Backlinking"]
+    link: "/projects/seo-optimization"
+  - title: "Stratégie de Contenu"
+    description: "Développement d'une stratégie de contenu pour engager les utilisateurs."
+    image: "assets/images/landscape.jpg"
+    technologies: ["Content Creation", "Social Media", "Analytics"]
+    link: "/projects/content-strategy"
