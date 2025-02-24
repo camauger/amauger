@@ -1,0 +1,27 @@
+{% macro render_image(src, alt, srcset=None, sizes=None, caption=None) %}
+<figure>
+  <img
+    src="{{ src }}"
+    alt="{{ alt }}"
+    {% if srcset %}srcset="{{ srcset }}"{% endif %}
+    {% if sizes %}sizes="{{ sizes }}"{% endif %}
+    itemprop="image"
+    loading="lazy"
+  >
+  {% if caption %}
+    <figcaption>{{ caption }}</figcaption>
+  {% endif %}
+</figure>
+{% endmacro %}
+
+{% macro image_link(src, alt, url) %}
+<a href="{{ url }}">
+  <img
+    src="{{ src }}"
+    alt="{{ alt }}"
+    class="post-thumbnail"
+    itemprop="image"
+    loading="lazy"
+  />
+</a>
+{% endmacro %}

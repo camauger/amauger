@@ -1,0 +1,101 @@
+:root {
+  /* Couleurs principales */
+  --color-primary: #2a9d8f;
+  --color-primary-light: #4cc9b0;
+  --color-primary-dark: #237a68;
+  --color-secondary: #e76f51;
+  --color-secondary-dark: #d65a3e;
+
+  /* Couleurs de texte et fond */
+  --color-text: #333333;
+  --color-text-light: #7d7d7d;
+  --color-background: #fafafa;
+  --color-background-alt: #f5f5f5;
+  --color-border: #e0e0e0;
+  --color-white: #ffffff;
+
+  /* Polices de caractères */
+  --font-sans: "Montserrat", sans-serif;
+  --font-primary: var(--font-sans);
+  --font-decorative: "Cinzel Decorative", serif;
+  --font-secondary: var(--font-decorative);
+
+  /* Typography */
+  --text-sm: 1rem;
+  --text-base: 1.2rem;
+  --text-lg: 1.6rem;
+  --text-xl: 2rem;
+  --text-2xl: 2.4rem;
+  --text-3xl: 3rem;
+  --text-4xl: 4rem;
+
+  /* Espacement */
+  --spacing-1: 0.4rem;
+  --spacing-2: 0.8rem;
+  --spacing-3: 1.2rem;
+  --spacing-4: 1.6rem;
+  --spacing-6: 2.4rem;
+  --spacing-8: 3.2rem;
+  --spacing-12: 4.8rem;
+
+  /* Layout */
+  --container-width: 120rem;
+  --post-width: 60rem;
+  /* Bordures et rayons */
+  --border-radius: 0.4rem;
+  --border-radius-lg: 0.8rem;
+
+  /* Ombres */
+  --shadow-sm: 0 2px 4px rgba(0, 0, 0, 0.1);
+  --shadow-md: 0 4px 8px rgba(0, 0, 0, 0.12);
+  --shadow-lg: 0 8px 16px rgba(0, 0, 0, 0.15);
+
+  /* Transitions */
+  --transition-fast: 0.3s;
+  --transition-normal: 0.5s;
+
+  /* Z-index */
+  --z-nav: 90;
+  --z-modal: 100;
+  --z-overlay: 80;
+
+  /* Utilitaires pour les dégradés */
+  --gradient-primary: linear-gradient(
+    to right,
+    var(--color-primary),
+    var(--color-primary-light)
+  );
+  --gradient-dark: linear-gradient(180deg, rgba(0, 0, 0, 0.2), transparent);
+}
+
+/* Dark mode */
+[data-theme="dark"] {
+  --color-text: #e0e0e0;
+  --color-text-light: #a0aec0;
+  --color-background: #121212;
+  --color-background-alt: #1e1e1e;
+  --color-border: #2d3748;
+
+  /* Ajustement des ombres pour le mode sombre */
+  --shadow-sm: 0 2px 4px rgba(0, 0, 0, 0.3);
+  --shadow-md: 0 4px 8px rgba(0, 0, 0, 0.35);
+  --shadow-lg: 0 8px 16px rgba(0, 0, 0, 0.4);
+
+  /* Aspects */
+  --primary-bg-color: var(--color-background-alt);
+  --secondary-bg-color: var(--color-border);
+  --white-color: var(--color-white);
+  --primary-text-color: var(--color-text);
+  --secondary-text-color: var(--color-text-light);
+  --box-shadow-color: var(--shadow-md);
+  --hover-box-shadow-color: var(--shadow-lg);
+  --gap: var(--spacing-8);
+  --padding-large: var(--spacing-12) var(--spacing-8);
+  --padding-medium: var(--spacing-6) var(--spacing-8);
+  --border-radius: var(--border-radius-lg);
+  --scale-normal: 0.9;
+  --scale-hover: 1.05;
+  --font-size-large: var(--text-2xl);
+  --font-size-medium: var(--text-base);
+  --line-height: 1.6;
+}

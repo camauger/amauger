@@ -1,0 +1,21 @@
+<section class="skills">
+    <h2>{{ t.skills_title }}</h2>
+
+    <div class="skills">
+      <h3>{{ t.technical_skills }}</h3>
+      <ul class="skill-list">
+        {% for skill in t.technical_skills_list %}
+        <li><strong>{{ skill.name }}:</strong> {{ skill.description }}</li>
+        {% endfor %}
+      </ul>
+    </div>
+
+    <div class="soft-skills">
+      <h3>{{ t.soft_skills }}</h3>
+      <ul>
+        {% for soft_skill in t.soft_skills_list %}
+        <li>{{ soft_skill }}</li>
+        {% endfor %}
+      </ul>
+    </div>
+  </section>

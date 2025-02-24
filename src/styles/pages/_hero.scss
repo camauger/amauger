@@ -1,0 +1,42 @@
+.hero {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 80vh; /* Prend 80% de la hauteur de la fenêtre */
+  text-align: center;
+  background: url("path/to/hero-image.jpg") center/cover no-repeat;
+  color: var(--color-white);
+}
+
+.hero-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: rgba(
+    0,
+    0,
+    0,
+    0.5
+  ); /* Overlay semi-transparent pour améliorer le contraste */
+  z-index: 1;
+}
+
+.hero-content {
+  position: relative;
+  z-index: 2;
+  padding: var(--spacing-6);
+}
+
+.hero h1 {
+  font-family: var(--font-decorative);
+  font-size: var(--text-3xl);
+  margin-bottom: var(--spacing-4);
+}
+
+.hero-description {
+  font-size: var(--text-xl);
+  margin-bottom: var(--spacing-6);
+}

@@ -1,0 +1,32 @@
+{% extends "base.html" %}
+
+{% block content %}
+<main class="container">
+    <h1>{{ t.glossary_title }}</h1>
+    <p>{{ t.glossary_description }}</p>
+
+    <ul class="glossary-list">
+        {% for term in pagination.terms %}
+        <li>
+            <a href="{{ term.url }}">{{ term.title }}</a>
+        </li>
+        {% endfor %}
+    </ul>
+
+    {% if pagination.pages|length > 1 %}
+    <nav class="pagination">
+        {% if pagination.prev_page %}
+        <a href="{{ pagination.prev_page }}" class="prev">&larr; {{t.previous}}</a>
+        {% endif %}
+        {% for page in pagination.pages %}
+        <a href="{{ page.url }}" class="{% if page.number == pagination.current_page %}active{% endif %}">
+            {{ page.number }}
+        </a>
+        {% endfor %}
+        {% if pagination.next_page %}
+        <a href="{{ pagination.next_page }}" class="next">{{t.next}} &rarr;</a>
+        {% endif %}
+    </nav>
+    {% endif %}
+</main>
+{% endblock %}

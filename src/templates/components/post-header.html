@@ -1,0 +1,33 @@
+{% from 'macros/images.html' import render_image %}
+
+
+<header role="banner" aria-label="{{t.post_header}}">
+  {% if page.draft %}
+  <span role="status" aria-live="polite">{{t.draft}}</span>
+  {% endif %}
+
+  <h1 itemprop="headline">{{ page.title }}</h1>
+
+  {% if page.excerpt %}
+  <p class="post-excerpt">{{ page.excerpt }}</p>
+  {% endif %}
+  <hr>
+  {% include "components/post-meta.html" %}
+
+  {% if page.readingTime %}
+  <p data-info="reading-time" aria-label="{{t.reading_time}}">{{t.reading_time}} {{ page.readingTime }}</p>
+  {% endif %}
+
+  {% if other_language_post %}
+  <a href="{{ other_language_post.url }}">Voir en {{ other_language_post.lang }}</a>
+  {% endif %}
+  {% if page.thumbnail %}
+
+
+  {{render_image(page.thumbnail, page.title, page.thumbnailCaption)}}
+
+  {% endif %}
+
+
+
+</header>

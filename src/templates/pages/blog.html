@@ -1,0 +1,20 @@
+{% extends "base.html" %}
+{% from "macros/post.html" import post_preview %}
+
+{% block content %}
+<header>
+  <h1>{{ page.title }}</h1>
+</header>
+
+<section class="posts">
+  {% if page.pagination and page.pagination.posts %}
+  {% for post in page.pagination.posts %}
+  {{ post_preview(post, t.read_more) }}
+  {% endfor %}
+  {% else %}
+  <p class="no-posts">{{ t.no_article }}</p>
+  {% endif %}
+</section>
+
+{% include "components/pagination.html" %}
+{% endblock %}

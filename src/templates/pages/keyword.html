@@ -1,0 +1,37 @@
+{% extends "base.html" %}
+{% block content %}
+<main id="main-content" tabindex="-1" role="main">
+  <header class="page-header" role="banner" aria-label="En-tête du mot-clé">
+    <h1>{{ t.keyword_prefix}} {{ keyword }}</h1>
+    <p>Articles marqués avec le mot-clé "{{ keyword }}"</p>
+  </header>
+
+  <section class="posts-list" aria-label="Liste des articles">
+    {% if posts %}
+      <ul class="post-list">
+        {% for post in posts %}
+          <li class="post-item">
+            <article itemscope itemtype="https://schema.org/Article">
+              <header>
+                <h2 itemprop="headline">
+                  <a href="{{ post.url }}" itemprop="url">{{ post.title }}</a>
+                </h2>
+                <p class="post-meta">
+                  <time datetime="{{ post.date | date('%Y-%m-%d') }}" itemprop="datePublished">
+                    {{ post.date | date('long', page.lang) }}
+                  </time>
+                </p>
+              </header>
+              {% if post.summary %}
+                <p class="post-excerpt" itemprop="description">{{ post.summary }}</p>
+              {% endif %}
+            </article>
+          </li>
+        {% endfor %}
+      </ul>
+    {% else %}
+      <p>{{t.keyword_no_article}}.</p>
+    {% endif %}
+  </section>
+</main>
+{% endblock %}

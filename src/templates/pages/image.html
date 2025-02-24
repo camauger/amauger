@@ -1,0 +1,62 @@
+{% extends "base.html" %}
+{% block title %}{{ t.image_page_title }} {{ image_name|replace('_', ' ')|title }}{% endblock %}
+{% block meta %}
+<meta name="description"
+  content="{{ t.image_meta_description | replace('{image_name}', image_name|replace('_', ' ')|title) }}">
+<meta property="og:title"
+  content="{{ t.image_og_title | replace('{image_name}', image_name|replace('_', ' ')|title) }}">
+<meta property="og:type" content="image">
+<meta property="og:image" content="{{ image_versions.original }}">
+<meta property="og:url" content="{{ site.url }}/{{ page.lang }}/gallery/{{ image_name }}.html">
+<meta name="twitter:card" content="summary_large_image">
+{% endblock %}
+
+{% block content %}
+<article class="gallery-image">
+  <header aria-labelledby="image-title">
+    <h1 id="image-title">{{ image_name|replace('_', ' ')|title }}</h1>
+
+  </header>
+  <section>
+
+    <figure>
+      <img src="{{ image_versions.original }}" alt="{{ t.image_preview }} {{ image_name|replace('_', ' ')|title }}"
+        width="800" height="600" loading="eager">
+      <figcaption>
+        {{ image_name|replace('_', ' ')|title }}
+      </figcaption>
+    </figure>
+
+    <div class="download-links" aria-labelledby="download-title">
+      <h2 id="download-title">{{ t.image_download }}</h2>
+      <ul>
+        <li>
+          <a href="{{ image_versions.small }}" download aria-label="{{ t.download_small }}">
+            📥 {{ t.size_small }}
+          </a>
+        </li>
+        <li>
+          <a href="{{ image_versions.medium }}" download aria-label="{{ t.download_medium }}">
+            📥 {{ t.size_medium }}
+          </a>
+        </li>
+        <li>
+          <a href="{{ image_versions.large }}" download aria-label="{{ t.download_large }}">
+            📥 {{ t.size_large }}
+          </a>
+        </li>
+        <li>
+          <a href="{{ image_versions.original }}" download aria-label="{{ t.download_original }}">
+            📥 {{ t.size_original }}
+          </a>
+        </li>
+      </ul>
+    </div>
+
+
+  </section>
+  <footer>
+    <!-- à développer -->
+  </footer>
+</article>
+{% endblock %}

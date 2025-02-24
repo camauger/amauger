@@ -1,0 +1,19 @@
+<header role="banner">
+  <nav role="navigation" aria-label="{{ t.nav_label }}">
+    <!-- Navigation principale -->
+    {% include 'components/main-nav.html' %}
+
+    <div
+      class="header-actions"
+      role="group"
+      aria-label="{{ t.header_actions }}"
+    >
+      <!-- Sélecteur de langue -->
+      {% if site.languages | length > 1 %} {% include
+      'components/lang-switcher.html' %} {% endif %}
+
+      <!-- Toggle mode sombre -->
+      {% include 'components/theme-toggle.html' %}
+    </div>
+  </nav>
+</header>

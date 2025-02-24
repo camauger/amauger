@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="{{ page.lang }}">
+  {% include 'components/head.html' %}
+  <body>
+    <a href="#main-content" class="skip-link">{{ t.skip_to_content }}</a>
+
+    {% include 'components/header.html' %}
+
+    <main id="main-content" role="main">
+      {% block content %} {{ content }} {% endblock %}
+    </main>
+
+    {% include 'components/footer.html' %}
+
+    <script src="/scripts/main.js" type="module"></script>
+  </body>
+</html>

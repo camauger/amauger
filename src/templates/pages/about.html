@@ -1,0 +1,9 @@
+{% extends "page.html" %}
+
+{% block content %}
+  {% with hero_title=page.title, hero_description=page.description, hero_cta=page.hero_cta, hero_image=page.hero_image %}
+  {% include "components/hero.html" %}
+  {% endwith %}
+{{ content | safe }}
+
+{% endblock %}

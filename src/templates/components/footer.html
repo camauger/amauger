@@ -1,0 +1,37 @@
+<footer role="contentinfo">
+  <div class="footer-content">
+    <p class="footer-text">
+      &copy; {{ site.year }} {{ site.title }}. {{ t.all_rights_reserved }}
+    </p>
+    {% if site.social_media.github or site.social_media.twitter %}
+    <nav aria-label="{{ t.social_links }}" class="footer-nav">
+      <ul class="social-links">
+        <!-- GitHub Link -->
+        {% if site.social_media.github %}
+        <li>
+          <a
+            href="{{ site.social_media.github.url }}"
+            aria-label="{{ site.social_media.github.name }}"
+            class="social-link"
+          >
+            {{ site.social_media.github.name }}
+          </a>
+        </li>
+        {% endif %}
+        <!-- Twitter Link -->
+        {% if site.social_media.twitter %}
+        <li>
+          <a
+            href="{{ site.social_media.twitter.url }}"
+            aria-label="{{ site.social_media.twitter.name }}"
+            class="social-link"
+          >
+            {{ site.social_media.twitter.name }}
+          </a>
+        </li>
+        {% endif %}
+      </ul>
+    </nav>
+    {% endif %}
+  </div>
+</footer>

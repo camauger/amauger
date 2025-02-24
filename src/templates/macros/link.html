@@ -1,0 +1,16 @@
+{% macro build_link(slug, lang, is_unilingual) %}
+  {% if is_unilingual %}
+    {{ '/' if slug == '' else '/' ~ slug ~ '/' }}
+  {% else %}
+    {{ '/' ~ lang ~ '/' if slug == '' else '/' ~ lang ~ '/' ~ slug ~ '/' }}
+  {% endif %}
+{% endmacro %}
+
+
+{% macro build_blog_link(slug, lang) %}
+  {% if is_unilingual %}
+    {{ '/blog/' if slug == '' else '/blog/' ~ slug ~ '/' }}
+  {% else %}
+    {{ '/' ~ lang ~ '/blog/' if slug == '' else '/' ~ lang ~ '/blog/' ~ slug ~ '/' }}
+  {% endif %}
+{% endmacro %}

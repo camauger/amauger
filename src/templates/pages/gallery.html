@@ -1,0 +1,16 @@
+{% extends "base.html" %}
+
+{% block content %}
+  <article class="gallery">
+    <header>
+      <h1>{{t.image_gallery_title}}</h1>
+      <p>{{t.number_of_images}} {{ gallery|default([])|length }}</p>
+    </header>
+    <section aria-labelledby="gallery-title">
+      {% include "components/gallery-list.html" with context %}
+    </section>
+    <footer>
+      <!-- à développer -->
+    </footer>
+  </article>
+{% endblock %}

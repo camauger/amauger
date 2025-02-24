@@ -1,0 +1,17 @@
+<footer role="contentinfo" aria-label="{{t.post_footer}}">
+    {% if page.featured %}
+      <div class="featured-label" role="complementary" aria-label="{{t.post_featured}}">{{t.post_featured}}</div>
+    {% endif %}
+
+    {% if page.meta_keywords or page.categories %}
+      {% include "components/post-tags.html" %}
+    {% endif %}
+
+    {% if page.comments %}
+      {% include "components/comments.html" %}
+    {% endif %}
+
+    {% with url=page.url, title=page.title, description=page.description %}
+      {% include "components/share.html" %}
+    {% endwith %}
+  </footer>

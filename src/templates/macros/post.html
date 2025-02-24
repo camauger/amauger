@@ -1,0 +1,42 @@
+{% from "macros/images.html" import image_link %}
+
+
+{% macro post_preview(post, read_more) %}
+<article class="post-preview" itemscope itemtype="https://schema.org/Article">
+  <header>
+    {% if post.thumbnail %}
+      {{ image_link(post.thumbnail, post.title, post.url) }}
+    {% endif %}
+
+    <h2 itemprop="headline">
+      <a href="{{ post.url }}" itemprop="url">{{ post.title | safe }}</a>
+    </h2>
+
+    {{ post_meta(post) }}
+  </header>
+
+  <div class="post-summary" itemprop="description">
+    <p>{{ post.summary }}</p>
+  </div>
+
+  <footer>
+    <a href="{{ post.url }}" class="btn btn-outline small">{{ read_more }}</a>
+  </footer>
+</article>
+{% endmacro %}
+
+
+{% macro post_meta(post) %}
+<p class="post-meta">
+  {% if post.date %}
+    <time datetime="{{ post.date | date('%Y-%m-%d') }}" itemprop="datePublished">
+      {{ post.date | date('long', post.lang) }}
+    </time>
+  {% endif %}
+
+  {% if post.author %}
+    <span class="meta-separator">|</span>
+    <span itemprop="author">{{ post.author }}</span>
+  {% endif %}
+</p>
+{% endmacro %}

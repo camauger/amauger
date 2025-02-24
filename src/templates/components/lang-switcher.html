@@ -1,0 +1,31 @@
+<div class="language-switcher" role="region" aria-label="{{ t.language_switcher or 'Switch language' }}">
+  <button aria-expanded="false" aria-controls="lang-menu" class="lang-toggle">
+    {{ page.lang | upper }}
+    <span class="arrow" aria-hidden="true"></span>
+  </button>
+
+  <ul id="lang-menu" class="lang-menu" role="menu">
+    {% for lang in site.languages %}
+      {% if page.content_translations and lang in page.content_translations %}
+  {% set lang_url = page.content_translations[lang] %}
+{% else %}
+  {% if page.url is defined and page.url|length > 3 %}
+    {% set lang_url = '/' ~ lang ~ page.url[3:] %}
+  {% else %}
+    {% set lang_url = '/' ~ lang ~ '/' %}
+  {% endif %}
+{% endif %}
+
+      <li role="none">
+        <a href="{{ lang_url }}"
+           role="menuitem"
+           {% if lang == page.lang %}aria-current="true"{% endif %}
+           hreflang="{{ lang }}"
+           lang="{{ lang }}"
+        >
+          {{ site.language_names[lang] }}
+        </a>
+      </li>
+    {% endfor %}
+  </ul>
+</div>

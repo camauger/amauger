@@ -1,0 +1,15 @@
+{% macro nav_link(slug, label, page, is_unilingual) %}
+  {# Si slug est vide, c'est la page d'accueil #}
+  {% if is_unilingual %}
+    {% set url = '/' if not slug else '/' ~ slug ~ '/' %}
+  {% else %}
+    {% set url = '/' ~ page.lang ~ '/' if not slug else '/' ~ page.lang ~ '/' ~ slug ~ '/' %}
+  {% endif %}
+  <li role="none">
+    <a href="{{ url }}"
+       {% if page.url == url %}aria-current="page"{% endif %}
+       role="menuitem">
+      {{ label }}
+    </a>
+  </li>
+{% endmacro %}

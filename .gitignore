@@ -1,0 +1,46 @@
+# Fichiers système et temporaires
+.DS_Store
+Thumbs.db
+*.swp
+*.swo
+*.tmp
+package-lock.json
+
+# Dossiers temporaires
+temp/
+tmp/
+
+# Fichiers de log
+*.log
+
+# Fichiers de cache
+.cache/
+*.cache
+scripts/__pycache__/
+
+# Environnements virtuels (exemple pour Python, à adapter si nécessaire)
+env/
+venv/
+
+# Dossiers de build ou distribution
+build/
+dist/
+
+# Fichiers spécifiques à certains gestionnaires de paquets (exemple pour Node.js)
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Répertoires et fichiers de configuration d'éditeurs/IDE
+.vscode/
+.idea/
+*.iml
+.markdownlint.json
+
+# Fichiers de configuration locaux et variables d'environnement
+.env
+*.local
+
+# Dossier de coverage (tests)
+coverage/

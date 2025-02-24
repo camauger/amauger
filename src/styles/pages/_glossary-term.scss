@@ -1,0 +1,50 @@
+article.glossary-term {
+  header {
+    img {
+      width: 100%;
+      height: 200px;
+      object-fit: cover;
+      object-position: center;
+      display: block;
+    }
+    h1 {
+      font-size: 2.5rem;
+      margin-block: 1rem;
+      text-align: center;
+    }
+    p {
+      text-align: center;
+      font-size: 1.5rem;
+      margin-bottom: 2rem;
+    }
+  }
+  footer,
+  section {
+    max-width: 660px;
+    margin-inline: auto;
+  }
+
+  footer {
+    ul {
+      list-style: none;
+      display: flex;
+      justify-content: center;
+      gap: 1rem;
+      margin-block: 2rem;
+
+      li {
+        padding: 0.5rem 1rem;
+        border-radius: 5px;
+        background-color: var(--color-primary);
+        transition: all var(--transition-fast) ease-in-out;
+        a {
+          color: white;
+          text-decoration: none;
+        }
+        &:hover {
+          background-color: var(--color-primary-dark);
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,25 @@
+title: 'Christian Amauger'
+tagline: 'Développeur Frontend Senior & Créateur de Jeux'
+base_url: 'https://christianamauger.com'
+blog_url: '/blog'
+glossary_url: '/glossaire'
+author: 'Christian Amauger'
+
+languages: [ 'en', 'fr']
+default_lang: 'fr'
+language_names:
+  fr: 'Français'
+  en: 'English'
+year: 2025
+
+social_media:
+  github:
+    url: 'https://github.com/camauger'
+    name: 'GitHub'
+  bsky:
+    url: 'https://bsky.app/profile/christianamauger.itch.io'
+    name: 'Bluesky'
+
+default_description: 'Développeur Frontend Senior & Créateur de Jeux'
+author: 'Christian Amauger'
+keywords: 'développeur, frontend, jeux, rôle, création, web, digital, stratégie, numérique'

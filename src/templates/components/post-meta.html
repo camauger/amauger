@@ -1,0 +1,26 @@
+<dl class="post-meta" aria-label="{{t.article_information}}" role="list">
+  {% if page.date %}
+    <dt id="publish-date">{{ t.published_date }}</dt>
+    <dd aria-labelledby="publish-date">
+      <time datetime="{{ page.date | date('%Y-%m-%d') }}" itemprop="datePublished">
+        {{ page.date | date('long', page.lang) }}
+      </time>
+    </dd>
+  {% endif %}
+
+  {% if page.updated %}
+    <dt id="update-date">{{ t.updated_date }}</dt>
+    <dd aria-labelledby="update-date">
+      <time datetime="{{ page.updated | date('%Y-%m-%d') }}" itemprop="dateModified">
+        {{ page.updated | date('long', page.lang) }}
+      </time>
+    </dd>
+  {% endif %}
+
+  {% if page.author or site.author %}
+    <dt id="author">{{ t.written_by }}</dt>
+    <dd aria-labelledby="author" itemprop="author" itemscope itemtype="https://schema.org/Person">
+      <span itemprop="name">{{ page.author if page.author else site.author }}</span>
+    </dd>
+  {% endif %}
+</dl>

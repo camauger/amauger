@@ -1,0 +1,31 @@
+{
+    "name": "idoine",
+    "version": "1.0.0",
+    "description": "Gabarit de site/blog modulable avec support multilingue",
+    "main": "Gruntfile.js",
+    "scripts": {
+        "dev": "grunt dev",
+        "build": "grunt sass:prod && python scripts/build.py --build"
+    },
+    "author": "Christian Amauger <christian@amauger.com>",
+    "license": "MIT",
+    "devDependencies": {
+        "autoprefixer": "9.8.6",
+        "gray-matter": "^4.0.3",
+        "grunt": "^1.6.1",
+        "grunt-cli": "^1.5.0",
+        "grunt-contrib-clean": "^2.0.0",
+        "grunt-contrib-connect": "^3.0.0",
+        "grunt-contrib-copy": "^1.0.0",
+        "grunt-contrib-cssmin": "^4.0.0",
+        "grunt-contrib-watch": "^1.1.0",
+        "grunt-mkdir": "^1.1.0",
+        "grunt-newer": "^1.3.0",
+        "grunt-postcss": "^0.9.0",
+        "grunt-sass": "^3.1.0",
+        "grunt-shell": "^3.0.1",
+        "load-grunt-tasks": "^5.1.0",
+        "marked": "^15.0.7",
+        "sass": "^1.69.0"
+    }
+}

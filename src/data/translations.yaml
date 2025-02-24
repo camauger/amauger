@@ -1,0 +1,226 @@
+fr:
+  about_title: À propos
+  about: À propos
+  all_rights_reserved: Tous droits réservés
+  article_information: "Informations sur l'article"
+  back_home: Retour à l'accueil
+  blog: Blog
+  categories: Catégories
+  close: Fermer
+  dark_mode: Mode sombre
+  developpement_web_description: "Conception de sites web modernes, accessibles et performants, centrés sur l'expérience utilisateur."
+  developpement_web: "Développement Web"
+  draft: Brouillon
+  frontend_projects: "Projets de développement front-end"
+  home: Accueil
+  home_title: "Développeur Web et Créateur de Jeux de Rôle"
+  jeux_de_role_creations: "Créations de jeux de rôle"
+  jeux_de_role_description: "Conception d’univers immersifs et de mécaniques engageantes pour des expériences de jeu mémorables."
+  jeux_de_role: "Création de Jeux de Rôle"
+  keyword_link_label: "Voir tous les articles avec ce mot-clé"
+  keyword_prefix: "Mot-clé: "
+  keywords_heading: "Mots-clés"
+  keywords_icon: "Mots-clés"
+  language: Langue
+  latest_posts: Derniers articles
+  learn_more: En savoir plus
+  light_mode: Mode clair
+  menu: Menu
+  nav_label: Menu principal
+  no_article: "Aucun article à afficher pour le moment."
+  not_found: Page non trouvée
+  portfolio_button: "Voir plus de projets"
+  portfolio_subtitle: "Découvrez mes réalisations"
+  portfolio_title: "Mes Projets Récents"
+  post_header: En-tête de l'article
+  project_description_default: "Description non disponible"
+  project_title_default: "Titre du projet"
+  published_date: "Publié le"
+  published_on: Publié le
+  read_more: Lire la suite
+  reading_time: Temps de lecture
+  recent_posts: Articles récents
+  related_posts: Articles similaires
+  search_placeholder: Rechercher des articles...
+  search: Rechercher
+  skip_to_content: Aller au contenu principal
+  social_links: Réseaux sociaux
+  strategie_numerique_description: "Développez des solutions digitales performantes et adaptées à vos besoins pour maximiser votre impact en ligne."
+  strategie_numerique: "Stratégie Numérique"
+  tags: Étiquettes
+  technologies_not_specified: "Technologies non spécifiées"
+  updated_date: "Mis à jour le"
+  updated_on: Mis à jour le
+  view_all_posts: Voir tous les articles
+  written_by: "Écrit par"
+  next: Suivant
+  previous: Précédent
+  next_page: Page suivante
+  previous_page: Page précédente
+  go_to_page: Aller à la page
+  no_image_found: Aucune image n’a été trouvée.
+  no_article_category: Aucun article dans cette catégorie.
+  image_preview: Aperçu de l’image
+  image_page: Voir la page de l’image
+  image_download: Télécharger l’image
+  keyword_no_article: Aucun article trouvé pour ce mot-clé.
+  skills_title: "Mes Compétences"
+  technical_skills: "Compétences Techniques"
+  technical_skills_list:
+    - name: "Langages"
+      description: "HTML, CSS, JavaScript, Python"
+    - name: "Développement Front-end"
+      description: "HTML5, CSS3, JavaScript (ES6+), UI/UX"
+    - name: "Développement Back-end"
+      description: "Python (Flask, Django), PHP"
+    - name: "Gestion de bases de données"
+      description: "MySQL, PostgreSQL"
+    - name: "SEO et Performance Web"
+      description: "Optimisation, accessibilité"
+  soft_skills: "Compétences Générales"
+  soft_skills_list:
+    - "Communication et travail en équipe"
+    - "Gestion de projet agile"
+    - "Esprit d’analyse et résolution de problèmes"
+  glossary_title: "Glossaire"
+  glossary_description: "Glossaire"
+  categories_heading: "Catégories"
+  gallery_title: Galerie d'images
+  image_page_title: "Aperçu de l’image"
+  image_meta_description: "Découvrez l’image {image_name} et téléchargez-la en différentes tailles."
+  image_og_title: "Aperçu de l’image {image_name}"
+  image_preview: "Aperçu de l’image"
+  image_download: "Télécharger l’image"
+  download_small: "Télécharger l’image taille petite"
+  download_medium: "Télécharger l’image taille moyenne"
+  download_large: "Télécharger l’image taille grande"
+  download_original: "Télécharger l’image originale"
+  size_small: "Taille petite"
+  size_medium: "Taille moyenne"
+  size_large: "Taille grande"
+  size_original: "Originale"
+  back_to_gallery: "Retourner à la galerie"
+  glossary_thumbnail_alt: "Illustration de :"
+  post_footerr: Pied de page de l'article
+  post_featured: "Article en vedette"
+  bluesky_sharing: Partager sur Bluesky
+  image_gallery_title: "Galerie d'images"
+  number_of_images: "Nombre d'images :"
+  posts_list: Liste des articles
+  categories: Catégories
+  keywords: Mots-clés
+  tags: Étiquettes
+
+en:
+  about_title: About
+  about: About
+  all_rights_reserved: All rights reserved
+  article_information: "Article Information"
+  back_home: Back to home
+  blog: Blog
+  categories: Categories
+  close: Close
+  dark_mode: Dark mode
+  developpement_web_description: "Designing modern, accessible, and high-performance websites focused on user experience."
+  developpement_web: "Web Development"
+  draft: Draft
+  frontend_projects: "Front-end Development Projects"
+  home: Home
+  home_title: "Web Developer and Role-playing Game Creator"
+  jeux_de_role_creations: "Role-playing Game Creations"
+  jeux_de_role_description: "Creating immersive worlds and engaging mechanics for memorable gaming experiences."
+  jeux_de_role: "Role-playing Game Design"
+  keyword_link_label: "View all articles with this keyword"
+  keyword_prefix: "Keyword: "
+  keywords_heading: "Keywords"
+  keywords_icon: "Keywords"
+  language: Language
+  latest_posts: Latest posts
+  learn_more: Learn more
+  light_mode: Light mode
+  menu: Menu
+  nav_label: Main menu
+  no_article: "No articles to display at the moment."
+  no_article_category: No articles in this category.
+  not_found: Page not found
+  portfolio_button: "See more projects"
+  portfolio_subtitle: "Discover my work"
+  portfolio_title: "My Recent Projects"
+  post_header: Post header
+  project_description_default: "Description not available"
+  project_title_default: "Project Title"
+  published_date: "Published on"
+  published_on: Published on
+  read_more: Read more
+  reading_time: Reading time
+  recent_posts: Recent posts
+  related_posts: Related posts
+  search_placeholder: Search articles...
+  search: Search
+  skip_to_content: Skip to main content
+  social_links: Social links
+  strategie_numerique_description: "Develop high-performance digital solutions tailored to your needs to maximize your online impact."
+  strategie_numerique: "Digital Strategy"
+  tags: Tags
+  technologies_not_specified: "Technologies not specified"
+  updated_date: "Updated on"
+  updated_on: Updated on
+  view_all_posts: View all posts
+  written_by: "Written by"
+  next: Next
+  previous: Previous
+  next_page: Next page
+  previous_page: Previous page
+  go_to_page: Go to page
+  no_image_found: No image found.
+  image_preview: Image preview
+  image_page: View image page
+  image_download: Download image
+  keyword_no_article: No articles found for this keyword.
+  skills_title: "My Skills"
+  technical_skills: "Technical Skills"
+  technical_skills_list:
+    - name: "Languages"
+      description: "HTML, CSS, JavaScript, Python"
+    - name: "Front-end Development"
+      description: "HTML5, CSS3, JavaScript (ES6+), UI/UX"
+    - name: "Back-end Development"
+      description: "Python (Flask, Django), PHP"
+    - name: "Database Management"
+      description: "MySQL, PostgreSQL"
+    - name: "SEO & Web Performance"
+      description: "Optimization, accessibility"
+  soft_skills: "Soft Skills"
+  soft_skills_list:
+    - "Communication & teamwork"
+    - "Agile project management"
+    - "Analytical thinking & problem-solving"
+  glossary_title: "Glossary"
+  glossary_description: "Glossary"
+  categories_heading: "Categories"
+  gallery_title: Image Gallery
+  image_page_title: "Image Preview"
+  image_meta_description: "View the image {image_name} and download it in various sizes."
+  image_og_title: "Image Preview: {image_name}"
+  image_preview: "Image Preview"
+  image_download: "Download Image"
+  download_small: "Download small size"
+  download_medium: "Download medium size"
+  download_large: "Download large size"
+  download_original: "Download original"
+  size_small: "Small"
+  size_medium: "Medium"
+  size_large: "Large"
+  size_original: "Original"
+  back_to_gallery: "Back to Gallery"
+  glossary_thumbnail_alt: "Illustration of:"
+  post_footer: Post footer
+  post_featured: "Featured Post"
+  bluesky_sharing: Share on Bluesky
+  image_gallery_title: "Image Gallery"
+  number_of_images: "Number of images:"
+  posts_list: List of posts
+  categories: Categories
+  keywords: Keywords
+  tags: Tags
+

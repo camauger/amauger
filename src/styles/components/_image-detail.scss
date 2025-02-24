@@ -1,0 +1,90 @@
+.image-detail {
+  padding: 2rem;
+  max-width: 800px;
+  margin: 2rem auto;
+
+  h1 {
+    font-size: 2.2rem;
+    color: var(--color-primary, #2b6cb0);
+    margin-bottom: 1.5rem;
+  }
+
+  .image-display {
+    margin-bottom: 2rem;
+    text-align: center;
+
+    img {
+      max-width: 100%;
+      height: auto;
+      border-radius: 12px;
+      box-shadow: 0 2px 8px rgba(0, 0, 0, 0.15);
+      transition: transform 0.3s ease;
+
+      &:hover {
+        transform: scale(1.02);
+      }
+    }
+
+    figcaption {
+      font-size: 0.9rem;
+      color: var(--color-text-secondary, #666);
+      margin-top: 0.5rem;
+      font-style: italic;
+    }
+  }
+
+  .download-links {
+    margin-bottom: 2rem;
+
+    h2 {
+      font-size: 1.5rem;
+      color: var(--color-primary, #2b6cb0);
+      margin-bottom: 1rem;
+    }
+
+    ul {
+      list-style: none;
+      padding: 0;
+      display: flex;
+      flex-wrap: wrap;
+      gap: 1rem;
+
+      li {
+        display: inline-block;
+
+        a {
+          display: inline-flex;
+          align-items: center;
+          padding: 0.5rem 1rem;
+          background-color: var(--color-primary, #2b6cb0);
+          color: #fff;
+          border-radius: 8px;
+          font-size: 0.9rem;
+          text-decoration: none;
+          transition: background-color 0.3s ease;
+
+          &:hover {
+            background-color: darken(#2b6cb0, 10%);
+          }
+        }
+      }
+    }
+  }
+
+  .back-link {
+    margin-top: 2rem;
+    text-align: center;
+
+    a {
+      font-size: 1rem;
+      text-decoration: none;
+      color: var(--color-primary, #2b6cb0);
+      font-weight: bold;
+      transition: color 0.3s ease;
+
+      &:hover {
+        color: darken(#2b6cb0, 15%);
+      }
+    }
+  }
+}

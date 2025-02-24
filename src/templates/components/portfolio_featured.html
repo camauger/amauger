@@ -1,0 +1,37 @@
+<section class="portfolio">
+  <h2>{{ t.portfolio_title }}</h2>
+  <h3>{{ t.portfolio_subtitle }}</h3>
+
+  <div class="portfolio-grid">
+    <div class="portfolio-category">
+      <h3>{{ t.frontend_projects }}</h3>
+      {% for project in projects.frontend[:3] %}
+      {% with project=project %}
+      {% include 'components/project-card.html' %}
+      {% endwith %}
+      {% endfor %}
+    </div>
+
+    <div class="portfolio-category">
+      <h3>{{ t.jeux_de_role_creations }}</h3>
+      {% for project in projects.jeux_de_role[:3] %}
+      {% with project=project %}
+      {% include 'components/project-card.html' %}
+      {% endwith %}
+      {% endfor %}
+    </div>
+
+    <div class="portfolio-category">
+      <h3>{{ t.strategie_numerique }}</h3>
+      {% for project in projects.strategie_numerique[:3] %}
+      {% with project=project %}
+      {% include 'components/project-card.html' %}
+      {% endwith %}
+      {% endfor %}
+    </div>
+  </div>
+
+  <button type="button" aria-label="{{ t.portfolio_button }}" onclick="window.location.href='/{{ page.lang }}/portfolio'">
+    {{ t.portfolio_button }}
+  </button>
+</section>

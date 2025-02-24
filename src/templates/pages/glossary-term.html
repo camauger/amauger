@@ -1,0 +1,50 @@
+{% extends "base.html" %}
+
+{% block content %}
+<article class="glossary-term">
+    <header>
+        {% if page.thumbnail %}
+        <img src="/assets/images/{{ page.thumbnail }}" alt="{{t.glossary_thumbnail_alt}} {{ page.title }}">
+        {% endif %}
+        <h1>{{ page.title }}</h1>
+
+        {% if page.summary %}
+        <p class="term-summary">{{ page.summary }}</p>
+        {% endif %}
+    </header>
+
+    <section>
+        {{ content | safe }}
+    </section>
+
+    <footer>
+        {% if page.categories %}
+        <p><strong>{{t.categories}}</strong></p>
+        <ul>
+            {% for category in page.categories %}
+            <li><a href="/categories/{{ category | slugify }}/">{{ category }}</a></li>
+            {% endfor %}
+        </ul>
+        {% endif %}
+
+        {% if page.meta_keywords %}
+        <p><strong>{{t.keywords}}</strong></p>
+        <ul>
+            {% for keyword in page.meta_keywords %}
+            <li><a href="/keywords/{{ keyword | slugify }}/">{{ keyword }}</a></li>
+            {% endfor %}
+        </ul>
+        {% endif %}
+
+        {% if page.tags %}
+        <p><strong>{{t.tags}}</strong></p>
+        <ul>
+            {% for tag in page.tags %}
+            <li><a href="/glossaire/tags/{{ tag | slugify }}/">{{ tag }}</a></li>
+            {% endfor %}
+        </ul>
+        {% endif %}
+
+    </footer>
+</article>
+{% endblock %}

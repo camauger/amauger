@@ -1,0 +1,25 @@
+<ul class="gallery-list" role="list">
+  {% for image in gallery|default([]) %}
+    {% set image_name = image.rsplit('.', 1)[0] %}
+    {% set image_src = prefix ~ image %}
+    {% set image_page = page.url ~ image_name ~ ".html" %}
+    <li class="gallery-item" role="listitem">
+      <a href="{{ image_page }}" aria-label="{{ t.image_page }} {{ image_name|replace('_', ' ') }}">
+        <figure>
+          <img
+            src="{{ image_src }}"
+            alt="{{ t.image_preview }} {{ image_name|replace('_', ' ') }}"
+            loading="lazy"
+            width="300"
+            height="200"
+          >
+          <figcaption>{{ image_name|replace('_', ' ')|title }}</figcaption>
+        </figure>
+      </a>
+    </li>
+  {% else %}
+    <li>
+      <p>{{ t.no_image_found }}</p>
+    </li>
+  {% endfor %}
+</ul>

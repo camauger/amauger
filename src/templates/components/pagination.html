@@ -1,0 +1,65 @@
+{% macro render_link(url, aria_label, content, css_class="") %}
+  <a href="{{ url }}" class="{{ css_class }}" aria-label="{{ aria_label }}">
+    {{ content }}
+  </a>
+{% endmacro %}
+
+{% if pagination %}
+  {# Définir le chemin de base en fonction de la langue #}
+  {% if page.lang %}
+    {% set base_path = '/' ~ page.lang ~ '/blog/' %}
+  {% else %}
+    {% set base_path = '/blog/' %}
+  {% endif %}
+
+  <nav class="pagination" aria-label="Pagination">
+    <ul>
+      {# Lien vers la page précédente #}
+      {% if pagination.prev_page %}
+        <li>
+          {% if pagination.current_page - 1 == 1 %}
+            {% set prev_url = base_path %}
+          {% else %}
+            {% set prev_url = pagination.prev_page %}
+          {% endif %}
+          {{ render_link(prev_url, t.previous_page, t.previous, "prev") }}
+        </li>
+      {% else %}
+        <li class="disabled" aria-disabled="true">
+          <span>{{ t.previous }}</span>
+        </li>
+      {% endif %}
+
+      {# Boucle sur les numéros de pages #}
+      {% for pg in pagination.pages %}
+        {% if pg.number == pagination.current_page %}
+          <li class="active" aria-current="page">
+            <span>{{ pg.number }}</span>
+          </li>
+        {% else %}
+          <li>
+            {% if pg.number == 1 %}
+              {% set page_url = base_path %}
+            {% else %}
+              {% set page_url = pg.url %}
+            {% endif %}
+            <a href="{{ page_url }}" aria-label="{{ t.go_to_page }} {{ pg.number }}">
+              {{ pg.number }}
+            </a>
+          </li>
+        {% endif %}
+      {% endfor %}
+
+      {# Lien vers la page suivante #}
+      {% if pagination.next_page %}
+        <li>
+          {{ render_link(pagination.next_page, t.next_page, t.next, "next") }}
+        </li>
+      {% else %}
+        <li class="disabled" aria-disabled="true">
+          <span>{{ t.next }}</span>
+        </li>
+      {% endif %}
+    </ul>
+  </nav>
+{% endif %}

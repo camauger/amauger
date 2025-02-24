@@ -1,0 +1,32 @@
+{% extends "base.html" %}
+{% block meta %}
+<script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Article",
+    "@role": "article",
+    "headline": "{{ page.title }}",
+    "author": {
+      "@type": "Person",
+      "name": "{{ page.author }}"
+    },
+    "datePublished": "{{ page.date }}",
+    "image": "https://exemple.com/image-article.jpg",
+    "articleBody": "{{ page.summary }}"
+  }
+  </script>
+{% endblock %}
+
+
+{% block content %}
+  <article class="post {{ page.slug }}">
+    {% include "components/post-header.html" %}
+
+    <section class="post-content" itemprop="articleBody">
+      {{ content | safe }}
+    </section>
+
+    {% include "components/post-footer.html" %}
+  </article>
+{% block post_extra %}{% endblock %}
+{% endblock %}

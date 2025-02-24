@@ -1,0 +1,36 @@
+{% from "macros/link.html" import build_blog_link %}
+{% from "macros/link.html" import build_link %}
+
+<section class="recent-posts">
+    <h2>{{ t.recent_posts }}</h2>
+    <div class="posts-grid">
+      {% for post in recent_posts %}
+      <article class="card">
+        {% if post.image %}
+        <img src="{{ post.image }}" alt="" class="card-image" />
+        {% endif %}
+        <div class="card-content">
+          <h3 class="card-title">
+            <a href="{{ build_blog_link(post.slug, post.lang) }}">{{ post.title }}</a>
+          </h3>
+          {% if post.date %}
+          <time datetime="{{ post.date | date('%Y-%m-%d') }}" itemprop="datePublished">
+            {{ post.date | date('%d %B %Y') }}
+          </time>
+          {% endif %}
+          <p class="card-excerpt">{{ post.description }}</p>
+          <a href="{{ build_blog_link(post.slug, post.lang) }}" class="card-link">
+            {{ t.read_more }}
+          </a>
+        </div>
+      </article>
+      {% endfor %}
+    </div>
+    <div class="text-center">
+      <a href="{{ build_link('blog', page.lang, is_unilingual) }}" class="btn btn-secondary">
+        {{ t.view_all_posts }}
+      </a>
+
+
+    </div>
+</section>

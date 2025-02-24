@@ -1,0 +1,24 @@
+{% set image_src = prefix ~ "assets/images/" ~ image %}
+
+
+<article class="project-card" role="article" aria-labelledby="project-title-{{ project.id }}">
+  <img
+    src="{{ project.image | default('/images/default.png') }}"
+    alt="{{ project.title | default(t.project_title_default) }}"
+    loading="lazy"
+  />
+  <h4 id="project-title-{{ project.id }}">{{ project.title | default(t.project_title_default) }}</h4>
+  <p>{{ project.description | default(t.project_description_default) }}</p>
+  <div class="technologies">
+    {% if project.technologies %}
+      {% for tech in project.technologies %}
+        <span class="badge interactive">{{ tech }}</span>
+      {% endfor %}
+    {% else %}
+      <span class="badge interactive">{{ t.technologies_not_specified }}</span>
+    {% endif %}
+  </div>
+  {% if project.link %}
+    <a href="{{ project.link }}" class="btn" aria-label="{{ t.learn_more }}: {{ project.title | default(t.project_title_default) }}">{{ t.learn_more }}</a>
+  {% endif %}
+</article>
