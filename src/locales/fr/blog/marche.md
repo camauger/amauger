@@ -2,7 +2,7 @@
 layout: post
 title: Une question de marché
 date: 2016-05-29
-categories: [strategie numerique, marketing local, analyse de marche]
+categories: [marketing]
 summary: Entre ambitions globales et réalités locales, la stratégie numérique doit s'ancrer dans une compréhension fine de son marché.
 ---
 

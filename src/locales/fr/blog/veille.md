@@ -2,8 +2,7 @@
 title: Glossaire de la veille stratégique
 date: 2009-07-16
 updated: 2025-02-17
-categories: [veille, veille-stratégique, intelligence-économique]
-author: Christian Amauger
+categories: [web]
 slug: glossaire-de-la-veille-strategique
 summary: Définitions actualisées des termes utilisés en veille stratégique, intégrant les évolutions du numérique et des pratiques d'intelligence économique.
 readingTime: 5 min

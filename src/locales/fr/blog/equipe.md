@@ -2,7 +2,7 @@
 layout: post
 title: Travail d'équipe
 date: 2017-03-21
-categories: [ressources humaines, management, collaboration, leadership]
+categories: [management]
 summary: La collaboration au travail a augmenté de 50% en deux décennies, transformant les dynamiques d'équipe et l'innovation en entreprise.
 ---
 

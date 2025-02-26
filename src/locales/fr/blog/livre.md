@@ -2,7 +2,7 @@
 layout: post
 title: La croissance tranquille du livre numérique québécois
 date: 2016-01-15
-categories: [livre numerique, edition, bibliotheques, innovation numerique]
+categories: [web]
 summary: Entre initiatives innovantes et défis persistants, le marché québécois du livre numérique trace sa voie.
 ---
 

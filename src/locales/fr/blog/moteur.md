@@ -3,13 +3,7 @@ layout: post
 title: Le Web 2.0 comme moteur de votre planification stratégique
 date: 2010-09-12
 updated: 2015-11-10
-categories:
-  [
-    planification strategique,
-    web 2.0,
-    gestion information,
-    formation professionnelle,
-  ]
+categories: [web]
 summary: Comment intégrer les outils du Web 2.0 dans la planification stratégique des organisations culturelles
 ---
 

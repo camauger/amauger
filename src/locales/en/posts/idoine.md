@@ -3,8 +3,8 @@ layout: post
 title: Idoine - A Purposefully Simple Static Site Generator
 date: 2025-02-26
 slug: idoine
-categories: [transformation numerique, strategie digitale, entrepreneuriat]
-summary: In a landscape where web frameworks continuously expand in complexity, _Idoine_ (pronounced "ee-dwahn") takes an intentionally different approach. This minimalist static site generator embodies a "just enough" philosophy - providing exactly what you need to create functional, lightweight, and multilingual websites without unnecessary complexity.
+categories: [idoine, web]
+summary: In a landscape where web frameworks continuously expand in complexity, Idoine takes an intentionally different approach.
 ---
 
 In a landscape where web frameworks continuously expand in complexity, _Idoine_ (pronounced "ee-dwahn") takes an intentionally different approach. This minimalist static site generator embodies a "just enough" philosophy - providing exactly what you need to create functional, lightweight, and multilingual websites without unnecessary complexity.
@@ -90,62 +90,37 @@ Make sure you have the following installed:
 
 ### Initial Setup
 
-```bash
-# Clone the template repository
-git clone [URL_TO_REPO]
-cd idoine
-# Install Node.js dependencies
-npm install
-# Optional but recommended: Create a Python virtual environment
-python -m venv venv
-source venv/bin/activate # On Unix/MacOS
-# or
-venv\Scripts\activate # On Windows
-# Install Python dependencies
-pip install -r requirements.txt
-```
-
-### Creating Your First Content
-
-1. Navigate to the content directory for your language:
-    `bash
- cd src/locales/en/pages/ # For English content
- `
-2. Create a new Markdown file (e.g., `about.md`):
-    ```markdown
-    - -
-    title: About This Site
-    description: Learn more about this project
-    layout: page
-    - -
-
-# About
-
-This is a simple site created with Idoine, a minimalist static site generator.
-
-## Features
-
-- Fast and lightweight
- - Multilingual support
- - Easy to customize
- `
-3. Start the development server:
- `bash
- npm run dev
- ```4. Visit`http://localhost:9000/about` to see your new page.
+    ````bash
+    # Clone the template repository
+    git clone [URL_TO_REPO]
+    cd idoine
+    # Install Node.js dependencies
+    npm install
+    # Optional but recommended: Create a Python virtual environment
+    python -m venv venv
+    source venv/bin/activate # On Unix/MacOS
+    # or
+    venv\Scripts\activate # On Windows
+    # Install Python dependencies
+    pip install -r requirements.txt
+    ````
 
 ### Adding a New Language
 
 Idoine makes multilingual content straightforward:
 
 1. Create a new language directory:
-    `bash
- mkdir -p src/locales/es/pages
- `
+
+   ```bash
+   mkdir -p src/locales/es/pages
+   ```
+
 2. Add content in the new language:
-    `bash
- touch src/locales/es/pages/index.md
- `
+
+   ```bash
+   touch src/locales/es/pages/index.md
+   ```
+
 3. Edit the file with localized content.
 4. Restart the development server, and your site will now support the new language.
 
@@ -160,48 +135,9 @@ To modify the site's appearance:
 
 ## A Template to Build Upon
 
-While Idoine is minimal, it's also designed to be extended. The project structure is clear and logical:
-
-```
-/
-├── dist/ # Generated site output
-├── src/
-│ ├── assets/ # Static files
-│ │ ├── fonts/ # Web fonts
-│ │ └── images/ # Image assets
-│ ├── locales/ # Multilingual content
-│ │ ├── fr/ # French content
-│ │ │ └── pages/ 
-│ │ └── en/ # English content
-│ │ └── pages/
-│ └── styles/ # SCSS files
-├── scripts/ # Python build scripts
-├── templates/ # Jinja2 templates
-├── Gruntfile.js # Grunt configuration
-└── requirements.txt # Python dependencies
-```
+While Idoine is minimal, it's also designed to be extended. The project structure is clear and logical.
 
 The separation between content (`/src/locales`), presentation (`/templates`), and styling (`/src/styles`) makes it easy to maintain and extend your site as it grows. Content is written in Markdown with YAML front matter:
-
-```markdown
-- -
-title: Welcome to My Site
-description: A simple homepage built with Idoine
-layout: home
- - -
-
-# Welcome
-
-This is the homepage content written in **Markdown**.
-```
-
-Templates use Jinja2 for powerful and flexible layouts:
-
-```html
-{% extends "base.html" %} {% block content %}  
-<main class="home"> {{ content | safe }}  </main>
-{% endblock %}
-```
 
 ## Join the Simplicity Movement
 

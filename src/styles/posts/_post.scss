@@ -2,8 +2,7 @@
   max-width: 100%;
   margin: 0 auto;
   padding: var(--spacing-4);
-  section,
-  hr {
+  section {
     margin-bottom: var(--spacing-4);
   }
 
@@ -23,10 +22,12 @@
     }
 
     h1 {
+      max-width: var(--post-width);
+      margin-inline: auto;
       text-align: center;
       font-size: var(--text-3xl);
       font-family: var(--font-decorative);
-      margin-bottom: var(--spacing-1);
+      margin-bottom: var(--spacing-2);
     }
 
     p[data-info="reading-time"],
@@ -34,7 +35,7 @@
     .post-excerpt {
       max-width: var(--post-width);
       margin-inline: auto;
-      margin-bottom: var(--spacing-2);
+      margin-bottom: var(--spacing-4);
     }
 
     .post-meta {
@@ -63,10 +64,21 @@
     font-size: var(--text-base);
     line-height: 1.65;
 
+    pre,
+    h2,
+    h3 {
+      max-width: var(--post-width);
+      margin-inline: auto;
+    }
+
     h2,
     h3 {
       text-align: center;
-      margin-inline: auto;
+      margin-block: var(--spacing-2);
+    }
+
+    h2 {
+      font-size: var(--text-xl);
     }
 
     blockquote,

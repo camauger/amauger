@@ -3,7 +3,7 @@ layout: post
 title: Faut-il vraiment abandonner WordPress comme CMS ?
 date: 2015-11-13
 updated: 2015-11-10
-categories: [site web, wordpress, cms, developpement web, strategie numerique]
+categories: [web, wordpress]
 permalink: faut-abandonner-wordpress.html
 ---
 

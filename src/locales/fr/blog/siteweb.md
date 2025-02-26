@@ -3,10 +3,7 @@ layout: post
 title: À quoi sert votre site web ?
 date: 2015-10-15
 updated: 2015-11-10
-categories:
-  [strategie web, site web, marketing numerique, developpement entreprise]
-author: Christian Amauger
-cover: web
+categories: [web]
 summary: Repenser le rôle stratégique du site web dans le développement des entreprises, au-delà de la simple vitrine numérique.
 ---
 

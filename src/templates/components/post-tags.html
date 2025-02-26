@@ -52,7 +52,7 @@
         {% for category in page.categories %}
         <li class="taxonomy-item" role="listitem" itemprop="category">
           <a
-            href="{{ site.baseurl }}{% if site.multilingual %}/{{ page.lang }}{% endif %}/categories/{{ category | slugify | urlencode }}"
+            href="{{ site.baseurl }}/{{ page.lang }}/categories/{{ category | slugify | urlencode }}"
             class="taxonomy-link"
             rel="tag"
             aria-label="{{ t.category_link_label | replace('%s', category) }}"

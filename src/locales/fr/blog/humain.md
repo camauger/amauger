@@ -3,7 +3,7 @@ layout: post
 title: Humain, trop humain…
 date: 2009-08-31
 updated: 2015-11-10
-categories: [reseaux sociaux, medias sociaux, web, marketing digital]
+categories: [web]
 summary: Internet a toujours été considéré comme un médium « froid », c'est-à-dire distant, déshumanisé.
 ---
 

@@ -2,8 +2,7 @@
 layout: post
 title: Les tests A/B sont sexy
 date: 2015-11-09
-categories:
-  [marketing numerique, e-commerce, analyse de donnees, optimisation web]
+categories: [web]
 summary: Comment les tests A/B révolutionnent la prise de décision marketing, illustré par un cas d'étude dans l'industrie de la lingerie.
 ---
 

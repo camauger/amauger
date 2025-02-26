@@ -2,8 +2,8 @@
 layout: post
 title: Digital Divide and Digital Cost
 date: 2017-03-21
-categories: [transformation numerique, strategie digitale, entrepreneuriat]
-summary: La transformation numérique représente un défi majeur pour les entrepreneurs, tant sur le plan de la compréhension que des investissements nécessaires.
+categories: [web]
+summary: The debate about Web usage often falls into a simplistic generational opposition, young people would naturally be more skilled, seniors hopelessly outdated.
 ---
 
 ## A Field Experience

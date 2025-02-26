@@ -2,13 +2,7 @@
 layout: post
 title: L'internaute n'est pas un poisson rouge
 date: 2015-09-16
-categories:
-  [
-    comportement utilisateur,
-    psychologie numerique,
-    attention,
-    experience utilisateur,
-  ]
+categories: [web]
 summary: Une réflexion sur les mythes de l'attention en ligne et la vraie nature du comportement des internautes.
 ---
 

@@ -10,9 +10,9 @@ body > header {
   transition: transform var(--transition-normal),
     background-color var(--transition-normal);
 
-  nav {
+  > nav {
     margin: 0 auto;
-    padding: var(--spacing-3) var(--spacing-4);
+    padding: var(--spacing-2) var(--spacing-3);
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -85,12 +85,12 @@ body > header {
   }
 
   .nav-menu {
+    text-transform: uppercase;
     position: fixed;
     top: var(--spacing-12);
     left: 0;
     right: 0;
     background-color: var(--color-background);
-    padding: var(--spacing-4);
     display: flex;
     flex-direction: column;
     gap: var(--spacing-4);

@@ -2,13 +2,7 @@
 layout: post
 title: Les réseaux sociaux et l'illusion de la majorité
 date: 2015-11-03
-categories:
-  [
-    reseaux sociaux,
-    influence numerique,
-    psychologie sociale,
-    analyse comportementale,
-  ]
+categories: [web]
 summary: Comment une minorité d'influenceurs peut créer l'illusion d'une opinion majoritaire sur les réseaux sociaux.
 ---
 
