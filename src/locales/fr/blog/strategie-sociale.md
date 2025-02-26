@@ -5,7 +5,6 @@ date: 2013-10-22
 modif: 2015-11-10
 categories: [reseaux sociaux, medias sociaux]
 author: Christian Amauger
-cover: strategie
 ---
 
 <p>
