@@ -1,11 +1,11 @@
 ---
-title: "Glossary of Strategic Intelligence"
+title: Glossary of Strategic Intelligence
 date: 2009-07-16
 updated: 2025-02-17
 categories: [monitoring, strategic-monitoring, business-intelligence]
 author: Christian Amauger
 slug: glossary-of-strategic-intelligence
-summary: "Updated definitions of the terms used in strategic intelligence, incorporating digital evolution and business intelligence practices."
+summary: Updated definitions of the terms used in strategic intelligence, incorporating digital evolution and business intelligence practices.
 readingTime: 5 min
 translation_id: 1
 ---

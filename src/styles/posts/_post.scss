@@ -2,6 +2,10 @@
   max-width: 100%;
   margin: 0 auto;
   padding: var(--spacing-4);
+  section,
+  hr {
+    margin-bottom: var(--spacing-4);
+  }
 
   header {
     max-width: 100%;
@@ -70,6 +74,7 @@
     ul {
       max-width: var(--post-width);
       margin-inline: auto;
+      font-size: var(--text-base);
     }
 
     p {
