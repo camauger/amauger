@@ -162,7 +162,7 @@ module.exports = function (grunt) {
     "sass:prod",
     "postcss:prod",
     "cssmin:prod",
-    "copy"
+    "copy",
   ]);
-
+  grunt.registerTask("both", ["build", "dev"]);
 };

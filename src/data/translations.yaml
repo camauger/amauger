@@ -1,8 +1,10 @@
 fr:
+  home_cta: "Découvrir mes projets"
   about_title: À propos
   about: À propos
   all_rights_reserved: Tous droits réservés
   article_information: "Informations sur l'article"
+  aspects_title: "Technoludiste"
   back_home: Retour à l'accueil
   blog: Blog
   categories: Catégories
@@ -112,10 +114,12 @@ fr:
   tags: Étiquettes
 
 en:
+  home_cta: "Discover my projects"
   about_title: About
   about: About
   all_rights_reserved: All rights reserved
   article_information: "Article Information"
+  aspects_title: "Technoludist"
   back_home: Back to home
   blog: Blog
   categories: Categories

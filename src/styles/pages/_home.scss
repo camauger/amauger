@@ -1,23 +1,27 @@
+.aspects--grid,
+.recents-posts--grid {
+  display: grid;
+  gap: var(--spacing-6);
+  margin-bottom: var(--spacing-8);
+
+  @media (min-width: 768px) {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  @media (min-width: 1024px) {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+
+.aspects,
 .recent-posts {
   padding: var(--spacing-8) var(--spacing-4);
+  max-width: var(--recent-posts-width);
+  margin-inline: auto;
 
   h2 {
     font-size: var(--text-2xl);
     margin-bottom: var(--spacing-6);
-  }
-
-  .posts-grid {
-    display: grid;
-    gap: var(--spacing-6);
-    margin-bottom: var(--spacing-8);
-
-    @media (min-width: 768px) {
-      grid-template-columns: repeat(2, 1fr);
-    }
-
-    @media (min-width: 1024px) {
-      grid-template-columns: repeat(3, 1fr);
-    }
   }
 }
 
@@ -76,6 +80,20 @@
 
     &:hover {
       text-decoration: underline;
+    }
+  }
+}
+
+.aspects {
+  .card {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 1rem;
+
+    h3 {
+      font-size: 1.5rem;
+      margin-bottom: 0.5rem;
     }
   }
 }

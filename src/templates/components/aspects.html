@@ -1,14 +1,17 @@
 <section class="aspects">
-  <div class="aspect" data-delay="0">
-    <h2>{{ t.strategie_numerique }}</h2>
-    <p>{{ t.strategie_numerique_description }}</p>
-  </div>
-  <div class="aspect" data-delay="200">
-    <h2>{{ t.jeux_de_role }}</h2>
-    <p>{{ t.jeux_de_role_description }}</p>
-  </div>
-  <div class="aspect" data-delay="400">
-    <h2>{{ t.developpement_web }}</h2>
-    <p>{{ t.developpement_web_description }}</p>
+  <h2>{{t.aspects_title}}</h2>
+  <div class="aspects--grid">
+    <div class="card" data-delay="0">
+      <h3>{{ t.strategie_numerique }}</h3>
+      <p>{{ t.strategie_numerique_description }}</p>
+    </div>
+    <div class="card" data-delay="200">
+      <h3>{{ t.jeux_de_role }}</h3>
+      <p>{{ t.jeux_de_role_description }}</p>
+    </div>
+    <div class="card" data-delay="400">
+      <h3>{{ t.developpement_web }}</h3>
+      <p>{{ t.developpement_web_description }}</p>
+    </div>
   </div>
 </section>
