@@ -3,12 +3,10 @@ layout: post
 title: Influence, influenceurs et influencés
 date: 2010-12-12
 categories: [reseaux sociaux, medias sociaux]
-author: Christian Amauger
-cover: influence
 permalink: influence-influenceurs-et-influences.html
 ---
 
-	
+
 		<p><strong>Pendant que les réseaux sociaux se popularisent de plus en plus, la notion d&rsquo;influenceur soulève de nombreux débats. Quelles sont les personnes qui forgent les opinions sur le Web 2.0? Et d&rsquo;abord, c&rsquo;est quoi un influenceur?</strong></p>
 <h3>Certains sont plus « égo » que d&rsquo;autres</h3>
 <p>Attention, ne pas confondre influence et popularité (voir l&rsquo;étude « <em>Social Media Influencers: Lady Gaga Vs. Bono?</em> » de Vocus et Brian Solis). Tout d&rsquo;abord, l&rsquo;influence est le processus par lequel un individu ou un groupe modifie le comportement d&rsquo;un autre individu ou d&rsquo;un autre groupe. C&rsquo;est un processus actif lorsqu&rsquo;il s&rsquo;agit de persuasion, passif lorsqu&rsquo;il s&rsquo;agit de mimétisme (ou encore de grégarité).</p>

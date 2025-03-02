@@ -4,7 +4,6 @@ title: Faut-il vraiment abandonner WordPress comme CMS ?
 date: 2015-11-13
 updated: 2015-11-10
 categories: [web, wordpress]
-permalink: faut-abandonner-wordpress.html
 ---
 
 Chaque jour, plus de 1 000 nouveaux sites WordPress sont mis en ligne. Cette statistique impressionnante mérite une réflexion approfondie sur la place des systèmes de gestion de contenu (CMS) dans l'écosystème web actuel.

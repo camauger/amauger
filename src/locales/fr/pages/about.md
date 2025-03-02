@@ -4,7 +4,6 @@ description: Christian Amauger - Développeur Frontend Senior & Créateur de Jeu
 hero_cta: Contactez-moi
 template: pages/about.html
 about_image: /assets/images/strategy.jpg
-
 ---
 
 <div class="container">

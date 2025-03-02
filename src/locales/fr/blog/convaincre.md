@@ -4,9 +4,6 @@ title: Écrire pour le Web, Convaincre, c’est bien, convaincre d’agir, c’e
 date: 2011-05-17
 modif: 2015-11-10
 categories: [reseaux sociaux, medias sociaux]
-author: Christian Amauger
-cover: ecrire1
-permalink: ecrire-pour-le-web-convaincre-c%e2%80%99est-bien-convaincre-d%e2%80%99agir-c%e2%80%99est-mieux.html
 ---
 
 <p>

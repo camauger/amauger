@@ -28,15 +28,16 @@ cover: web2
   Pinterest, Facebook et Twitter utilisent nos données personnelles.
 </p>
 
-  Les nouveaux réseaux sociaux comme
-  <a title="Revue de presse : Pinterest" href="revue-de-presse-pinterest.html"
+Les nouveaux réseaux sociaux comme
+<a title="Revue de presse : Pinterest" href="revue-de-presse-pinterest.html"
     >Pinterest</a
-  >, basés sur le partage de contenus, sont moins exigeants en termes
-  d&rsquo;obtention de données que des sites plus généralistes comme Google ou
-  Facebook. On peut aussi noter une corrélation assez évidente entre
-  l&rsquo;ampleur de la collecte de données et le chiffre d&rsquo;affaires. Tous
-  ces services gratuits monétisent nos données. La gratuité d&rsquo;accès est
-  compensée par un coût en données personnelles, utilisées pour mieux connaître
-  les habitudes de consommation des internautes.
-</p>
 
+> , basés sur le partage de contenus, sont moins exigeants en termes
+> d&rsquo;obtention de données que des sites plus généralistes comme Google ou
+> Facebook. On peut aussi noter une corrélation assez évidente entre
+> l&rsquo;ampleur de la collecte de données et le chiffre d&rsquo;affaires. Tous
+> ces services gratuits monétisent nos données. La gratuité d&rsquo;accès est
+> compensée par un coût en données personnelles, utilisées pour mieux connaître
+> les habitudes de consommation des internautes.
+
+</p>

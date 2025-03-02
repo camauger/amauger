@@ -5,8 +5,7 @@ date: 2010-10-02
 modif: 2015-11-10
 categories: [reseaux sociaux, medias sociaux]
 author: Christian Amauger
-summary: Web 2.0, derrière cette expression se cache tout un ensemble d’évolutions technologiques, de pratiques sociales et d’enjeux économiques. 
-cover: web2
+summary: Web 2.0, derrière cette expression se cache tout un ensemble d’évolutions technologiques, de pratiques sociales et d’enjeux économiques.
 ---
 
 <p>

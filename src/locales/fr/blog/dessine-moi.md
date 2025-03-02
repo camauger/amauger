@@ -4,8 +4,6 @@ title: Dessine-moi un stratège Web
 date: 2010-12-01
 modif: 2015-11-10
 categories: [reseaux sociaux, medias sociaux]
-author: Christian Amauger
-cover: strategeweb
 summary: Depuis quelques années déjà, j’aime me présenter et me définir comme Stratège Web. Pas évident pour ma fille de 3 ans d’expliquer ce que fait son papa.
 ---
 
@@ -136,4 +134,3 @@ summary: Depuis quelques années déjà, j’aime me présenter et me définir c
 <h3>Dessine-moi un stratège Web&#8230;</h3>
 
  <img src="/assets/img/Stratège-Web-en-7-mots76a1.jpg" alt="">
-

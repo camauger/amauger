@@ -3,46 +3,57 @@ layout: post
 title: Les chartes d'utilisation des médias sociaux (communiquer)
 date: 2012-07-17
 modif: 2015-11-10
-categories: [reseaux sociaux, medias sociaux]
-author: Christian Amauger
-cover: charte
+categories: [web]
 ---
 
-	
-		<p>La mise en place d&rsquo;une charte d&rsquo;utilisation des médias sociaux repose souvent sur <a title="Les chartes d’utilisation des médias sociaux : encadrer" href="les-chartes-dutilisation-des-medias-sociaux-encadrer.html">la nécessité d&rsquo;encadrer, de structurer</a> la relation entre ces nouveaux médias et les employés d&rsquo;une organisation. La charte doit également appréhender correctement la nature des médias sociaux, qui sont avant tout des plateformes d’échange. Elle doit par conséquent s’appuyer sur une stratégie de communication, qui définit à la fois les contenus et les supports utilisés.</p>
-<h4>Les médias sociaux ne sont pas des médias de masse</h4>
-<p>La charte encadre les communications sur les médias sociaux. Pour qu’elle soit efficace, il faut d’abord comprendre le fonctionnement des communications sur ces nouveaux médias. Le risque ici étant de donner une réponse inappropriée à un phénomène qui ne s’inscrit pas dans les communications traditionnelles.</p>
-<p>Les médias sociaux sont des outils de communication, mais il est important de comprendre que leur force réside dans les échanges effectués au sein de la communauté. Autrement dit, les médias sociaux ne sont pas des médias de masse.<br />
-Les activités organisées dans les médias sociaux devraient donc en principe favoriser l’échange et la rétroaction. À ce titre, on pourrait rapprocher les médias sociaux et la démocratie participative.<br />
-Il est important de concevoir les activités en fonction de la communauté dans laquelle évolue votre organisation.</p>
-<p style="text-align: center;"><a href="../i2.wp.com/www.christianamauger.com/wp-content/uploads/2012/07/cecinestpasunmediasocialeb45.jpg?ssl=1"><img data-attachment-id="2579" data-permalink="https://www.christianamauger.com/les-chartes-dutilisation-des-medias-sociaux-communiquer/cecinestpasunmediasocial" data-orig-file="https://i2.wp.com/www.christianamauger.com/wp-content/uploads/2012/07/cecinestpasunmediasocial.jpg?fit=720%2C540&amp;ssl=1" data-orig-size="720,540" data-comments-opened="1" data-image-meta="{&quot;aperture&quot;:&quot;0&quot;,&quot;credit&quot;:&quot;&quot;,&quot;camera&quot;:&quot;&quot;,&quot;caption&quot;:&quot;&quot;,&quot;created_timestamp&quot;:&quot;0&quot;,&quot;copyright&quot;:&quot;&quot;,&quot;focal_length&quot;:&quot;0&quot;,&quot;iso&quot;:&quot;0&quot;,&quot;shutter_speed&quot;:&quot;0&quot;,&quot;title&quot;:&quot;&quot;,&quot;orientation&quot;:&quot;0&quot;}" data-image-title="Ceci n&amp;rsquo;est pas un média social" data-image-description="" data-medium-file="https://i2.wp.com/www.christianamauger.com/wp-content/uploads/2012/07/cecinestpasunmediasocial.jpg?fit=680%2C510&amp;ssl=1" data-large-file="https://i2.wp.com/www.christianamauger.com/wp-content/uploads/2012/07/cecinestpasunmediasocial.jpg?fit=720%2C540&amp;ssl=1" class="aligncenter  wp-image-2579" title="Ceci n'est pas un média social" src="../i2.wp.com/www.christianamauger.com/wp-content/uploads/2012/07/cecinestpasunmediasocial5a82.jpg?resize=544%2C408&amp;ssl=1" alt="Ceci n'est pas un média social" width="544" height="408" srcset="https://i2.wp.com/www.christianamauger.com/wp-content/uploads/2012/07/cecinestpasunmediasocial.jpg?resize=680%2C510&amp;ssl=1 680w, https://i2.wp.com/www.christianamauger.com/wp-content/uploads/2012/07/cecinestpasunmediasocial.jpg?w=720&amp;ssl=1 720w" sizes="(max-width: 639px) 98vw, (max-width: 1199px) 64vw, 544px" data-recalc-dims="1" /></a></p>
-<h4>Une présence continue</h4>
-<p>Le <a title="Les différentes facettes du Web 2.0" href="les-differentes-facettes-du-web-2-0.html">Web 2.0</a> est un univers de quasi-instantanéité. Ses usagers ont des attentes élevées en matière de rapidité de réponse. Si vous ne pouvez participer activement à la conversation, répondre rapidement, il vaut mieux ne pas l’initier, vous risqueriez de perdre votre crédibilité.<br />
-L’encadrement de cheminements interactifs comme ceux que permet le Web 2.0 demande donc non seulement plus de temps, mais aussi une disponibilité plus continue.<br />
-Il est important d’établir, dès le départ, des plages de disponibilité.</p>
-<h4>La gestion des commentaires négatifs</h4>
-<p>Les commentaires négatifs ne doivent pas faire paniquer l’organisation. Ce sont des occasions de mieux s’expliquer, ou de présenter les choses sous un autre angle. Dans les environnements sociaux du Web, les mécanismes d’auto-régulation sont assez puissants : les partisans de votre cause ont tendance à réagir fortement aux commentaires négatifs avant même que n’ayez pu intervenir.<br />
-Bien sûr, des commentaires purement nuisibles, haineux ou diffamatoires apparaissent également. Il faut les traiter comme tels et en référer aux autorités du média social ou du site (ce n’est pas toujours un processus évident).</p>
-<p style="text-align: center;"><a href="../i2.wp.com/www.christianamauger.com/wp-content/uploads/2012/07/3184988008_7ecba972e2_beb45.jpg?ssl=1"><img data-attachment-id="2609" data-permalink="https://www.christianamauger.com/les-chartes-dutilisation-des-medias-sociaux-communiquer/3184988008_7ecba972e2_b" data-orig-file="https://i2.wp.com/www.christianamauger.com/wp-content/uploads/2012/07/3184988008_7ecba972e2_b.jpg?fit=1024%2C683&amp;ssl=1" data-orig-size="1024,683" data-comments-opened="1" data-image-meta="{&quot;aperture&quot;:&quot;0&quot;,&quot;credit&quot;:&quot;&quot;,&quot;camera&quot;:&quot;&quot;,&quot;caption&quot;:&quot;&quot;,&quot;created_timestamp&quot;:&quot;0&quot;,&quot;copyright&quot;:&quot;&quot;,&quot;focal_length&quot;:&quot;0&quot;,&quot;iso&quot;:&quot;0&quot;,&quot;shutter_speed&quot;:&quot;0&quot;,&quot;title&quot;:&quot;&quot;,&quot;orientation&quot;:&quot;0&quot;}" data-image-title="Communiquer sur les médias sociaux" data-image-description="" data-medium-file="https://i2.wp.com/www.christianamauger.com/wp-content/uploads/2012/07/3184988008_7ecba972e2_b.jpg?fit=680%2C454&amp;ssl=1" data-large-file="https://i2.wp.com/www.christianamauger.com/wp-content/uploads/2012/07/3184988008_7ecba972e2_b.jpg?fit=1024%2C683&amp;ssl=1" class="aligncenter  wp-image-2609" title="Communiquer sur les médias sociaux" src="../i2.wp.com/www.christianamauger.com/wp-content/uploads/2012/07/3184988008_7ecba972e2_b50d5.jpg?resize=544%2C362&amp;ssl=1" alt="Communiquer sur les médias sociaux" width="544" height="362" data-recalc-dims="1" /></a></p>
-<h4>Une stratégie de contenus</h4>
-<p>Si l’échange est au cœur des réseaux sociaux, le contenu est ce qui garantit leur succès. Pour communiquer efficacement sur le Web 2.0, l&rsquo;organisation a besoin d’établir une stratégie de contenus (pensons à l&rsquo;importance croissante du <a title="Le marketing de contenu est roi" href="le-marketing-de-contenu-est-roi.html">marketing de contenu</a>).<br />
-Pour qu’une activité de type Web 2.0 rejoigne une communauté, il faut lui proposer du contenu à valeur ajoutée. Le contenu proposé devrait répondre aux critères suivants :</p>
-<ul>
-<li><em>Offrir de la valeur ajoutée :</em> les contenus que l’on retrouve sur les médias sociaux ne doivent pas être une répétition inutile d’un contenu disponible ailleurs. La valeur ajoutée peut être celle de la diffusion (rejoindre un nouveau public via un nouveau canal de communication, comme Twitter par exemple), mais elle se trouve essentiellement dans l’adaptation ou l’optimisation du contenu (on écrit par sur Twitter comme on le fait dans un communiqué de presse, par exemple).</li>
-<li><em>Être optimisé pour les moyens de diffusion utilisés, que ce soit sur le fond ou sur la forme :</em> cette optimisation passe par des critères techniques (référencement) et culturels (<a title="Écrire pour le Web : ciblage, structure et personnalisation" href="ecrire-pour-le-web-ciblage-structure-et-personnalisation.html">rédaction spécifique au Web</a> par exemple)</li>
-</ul>
-<h4>Une stratégie de supports</h4>
-<p>Le succès des médias sociaux repose en partie sur l’évolution des supports à la disposition des usagers : grâce aux ordinateurs portables, aux téléphones intelligents et aux tablettes numériques, il est possible de rester connecté en tout lieu et en tout temps.<br />
-L’évolution des supports doit être prise en compte dans les orientations de communication de l&rsquo;organisation.<br />
-D’une part, le nombre croissant d’usagers ayant accès à des technologies nomades suppose qu’il est opportun de proposer des canaux de communication adaptés à ces nouveaux outils : site mobile, application mobile, etc.<br />
-D’autre part, la notion d’accessibilité doit demeurer au cœur des préoccupations de l&rsquo;organisation. Les supports doivent donc respecter les règles d’accessibilité du Web. Les supports choisis ne devraient pas non plus créer une fracture numérique, en privilégiant certains acteurs au détriment d’autres.</p>
-<h4>Recommandations en matière de communication</h4>
-<ul>
-<li>Définir une ligne éditoriale</li>
-<li>Définir les principes de gestion de communauté</li>
-<li>Insister sur le rôle clé des gestionnaires de communauté et leurs pouvoirs</li>
-<li>Préciser le champ d’action des gestionnaires de communauté (ils ne peuvent être présents 24h sur 24)</li>
-<li>Définir les processus de signalement de problème (propos inconvenants, erreur, etc.)</li>
-</ul>
-<h4>Une question d&rsquo;éducation et de responsabilisation</h4>
-<p>Afin de faire en sorte que le droit de parole conféré par une charte d&rsquo;utilisation soit vécu de manière positive par les acteurs de la communauté, ces derniers doivent être informés et responsabilisés adéquatement. <strong><a title="Les chartes d’utilisation des médias sociaux : éduquer" href="les-chartes-dutilisation-des-medias-sociaux-eduquer.html">Ceci est l&rsquo;objet de l&rsquo;article suivant de cette série.</a></strong></p>
+La mise en place d’une charte d’utilisation des médias sociaux repose souvent sur [la nécessité d’encadrer, de structurer](les-chartes-dutilisation-des-medias-sociaux-encadrer.html) la relation entre ces nouveaux médias et les employés d’une organisation. La charte doit également appréhender correctement la nature des médias sociaux, qui sont avant tout des plateformes d’échange. Elle doit par conséquent s’appuyer sur une stratégie de communication, qui définit à la fois les contenus et les supports utilisés.
+
+#### Les médias sociaux ne sont pas des médias de masse
+
+La charte encadre les communications sur les médias sociaux. Pour qu’elle soit efficace, il faut d’abord comprendre le fonctionnement des communications sur ces nouveaux médias. Le risque ici étant de donner une réponse inappropriée à un phénomène qui ne s’inscrit pas dans les communications traditionnelles.
+
+Les médias sociaux sont des outils de communication, mais il est important de comprendre que leur force réside dans les échanges effectués au sein de la communauté. Autrement dit, les médias sociaux ne sont pas des médias de masse.
+Les activités organisées dans les médias sociaux devraient donc en principe favoriser l’échange et la rétroaction. À ce titre, on pourrait rapprocher les médias sociaux et la démocratie participative.
+Il est important de concevoir les activités en fonction de la communauté dans laquelle évolue votre organisation.
+
+[![Ceci n'est pas un média social](../i2.wp.com/www.christianamauger.com/wp-content/uploads/2012/07/cecinestpasunmediasocial5a82.jpg?resize=544%2C408&ssl=1)](../i2.wp.com/www.christianamauger.com/wp-content/uploads/2012/07/cecinestpasunmediasocialeb45.jpg?ssl=1)
+
+#### Une présence continue
+
+Le [Web 2.0](les-differentes-facettes-du-web-2-0.html) est un univers de quasi-instantanéité. Ses usagers ont des attentes élevées en matière de rapidité de réponse. Si vous ne pouvez participer activement à la conversation, répondre rapidement, il vaut mieux ne pas l’initier, vous risqueriez de perdre votre crédibilité.
+L’encadrement de cheminements interactifs comme ceux que permet le Web 2.0 demande donc non seulement plus de temps, mais aussi une disponibilité plus continue.
+Il est important d’établir, dès le départ, des plages de disponibilité.
+
+#### La gestion des commentaires négatifs
+
+Les commentaires négatifs ne doivent pas faire paniquer l’organisation. Ce sont des occasions de mieux s’expliquer, ou de présenter les choses sous un autre angle. Dans les environnements sociaux du Web, les mécanismes d’auto-régulation sont assez puissants : les partisans de votre cause ont tendance à réagir fortement aux commentaires négatifs avant même que n’ayez pu intervenir.
+Bien sûr, des commentaires purement nuisibles, haineux ou diffamatoires apparaissent également. Il faut les traiter comme tels et en référer aux autorités du média social ou du site (ce n’est pas toujours un processus évident).
+
+[![Communiquer sur les médias sociaux](../i2.wp.com/www.christianamauger.com/wp-content/uploads/2012/07/3184988008_7ecba972e2_b50d5.jpg?resize=544%2C362&ssl=1)](../i2.wp.com/www.christianamauger.com/wp-content/uploads/2012/07/3184988008_7ecba972e2_beb45.jpg?ssl=1)
+
+#### Une stratégie de contenus
+
+Si l’échange est au cœur des réseaux sociaux, le contenu est ce qui garantit leur succès. Pour communiquer efficacement sur le Web 2.0, l’organisation a besoin d’établir une stratégie de contenus (pensons à l’importance croissante du [marketing de contenu](le-marketing-de-contenu-est-roi.html)).
+Pour qu’une activité de type Web 2.0 rejoigne une communauté, il faut lui proposer du contenu à valeur ajoutée. Le contenu proposé devrait répondre aux critères suivants :
+
+- _Offrir de la valeur ajoutée :_ les contenus que l’on retrouve sur les médias sociaux ne doivent pas être une répétition inutile d’un contenu disponible ailleurs. La valeur ajoutée peut être celle de la diffusion (rejoindre un nouveau public via un nouveau canal de communication, comme Twitter par exemple), mais elle se trouve essentiellement dans l’adaptation ou l’optimisation du contenu (on écrit par sur Twitter comme on le fait dans un communiqué de presse, par exemple).
+- _Être optimisé pour les moyens de diffusion utilisés, que ce soit sur le fond ou sur la forme :_ cette optimisation passe par des critères techniques (référencement) et culturels ([rédaction spécifique au Web](ecrire-pour-le-web-ciblage-structure-et-personnalisation.html) par exemple).
+
+#### Une stratégie de supports
+
+Le succès des médias sociaux repose en partie sur l’évolution des supports à la disposition des usagers : grâce aux ordinateurs portables, aux téléphones intelligents et aux tablettes numériques, il est possible de rester connecté en tout lieu et en tout temps.
+L’évolution des supports doit être prise en compte dans les orientations de communication de l’organisation.
+D’une part, le nombre croissant d’usagers ayant accès à des technologies nomades suppose qu’il est opportun de proposer des canaux de communication adaptés à ces nouveaux outils : site mobile, application mobile, etc.
+D’autre part, la notion d’accessibilité doit demeurer au cœur des préoccupations de l’organisation. Les supports doivent donc respecter les règles d’accessibilité du Web. Les supports choisis ne devraient pas non plus créer une fracture numérique, en privilégiant certains acteurs au détriment d’autres.
+
+#### Recommandations en matière de communication
+
+- Définir une ligne éditoriale
+- Définir les principes de gestion de communauté
+- Insister sur le rôle clé des gestionnaires de communauté et leurs pouvoirs
+- Préciser le champ d’action des gestionnaires de communauté (ils ne peuvent être présents 24h sur 24)
+- Définir les processus de signalement de problème (propos inconvenants, erreur, etc.)
+
+#### Une question d’éducation et de responsabilisation
+
+Afin de faire en sorte que le droit de parole conféré par une charte d’utilisation soit vécu de manière positive par les acteurs de la communauté, ces derniers doivent être informés et responsabilisés adéquatement. **[Ceci est l’objet de l’article suivant de cette série.](les-chartes-dutilisation-des-medias-sociaux-eduquer.html)**

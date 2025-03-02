@@ -3,6 +3,7 @@ layout: post
 title: Teamwork
 date: 2017-03-21
 categories: [management]
+thumbnail: /assets/images/equipe.jpg
 summary: Over the past twenty years, the time devoted to collaborative activities by managers and employees has increased by 50%.
 ---
 
