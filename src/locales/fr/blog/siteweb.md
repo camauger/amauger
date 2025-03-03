@@ -5,6 +5,8 @@ date: 2015-10-15
 updated: 2015-11-10
 categories: [web]
 summary: Repenser le rôle stratégique du site web dans le développement des entreprises, au-delà de la simple vitrine numérique.
+permalink: pourquoi-refaire-son-site-internet.html
+cover: web
 ---
 
 Le site web arrive souvent tardivement dans le processus de développement des entreprises, s'intégrant a posteriori à une stratégie déjà établie. Cette approche peut sembler logique si vous considérez votre site comme un simple outil promotionnel. Cependant, en le reléguant au rang d'élément secondaire, vous limitez considérablement son potentiel d'impact.
