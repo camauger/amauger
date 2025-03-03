@@ -4,6 +4,7 @@ title: Des outils pour optimiser la vitesse de son site Internet
 date: 2012-03-05
 modif: 2015-04-23
 categories: [web]
+thumbnail: /assets/images/vitesse.jpg
 ---
 
 La vitesse de chargement d’un site Internet est un élément crucial pour la rétention et la conversion des internautes. Sur le Web, chaque seconde compte. Littéralement.

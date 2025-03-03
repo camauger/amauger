@@ -3,6 +3,7 @@ layout: post
 title: Le mythe de la mobilité
 date: 2015-11-10
 categories: [web]
+thumbnail: /assets/images/mobilite.jpg
 summary: La mobilité numérique dépasse largement le simple contexte nomade, redéfinissant nos habitudes d'utilisation des appareils connectés.
 ---
 

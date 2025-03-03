@@ -37,6 +37,11 @@ class PostBuilder:
         if posts_dir:
             for post_file in posts_dir.glob('*.md'):
                 content = post_file.read_text(encoding='utf-8')
+            # try:
+            #     metadata, md_content = frontmatter.loads(content)
+            # except Exception as e:
+            #     print(f"Erreur lors du parsing du fichier {post_file}: {e}")
+            #     continue
                 metadata, _ = parse_frontmatter(content)
                 tid = str(metadata.get("translation_id",
                           metadata.get("slug", post_file.stem)))

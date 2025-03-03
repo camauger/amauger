@@ -4,6 +4,7 @@ title: Les fondations d’une stratégie sociale
 date: 2013-01-29
 modif: 2015-11-06
 categories: [web]
+thumbnail: /assets/images/strategie.jpg
 ---
 
 Vous voulez propulser votre entreprise sur les médias sociaux ? C’est bien, mais cette entreprise a-t-elle les prérequis pour maximiser les chances de succès d’une stratégie de présence sur le Web social ?

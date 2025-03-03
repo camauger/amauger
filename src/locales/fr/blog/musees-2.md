@@ -1,9 +1,10 @@
 ---
 layout: post
-title: Vers les musées 2 (2ème partie)
+title: Vers les musées 2.0 (2ème partie)
 date: 2011-03-22
 modif: 2018-03-22
-categories: [reseaux sociaux, medias sociaux]
+categories: [web]
+thumbnail: /assets/images/musee.jpg
 ---
 
 Cet article fait suite à « [Vers les musées 2.0 (1ère partie)](vers-les-musees-2-0-1ere-partie.html "Vers les musées 2.0 (1ère partie)") » (logique, non ?). Dans mon article précédent, je posais la question : « un musée, c’est quoi ? »

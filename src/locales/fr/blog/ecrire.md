@@ -4,6 +4,7 @@ title: Écrire pour le Web, ciblage, structure et personnalisation
 date: 2011-06-14
 modif: 2015-11-10
 categories: [web]
+thumbnail: /assets/images/ecrire.jpg
 ---
 
 Voici la suite des articles « [Écrire pour le Web : La revanche du contenu sur le contenant](ecrire-pour-le-web-la-revanche-du-contenu-sur-le-contenant.html) » et « [Écrire pour le Web : Convaincre, c’est bien, convaincre d’agir, c’est mieux](ecrire-pour-le-web-convaincre-c%e2%80%99est-bien-convaincre-d%e2%80%99agir-c%e2%80%99est-mieux.html) ».

@@ -5,6 +5,7 @@ date: 2009-08-31
 updated: 2015-11-10
 thumbnail: /assets/images/humain.jpg
 categories: [web]
+thumbnail: /assets/images/humain.jpg
 
 ---
 

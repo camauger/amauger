@@ -4,6 +4,7 @@ title: La veille sur Internet (une introduction)
 date: 2009-07-16
 modif: 2015-11-10
 categories: [web]
+thumbnail: /assets/images/veille.jpg
 summary: Avantages et inconvénients de la veille sur Internet
 ---
 

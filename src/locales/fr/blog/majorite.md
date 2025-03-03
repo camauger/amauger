@@ -4,6 +4,7 @@ title: Les réseaux sociaux et l'illusion de la majorité
 date: 2015-11-03
 categories: [web]
 summary: Comment une minorité d'influenceurs peut créer l'illusion d'une opinion majoritaire sur les réseaux sociaux.
+thumbnail: /assets/images/majorite.jpg
 ---
 
 Une étude fascinante publiée dans MIT Technology Review révèle comment les réseaux sociaux peuvent déformer notre perception de la réalité collective. Cette recherche démontre comment une opinion peut sembler universellement partagée alors qu'elle ne reflète en réalité que l'avis d'une minorité influente.

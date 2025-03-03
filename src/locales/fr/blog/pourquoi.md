@@ -3,7 +3,8 @@ layout: post
 title: Pourquoi faire du marketing de contenu ?
 date: 2015-03-07
 modif: 2015-04-29
-categories: [reseaux sociaux, medias sociaux]
+categories: [web]
+thumbnail: /assets/images/marketingcontenu.jpg
 
 summary: Le marketing de contenu occupe une place de choix dans le développement de la présence numérique d’une entreprise. Pourquoi? Quels en sont les objectifs?
 ---

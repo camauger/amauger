@@ -2,10 +2,9 @@
 layout: post
 title: Pour en finir avec le Web 2.0
 date: 2011-03-28
-categories: [reseaux sociaux, medias sociaux]
-author: Christian Amauger
-cover: web2
-permalink: pour-en-finir-avec-le-web-2-0.html
+categories: [web]
+thumbnail: /assets/images/influence.jpg
+
 ---
 
 Le [Web 2.0](123-web.html "1,2,3… Web") va avoir 7 ans en 2011. Concept marketing, expression séduisante alliant évolutions culturelles et évolutions technologiques, le Web 2.0 s’essouffle. Non, pas en soi, mais en tant qu’expression. Utile pour populariser le contexte (2.0, c'est cool), l'expression brouille les cartes et masque une réalité plus complexe.

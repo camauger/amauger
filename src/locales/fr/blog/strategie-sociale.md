@@ -3,7 +3,8 @@ layout: post
 title: La mise en place d'une stratégie sociale
 date: 2013-10-22
 modif: 2015-11-10
-categories: [reseaux sociaux, medias sociaux]
+categories: [web]
+thumbnail: /assets/images/strategeweb.jpg
 ---
 
 En 2013, une stratégie numérique sociale ne se limite pas à l’intégration des médias sociaux. L’aspect « social » a des implications pour l’organisation dans son ensemble, pas seulement pour le département marketing.

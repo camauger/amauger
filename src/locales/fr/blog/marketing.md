@@ -3,8 +3,8 @@ layout: post
 title: L'horrible expression marketing de contenu
 date: 2015-04-15
 modif: 2015-11-10
-categories:
-  [marketing]
+categories: [web]
+thumbnail: /assets/images/marketingcontenu.jpg
 summary: Une réflexion critique sur la terminologie et les malentendus du marketing de contenu dans les organisations.
 ---
 

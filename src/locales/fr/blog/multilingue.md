@@ -4,6 +4,7 @@ title: Bien exploiter le web multilingue
 date: 2011-02-28
 modif: 2018-03-22
 categories: [web]
+thumbnail: /assets/images/ecrire.jpg
 ---
 
 Le Web est devenu, de nos jours, un environnement favorable au développement des relations commerciales.

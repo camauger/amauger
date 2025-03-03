@@ -3,7 +3,8 @@ layout: post
 title: Dépasser la frontière des 600 pixels
 date: 2015-02-13
 modif: 2015-11-11
-categories: [reseaux sociaux, medias sociaux]
+categories: [web]
+thumbnail: /assets/images/mobilite.jpg
 
 ---
 

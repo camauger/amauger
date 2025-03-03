@@ -2,7 +2,8 @@
 layout: post
 title: Content Curator, un mot à retenir dans le Web social de 2011
 date: 2011-01-05
-categories: [reseaux sociaux, medias sociaux]
+categories: [web]
+thumbnail: /assets/images/musee.jpg
 ---
 
 Si le mot devient populaire depuis quelques mois, on en parle depuis déjà un moment. En avril 2009, Jennifer Leggio avait lancé la question « Is it time for a Chief Social Media Officer? » Quelques mois plus tard, Rohit Bhargava écrit : [Manifesto For The Content Curator: The Next Big Social Media Job Of The Future ?](http://www.influentialmarketingblog.com/weblog/2009/09/manifesto-for-the-content-curator-the-next-big-social-media-job-of-the-future-.html) (septembre 2009). Rohit Bhargava définit ce nouveau travail ainsi dans son article :

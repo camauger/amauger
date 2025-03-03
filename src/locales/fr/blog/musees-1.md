@@ -1,9 +1,10 @@
 ---
 layout: post
-title: Vers les musées 2 (1ère partie)
+title: Vers les musées 2.0 (1ère partie)
 date: 2011-03-22
 modif: 2018-03-22
-categories: [reseaux sociaux, medias sociaux]
+categories: [web]
+thumbnail: /assets/images/musee.jpg
 ---
 
 Les musées, comme toutes les organisations, sont amenés à évoluer à l’ère numérique. Avec tous les enjeux – technologiques, budgétaires, humains – que cela comporte. Et avec comme premier enjeu, la redéfinition de leur rôle. C’est quoi aujourd’hui, un musée?

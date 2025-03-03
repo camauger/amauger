@@ -3,7 +3,8 @@ layout: post
 title: L'utilisation de nos données par les réseaux sociaux
 date: 2012-07-20
 modif: 2015-11-10
-categories: [reseaux sociaux, medias sociaux]
+categories: [web]
+thumbnail: /assets/images/coin-coin.jpg
 ---
 
 Nous partageons tous les jours de plus en plus de nos données personnelles sur les réseaux sociaux, sans vraiment savoir où elles aboutissent ni à quoi elles servent. Quelles sont les données détenues par les différents sites de réseaux sociaux et comment peuvent-ils les utiliser ? Navigateur utilisé, adresse IP, numéro de téléphone, lieu physique d’accès, cookies, recherches réalisées dans les moteurs, etc. Les sites ont accès à une quantité incroyable d’informations.

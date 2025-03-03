@@ -4,6 +4,7 @@ title: Fracture et facture numérique
 date: 2017-03-21
 categories: [web]
 summary: La transformation numérique représente un défi majeur pour les entrepreneurs, tant sur le plan de la compréhension que des investissements nécessaires.
+thumbnail: /assets/images/veille.jpg
 ---
 
 ## Une expérience de terrain

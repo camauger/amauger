@@ -3,8 +3,8 @@ layout: post
 title: Pourquoi refaire son site Internet ?
 date: 2014-08-28
 modif: 2015-04-23
-categories: [reseaux sociaux, medias sociaux]
-author: Christian Amauger
+categories: [web]
+thumbnail: /assets/images/marketingweb.jpg
 description: La refonte d’un site Internet ne devrait pas être guidée par la volonté de changer pour changer, de suivre la mode ou les dernières tendances.
 ---
 

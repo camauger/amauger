@@ -3,7 +3,8 @@ layout: post
 title: Marketing de contenu, un terme générique insaisissable ?
 date: 2012-07-28
 modif: 2015-11-10
-categories: [reseaux sociaux, medias sociaux]
+categories: [web]
+thumbnail: /assets/images/marketingcontenu.jpg
 
 ---
 

@@ -3,7 +3,8 @@ layout: post
 title: Les 6 profils des internautes sur le web social
 date: 2014-05-22
 modif: 2015-11-10
-categories: [reseaux sociaux, medias sociaux]
+categories: [web]
+thumbnail: /assets/images/personas.jpg
 ---
 
 Comment les internautes utilisent-ils les médias sociaux ? Voici 6 profils correspondant à des utilisations très différentes du Web social.

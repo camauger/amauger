@@ -3,7 +3,8 @@ layout: post
 title: Le Web 2.0, ni une mode, ni une option, mais une nouvelle forme de communication
 date: 2010-10-02
 modif: 2015-11-10
-categories: [reseaux sociaux, medias sociaux]
+categories: [web]
+thumbnail: /assets/images/communiquer.jpg
 ---
 
 **Web 2.0 : derrière cette expression se cache tout un ensemble d’évolutions technologiques, de pratiques sociales et d’enjeux économiques.** La notion de Web 2.0 a été initiée en 2004 par un petit groupe de visionnaires qui ont donné l’impulsion d’une nouvelle vision du Web basée sur l’intelligence collective. Le Web 2.0, « Web social » ou encore « Web participatif », était né.
@@ -20,4 +21,4 @@ Et les entreprises ? À l’échelle mondiale, déjà 40 % des entreprises affir
 
 Mais une utilisation efficace du Web 2.0 suppose un changement d’approche global dans les activités de l’entreprise : marketing, communications, ressources humaines. Le Web 2.0, c’est le passage de la vente à la relation, du contrôle à l’ouverture, de la distance à l’accessibilité. Ce n’est pas une mode. Ce n’est pas une option. C’est une tendance lourde pour les années à venir, à prendre en considération par toutes les organisations, quelle que soit leur taille ou leur secteur d’activité.
 
-*Cet article a été publié dans le magazine de la Chambre de commerce française au Canada, Action Canada France en septembre 2010.*
+_Cet article a été publié dans le magazine de la Chambre de commerce française au Canada, Action Canada France en septembre 2010._

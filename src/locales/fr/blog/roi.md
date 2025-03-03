@@ -4,6 +4,7 @@ title: Le marketing de contenu est roi
 date: 2012-07-09
 modif: 2015-11-10
 categories: [web]
+thumbnail: /assets/images/marketingweb.jpg
 ---
 
 Quand il s'agit de stratégies de marketing, le marketing de contenu vient d'être couronné roi par de nombreuses entreprises, surpassant de loin le marketing de référencement, les relations publiques et même les médias traditionnels (publicité imprimée, télévision et radio) comme outil de marketing le plus pratique pour les entreprises B2B.

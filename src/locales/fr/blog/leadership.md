@@ -4,6 +4,7 @@ title: Le marketing de contenu, pour un leadership éclairé
 date: 2012-08-08
 modif: 2015-11-10
 categories: [reseaux sociaux, medias sociaux]
+thumbnail: /assets/images/convaincre.jpg
 
 ---
 

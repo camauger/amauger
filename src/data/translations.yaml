@@ -1,40 +1,71 @@
 fr:
-  home_cta: "Découvrir mes projets"
-  about_title: À propos
+  about_title: "À propos"
   about: À propos
   all_rights_reserved: Tous droits réservés
   article_information: "Informations sur l'article"
   aspects_title: "Technoludiste"
   back_home: Retour à l'accueil
+  back_to_gallery: "Retourner à la galerie"
   blog: Blog
+  bluesky_sharing: Partager sur Bluesky
+  categories_heading: "Catégories"
   categories: Catégories
   close: Fermer
   dark_mode: Mode sombre
   developpement_web_description: "Conception de sites web modernes, accessibles et performants, centrés sur l'expérience utilisateur."
   developpement_web: "Développement Web"
+  download_large: "Télécharger l’image taille grande"
+  download_medium: "Télécharger l’image taille moyenne"
+  download_original: "Télécharger l’image originale"
+  download_small: "Télécharger l’image taille petite"
   draft: Brouillon
   frontend_projects: "Projets de développement front-end"
-  home: Accueil
+  gallery_title: Galerie d'images
+  glossary_description: "Glossaire"
+  glossary_thumbnail_alt: "Illustration de :"
+  glossary_title: "Glossaire"
+  go_to_page: Aller à la page
+  home_cta: "Découvrir mes projets"
   home_title: "Développeur Web et Créateur de Jeux de Rôle"
+  home: Accueil
+  image_download: Télécharger l’image
+  image_gallery_title: "Galerie d'images"
+  image_meta_description: "Découvrez l’image {image_name} et téléchargez-la en différentes tailles."
+  image_og_title: "Aperçu de l’image {image_name}"
+  image_page_title: "Aperçu de l’image"
+  image_page: Voir la page de l’image
+  image_preview: "Aperçu de l’image"
   jeux_de_role_creations: "Créations de jeux de rôle"
   jeux_de_role_description: "Conception d’univers immersifs et de mécaniques engageantes pour des expériences de jeu mémorables."
   jeux_de_role: "Création de Jeux de Rôle"
   keyword_link_label: "Voir tous les articles avec ce mot-clé"
+  keyword_no_article: Aucun article trouvé pour ce mot-clé.
   keyword_prefix: "Mot-clé: "
   keywords_heading: "Mots-clés"
   keywords_icon: "Mots-clés"
+  keywords: Mots-clés
   language: Langue
   latest_posts: Derniers articles
   learn_more: En savoir plus
   light_mode: Mode clair
   menu: Menu
   nav_label: Menu principal
+  next_page: Page suivante
+  next: Suivant
+  no_article_category: Aucun article dans cette catégorie.
   no_article: "Aucun article à afficher pour le moment."
+  no_image_found: Aucune image n’a été trouvée.
   not_found: Page non trouvée
+  number_of_images: "Nombre d'images :"
   portfolio_button: "Voir plus de projets"
   portfolio_subtitle: "Découvrez mes réalisations"
   portfolio_title: "Mes Projets Récents"
+  post_featured: "Article en vedette"
+  post_footer: Pied de page de l'article
   post_header: En-tête de l'article
+  posts_list: Liste des articles
+  previous_page: Page précédente
+  previous: Précédent
   project_description_default: "Description non disponible"
   project_title_default: "Titre du projet"
   published_date: "Publié le"
@@ -45,29 +76,22 @@ fr:
   related_posts: Articles similaires
   search_placeholder: Rechercher des articles...
   search: Rechercher
+  size_large: "Taille grande"
+  size_medium: "Taille moyenne"
+  size_original: "Originale"
+  size_small: "Taille petite"
+  skills_title: "Mes Compétences"
   skip_to_content: Aller au contenu principal
   social_links: Réseaux sociaux
   strategie_numerique_description: "Développez des solutions digitales performantes et adaptées à vos besoins pour maximiser votre impact en ligne."
   strategie_numerique: "Stratégie Numérique"
   tags: Étiquettes
+  technical_skills: "Compétences Techniques"
   technologies_not_specified: "Technologies non spécifiées"
   updated_date: "Mis à jour le"
   updated_on: Mis à jour le
   view_all_posts: Voir tous les articles
   written_by: "Écrit par"
-  next: Suivant
-  previous: Précédent
-  next_page: Page suivante
-  previous_page: Page précédente
-  go_to_page: Aller à la page
-  no_image_found: Aucune image n’a été trouvée.
-  no_article_category: Aucun article dans cette catégorie.
-  image_preview: Aperçu de l’image
-  image_page: Voir la page de l’image
-  image_download: Télécharger l’image
-  keyword_no_article: Aucun article trouvé pour ce mot-clé.
-  skills_title: "Mes Compétences"
-  technical_skills: "Compétences Techniques"
   technical_skills_list:
     - name: "Langages"
       description: "HTML, CSS, JavaScript, Python"
@@ -84,38 +108,11 @@ fr:
     - "Communication et travail en équipe"
     - "Gestion de projet agile"
     - "Esprit d’analyse et résolution de problèmes"
-  glossary_title: "Glossaire"
-  glossary_description: "Glossaire"
-  categories_heading: "Catégories"
-  gallery_title: Galerie d'images
-  image_page_title: "Aperçu de l’image"
-  image_meta_description: "Découvrez l’image {image_name} et téléchargez-la en différentes tailles."
-  image_og_title: "Aperçu de l’image {image_name}"
-  image_preview: "Aperçu de l’image"
-  image_download: "Télécharger l’image"
-  download_small: "Télécharger l’image taille petite"
-  download_medium: "Télécharger l’image taille moyenne"
-  download_large: "Télécharger l’image taille grande"
-  download_original: "Télécharger l’image originale"
-  size_small: "Taille petite"
-  size_medium: "Taille moyenne"
-  size_large: "Taille grande"
-  size_original: "Originale"
-  back_to_gallery: "Retourner à la galerie"
-  glossary_thumbnail_alt: "Illustration de :"
-  post_footerr: Pied de page de l'article
-  post_featured: "Article en vedette"
-  bluesky_sharing: Partager sur Bluesky
-  image_gallery_title: "Galerie d'images"
-  number_of_images: "Nombre d'images :"
-  posts_list: Liste des articles
-  categories: Catégories
-  keywords: Mots-clés
-  tags: Étiquettes
+
 
 en:
   home_cta: "Discover my projects"
-  about_title: About
+  about_title: "About"
   about: About
   all_rights_reserved: All rights reserved
   article_information: "Article Information"

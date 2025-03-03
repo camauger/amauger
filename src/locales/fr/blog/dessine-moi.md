@@ -3,8 +3,9 @@ layout: post
 title: Dessine-moi un stratège Web
 date: 2010-12-01
 modif: 2015-11-10
-categories: [reseaux sociaux, medias sociaux]
+categories: [web]
 summary: Depuis quelques années déjà, j’aime me présenter et me définir comme Stratège Web. Pas évident pour ma fille de 3 ans d’expliquer ce que fait son papa.
+thumbnail: /assets/images/dessine.jpg
 ---
 
 Depuis quelques années déjà, j’aime me présenter et me définir comme **Stratège Web**. Pas évident pour ma fille de 3 ans d’expliquer ce que fait son papa. Faute de trouver les mots, elle a tranché arbitrairement :

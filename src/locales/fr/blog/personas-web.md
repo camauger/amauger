@@ -3,7 +3,8 @@ layout: post
 title: L'importance des personas pour la création de site Web
 date: 2013-02-20
 modif: 2015-11-06
-categories: [site-web, personas, marketing-numerique]
+categories: [web]
+thumbnail: /assets/images/personas.jpg
 
 ---
 
