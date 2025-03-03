@@ -4,8 +4,7 @@ title: Marketing de contenu, un terme générique insaisissable ?
 date: 2012-07-28
 modif: 2015-11-10
 categories: [reseaux sociaux, medias sociaux]
-author: Christian Amauger
-cover: marketingcontenu
+
 ---
 
 Sur le Web, le contenu est roi. Le [marketing de contenu](le-marketing-de-contenu-est-roi.html "Le marketing de contenu est roi") occupe donc a priori une place de choix dans les stratégies de développement d’une présence Web. Mais quand on parle de marketing de contenu, de quoi s’agit-il ?

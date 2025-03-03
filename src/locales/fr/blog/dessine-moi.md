@@ -9,13 +9,13 @@ summary: Depuis quelques années déjà, j’aime me présenter et me définir c
 
 Depuis quelques années déjà, j’aime me présenter et me définir comme **Stratège Web**. Pas évident pour ma fille de 3 ans d’expliquer ce que fait son papa. Faute de trouver les mots, elle a tranché arbitrairement :
 
-> *Mon papa quand il va au travail, il mange des biscuits et boit du jus d’orange.*
+> _Mon papa quand il va au travail, il mange des biscuits et boit du jus d’orange._
 
 C’est mignon, mais cela correspond à peu près, avec d’autres mots et d’autres images, à ce que la plupart des gens imaginent quand je leur annonce ma profession. Autant dire qu’il y a des jours où je voudrais être pompier. Euh, non en fait, pas vraiment…
 
 ### Alors, c’est quoi un stratège Web ?
 
-Décortiquons. Stratège, d’abord. Nous qualifions de stratège celui qui est capable d’élaborer des plans, de concevoir adéquatement une stratégie. Nous voilà donc à la notion de « planification stratégique », qui fait peur et fascine en même temps. Peur parce qu’on ne veut pas avoir affaire à des *charlatans qui nous donnent l’heure en regardant notre montre.* Fascination parce qu’on espère trouver là la solution à tous nos problèmes.
+Décortiquons. Stratège, d’abord. Nous qualifions de stratège celui qui est capable d’élaborer des plans, de concevoir adéquatement une stratégie. Nous voilà donc à la notion de « planification stratégique », qui fait peur et fascine en même temps. Peur parce qu’on ne veut pas avoir affaire à des _charlatans qui nous donnent l’heure en regardant notre montre._ Fascination parce qu’on espère trouver là la solution à tous nos problèmes.
 
 **Un stratège, finalement, c’est quelqu’un qui est capable d’organiser et de structurer les moyens et les ressources qui permettront d’atteindre un objectif ciblé.**
 
@@ -27,9 +27,9 @@ Je pourrais aussi dire « stratège Internet » mais je préfère « stratège W
 
 La présence Web, pour un individu ou une organisation, est la synthèse de trois composantes : l’identité, la visibilité et le capital social.
 
-- *L’identité* : c’est l’ensemble des contenus Web qui sont associés à un individu ou une organisation. L’identité correspond donc à la somme des résultats obtenus sur les moteurs de recherche (à la fois les moteurs classiques de type Google, Yahoo !, Bing, et les moteurs des médias sociaux – Facebook, Twitter, YouTube, etc.).
-- *La visibilité* : c’est la facilité avec laquelle on peut retrouver un individu ou une organisation parmi tous les contenus obtenus.
-- *Le capital social* est une notion plus complexe. Il correspond à votre capacité à animer votre réseau en ligne. C’est la notion de « Whuffie Factor » chère à Tara Hunt. Pour forger votre capital social, il faut développer votre réseau et interagir avec ses membres. La présence Web, ce n’est pas simplement « être là », mais c’est appartenir à une communauté et y participer.
+- _L’identité_ : c’est l’ensemble des contenus Web qui sont associés à un individu ou une organisation. L’identité correspond donc à la somme des résultats obtenus sur les moteurs de recherche (à la fois les moteurs classiques de type Google, Yahoo !, Bing, et les moteurs des médias sociaux – Facebook, Twitter, YouTube, etc.).
+- _La visibilité_ : c’est la facilité avec laquelle on peut retrouver un individu ou une organisation parmi tous les contenus obtenus.
+- _Le capital social_ est une notion plus complexe. Il correspond à votre capacité à animer votre réseau en ligne. C’est la notion de « Whuffie Factor » chère à Tara Hunt. Pour forger votre capital social, il faut développer votre réseau et interagir avec ses membres. La présence Web, ce n’est pas simplement « être là », mais c’est appartenir à une communauté et y participer.
 
 Le rôle d’un stratège Web c’est donc d’accompagner une organisation dans l’atteinte de ses objectifs en passant par une utilisation optimale de ces trois notions – identité, visibilité et capital social.
 
@@ -37,7 +37,7 @@ Il faut comprendre la dimension « Web » dans un sens large. Cela ne se limite 
 
 ### Stratège versus Utilisateur
 
-C’est là que se situe le fameux débat sur les « experts des médias sociaux ». Il ne faut pas confondre les utilisateurs des médias sociaux et les stratèges Web. Être un bon utilisateur des médias sociaux, c’est comprendre la portée de ces outils et les employer efficacement. Être un bon soldat, finalement, ou encore un bon « ninja » (on parle fréquemment de « ninja du web social »). Mais il y a une différence majeure entre savoir *comment* communiquer et savoir *pourquoi* communiquer. Le stratège se situe au niveau de la vision, des enjeux, de l’ensemble. Au-dessus de la mêlée, en quelque sorte.
+C’est là que se situe le fameux débat sur les « experts des médias sociaux ». Il ne faut pas confondre les utilisateurs des médias sociaux et les stratèges Web. Être un bon utilisateur des médias sociaux, c’est comprendre la portée de ces outils et les employer efficacement. Être un bon soldat, finalement, ou encore un bon « ninja » (on parle fréquemment de « ninja du web social »). Mais il y a une différence majeure entre savoir _comment_ communiquer et savoir _pourquoi_ communiquer. Le stratège se situe au niveau de la vision, des enjeux, de l’ensemble. Au-dessus de la mêlée, en quelque sorte.
 
 ### Au dessus de la mêlée, mais pas dans les nuages
 

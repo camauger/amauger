@@ -4,8 +4,6 @@ title: Le Web 2.0, ni une mode, ni une option, mais une nouvelle forme de commun
 date: 2010-10-02
 modif: 2015-11-10
 categories: [reseaux sociaux, medias sociaux]
-author: Christian Amauger
-summary: Web 2.0, derrière cette expression se cache tout un ensemble d’évolutions technologiques, de pratiques sociales et d’enjeux économiques.
 ---
 
 **Web 2.0 : derrière cette expression se cache tout un ensemble d’évolutions technologiques, de pratiques sociales et d’enjeux économiques.** La notion de Web 2.0 a été initiée en 2004 par un petit groupe de visionnaires qui ont donné l’impulsion d’une nouvelle vision du Web basée sur l’intelligence collective. Le Web 2.0, « Web social » ou encore « Web participatif », était né.

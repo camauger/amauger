@@ -3,7 +3,6 @@ layout: post
 title: Influence, influenceurs et influencés
 date: 2010-12-12
 categories: [reseaux sociaux, medias sociaux]
-permalink: influence-influenceurs-et-influences.html
 ---
 
 **Pendant que les réseaux sociaux se popularisent de plus en plus, la notion d’influenceur soulève de nombreux débats. Quelles sont les personnes qui forgent les opinions sur le Web 2.0 ? Et d’abord, c’est quoi un influenceur ?**

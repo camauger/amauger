@@ -23,6 +23,7 @@ Le Web 2.0 est souvent défini comme étant finalement le « web participatif »
 ### Les quatre axes du Web (2.0)
 
 Le Web 2.0, c’est finalement la maturation du web et de ses fonctions. Une complexification par la multiplication des acteurs (les internautes) et de leurs pouvoirs d’interactions. Cette complexification se retrouve dans les 4 grands axes du web :
+
 - **Web informatif** : présentation de contenus (textes, images, vidéos, etc.), pensons à l’explosion de la blogosphère, et à des sites de plus en plus riches en contenus multimédia.
 - **Web commercial** : commerce électronique, publicités, abonnements en ligne (oui, ce n’est pas honteux de faire de l’argent sur Internet).
 - **Web social** : nous nous connectons les uns aux autres, que ce soit de manière professionnelle (LinkedIn) ou plus personnelle (Facebook).

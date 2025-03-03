@@ -5,7 +5,6 @@ date: 2015-04-15
 modif: 2015-11-10
 categories:
   [marketing]
-permalink: lhorrible-expression-marketing-de-contenu.html
 summary: Une réflexion critique sur la terminologie et les malentendus du marketing de contenu dans les organisations.
 ---
 

@@ -1,11 +1,10 @@
 ---
 layout: post
-title: Vers les musées 2.0 (2ème partie)
+title: Vers les musées 2 (2ème partie)
 date: 2011-03-22
 modif: 2018-03-22
 categories: [reseaux sociaux, medias sociaux]
-author: Christian Amauger
-cover: musee
+
 summary:
 ---
 

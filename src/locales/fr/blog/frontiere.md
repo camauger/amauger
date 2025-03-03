@@ -4,9 +4,7 @@ title: Dépasser la frontière des 600 pixels
 date: 2015-02-13
 modif: 2015-11-11
 categories: [reseaux sociaux, medias sociaux]
-author: Christian Amauger
-permalink: depasser-la-frontiere-des-600-pixels.html
-cover: web
+
 ---
 
 Le mythe des 600 pixels a la vie dure. Il repose sur l’idée que l’ensemble des contenus importants d’une page devrait se situer dans le haut des pages Web (dans les 600 premiers pixels de la page). Il est temps de s’élargir l’horizon et de dépasser cette frontière artificielle.

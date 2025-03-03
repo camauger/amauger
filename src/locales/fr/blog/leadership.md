@@ -4,8 +4,7 @@ title: Le marketing de contenu, pour un leadership éclairé
 date: 2012-08-08
 modif: 2015-11-10
 categories: [reseaux sociaux, medias sociaux]
-author: Christian Amauger
-cover: marketingcontenu
+
 ---
 
 Le [marketing de contenu](le-marketing-de-contenu-est-roi.html "Le marketing de contenu est roi") est l’occasion pour les organisations de penser au-delà de leur propre contenu et de leur axe de communication habituel. C’est donc l’opportunité pour elles d’inclure une combinaison de contenu original et de [curation de contenu](la-curation-de-contenus-devient-de-plus-en-plus-populaire-en-marketing.html "La curation de contenus devient de plus en plus populaire en marketing"), afin de renforcer leur position auprès des consommateurs. Du travailleur autonome aux géants de l’industrie, les organisations de toutes tailles peuvent bénéficier du marketing de contenu.

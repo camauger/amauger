@@ -1,12 +1,9 @@
 ---
 layout: post
-title: Bine exploiter le web multilingue
+title: Bien exploiter le web multilingue
 date: 2011-02-28
 modif: 2018-03-22
 categories: [web]
-author: Christian Amauger
-cover: multilingue
-permalink: bien-exploiter-le-web-multilingue.html
 ---
 
 Le Web est devenu, de nos jours, un environnement favorable au développement des relations commerciales.
