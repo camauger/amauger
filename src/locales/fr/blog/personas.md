@@ -4,7 +4,9 @@ title: Une présence web en fonction des besoins de vos internautes
 date: 2015-03-08
 modif: 2015-11-10
 categories: [reseaux sociaux, medias sociaux]
-
+author: Christian Amauger
+cover: web
+permalink: une-presence-web-en-fonction-des-besoins-de-vos-internautes.html
 ---
 
 Vous devez mettre vos clients au centre de la réflexion de votre présence web. Votre site web doit être structuré en fonction des habitudes et des besoins de vos clients. On ne le répète jamais assez : vous avez un site pour vos clients, pas pour vous, pas pour tous les internautes.

@@ -4,8 +4,6 @@ title: Vers les musées 2 (2ème partie)
 date: 2011-03-22
 modif: 2018-03-22
 categories: [reseaux sociaux, medias sociaux]
-
-summary:
 ---
 
 Cet article fait suite à « [Vers les musées 2.0 (1ère partie)](vers-les-musees-2-0-1ere-partie.html "Vers les musées 2.0 (1ère partie)") » (logique, non ?). Dans mon article précédent, je posais la question : « un musée, c’est quoi ? »
@@ -19,6 +17,7 @@ Le travail est double : interne (mise en place d’un intranet, circulation des 
 > « Pour rester attractif, face à la concurrence des autres institutions et des médias, le musée doit innover. Il s’agit de surprendre, attirer l’attention, émouvoir, élargir, fidéliser les publics, renouveler son image, diffuser les connaissances mais aussi savoir les partager, solliciter des mécènes pour valoriser espaces et collections. Voilà le défi du musée au XXIe siècle : intégrer le numérique dans la stratégie globale de l’établissement. Peu d’institutions y parviennent aujourd’hui. » (Arnaud Laborderie)
 
 Le musée numérique se doit d’être capable de maîtriser les « trois temps de la visite » :
+
 - **Avant** : par exemple, avec un site web attractif
 - **Pendant** : avec des applications mobiles qui enrichissent la visite
 - **Après** : en prolongeant l’échange avec le visiteur sur les réseaux sociaux

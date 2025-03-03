@@ -4,7 +4,6 @@ title: Vers les musées 2 (1ère partie)
 date: 2011-03-22
 modif: 2018-03-22
 categories: [reseaux sociaux, medias sociaux]
-
 ---
 
 Les musées, comme toutes les organisations, sont amenés à évoluer à l’ère numérique. Avec tous les enjeux – technologiques, budgétaires, humains – que cela comporte. Et avec comme premier enjeu, la redéfinition de leur rôle. C’est quoi aujourd’hui, un musée?
@@ -43,7 +42,7 @@ Le lieu contient, entrepose, expose. Les médiateurs mettent en valeur et en per
 Pour nous, un musée est tout à la fois un lieu de conservation et un lieu d’exposition. Les collections du musée sont le témoin de notre patrimoine culturel, dont la richesse est présentée au public au travers d’expositions. C’est justement pour permettre à chacun de découvrir cette richesse, pour faciliter l’accès aux musées, que nous avons créé [Exponaute : la plateforme sociale interactive des expositions et des musées](exponaute-la-plateforme-sociale-interactive-des-expositions-et-des-musees.html).
 
 **Définition de Samuel Bausson, webmestre au muséum de Toulouse**
-*(extrait de [Samuel, le museo-geek aux grandes oreilles sur le blog de Knowtex](http://www.knowtex.com/blog/samuel-le-museo-geek-aux-grandes-oreilles/))*
+_(extrait de [Samuel, le museo-geek aux grandes oreilles sur le blog de Knowtex](http://www.knowtex.com/blog/samuel-le-museo-geek-aux-grandes-oreilles/))_
 
 > Lorsqu’on lui demande sa définition d’un musée, il répond « un lieu de mémoire partagée, une plateforme d’échanges entre visiteurs et personnels du muséum autour des thématiques du musée, et non pas uniquement une galerie d’objets. Selon lui, « entrer dans le relationnel n’est pas une pratique courante pour les musées ». Alors, cette philosophie marche-t-elle en pratique ? Apparemment, oui. « Au début, il y avait beaucoup de « kikoolol », de discussions pas très sérieuses, sourit à moitié Samuel, mais plus tu es ouvert, plus le dialogue prend. De plus, il est plus intéressant de rebondir sur l’intérêt des gens plutôt que d’expliquer, d’imposer d’emblée, ce qui est considéré comme digne d’intérêt par l’institution… ».
 

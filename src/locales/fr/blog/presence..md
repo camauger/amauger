@@ -4,7 +4,6 @@ title: Marketing Web, de la prospection à la présence
 date: 2015-04-07
 modif: 2015-11-10
 categories: [reseaux sociaux, medias sociaux]
-
 ---
 
 Au lieu de trouver des clients, vous devez être trouvé par les clients. Si le marketing web reposait auparavant essentiellement sur la promotion de produits et de services pour atteindre les consommateurs potentiels, ce paradigme a largement évolué. Aujourd’hui, vous devez faire en sorte que le client vous trouve, à travers les différents canaux de communication actifs qu’il utilise : sites web, applications mobiles, médias sociaux.
