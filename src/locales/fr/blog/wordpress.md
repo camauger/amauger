@@ -3,6 +3,7 @@ layout: post
 title: Faut-il vraiment abandonner WordPress comme CMS ?
 date: 2015-11-13
 updated: 2015-11-10
+thumbnail: /assets/images/wordpress.jpg
 categories: [web, wordpress]
 ---
 

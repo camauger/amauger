@@ -4,6 +4,7 @@ title: Les chartes d'utilisation des médias sociaux (encadrer)
 date: 2012-07-10
 modif: 2015-11-10
 categories: [web]
+thumbnail: /assets/images/charte.jpg
 ---
 
 Face à la popularité croissante des réseaux sociaux, les organisations ressentent le besoin d’encadrer l’utilisation qui est faite de ces nouveaux médias par leurs employés à travers la mise en place d’une charte ou d’une politique.

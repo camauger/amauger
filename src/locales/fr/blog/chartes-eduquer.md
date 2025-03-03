@@ -4,6 +4,7 @@ title: Les chartes d'utilisation des médias sociaux (éduquer)
 date: 2012-07-26
 modif: 2015-11-10
 categories: [web]
+thumbnail: /assets/images/charte.jpg
 ---
 
 Une charte d’utilisation des médias [encadre](les-chartes-dutilisation-des-medias-sociaux-encadrer.html) et [confère un droit de parole](les-chartes-dutilisation-des-medias-sociaux-communiquer.html) aux employés d’une organisation. Afin de faire en sorte que ce droit de parole soit vécu de manière positive, les employés doivent être informés et responsabilisés adéquatement.

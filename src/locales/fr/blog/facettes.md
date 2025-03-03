@@ -1,40 +1,48 @@
 ---
 layout: post
-title: Les différentes facettes du Web 2.0
-date: 2012-01-12
-modif: 2015-11-10
-categories: [reseaux sociaux, medias sociaux]
-author: Christian Amauger
-cover: web2
-permalink: les-differentes-facettes-du-web-2-0.html
+title: Pour en finir avec le Web 2.0
+date: 2011-03-28
+categories: [web]
 ---
-		<p>Le <a title="1,2,3… Web" href="123-web.html">Web 2.0</a> n’est pas seulement une révolution technologique. Derrière cette expression se cache des phénomènes sociaux et une évolution des comportements des internautes qui représentent autant de défis et d’opportunités pour les organisations.<br />
-Les éléments socio-culturels du Web 2.0 suivants doivent être pris en compte lors d’une démarche de réflexion stratégique sur les médias sociaux :</p>
-<h3>Un Web participatif</h3>
-<p>La majorité des internautes diffusent maintenant en ligne des contenus qu’ils ont créés eux-mêmes. Les informations générées par les organisations cèdent la place aux contenus créés par des amateurs. La notion de Web participatif est évidemment centrale dans la définition du Web 2.0. L&rsquo;internaute a en effet la capacité de participer à toutes les étapes du cycle du contenu (création, publication, diffusion, partage).</p>
-<h3>Un Web collaboratif</h3>
-<p>Le Web 2.0 offre de riches possibilités de collaboration et « d&rsquo;intelligence collective » : wikis, outils d’indexation et de partage de ressources en ligne, développement coopératif de logiciels à code source ouvert (open source), plateformes d&rsquo;innovation ouvertes, etc.</p>
-<h3>Un Web narcissique</h3>
-<p>Si les activités participatives ou collaboratives sont nombreuses, il ne faut pas négliger le côté très individualiste du Web 2.0, centré davantage sur la personne que sur le contenu.</p>
-<h3>Un Web connecté</h3>
-<p>Le Web 2.0 offre des environnements qui permettent l’interaction entre les personnes et les données. Comme le disait Tim O’Reilly, la « force est dans le réseau ». L’interconnexion entre personnes et données entraîne la création de vastes réseaux (Facebook) ou des réseaux plus nichés (Flickr).<br />
-Ces réseaux sont alimentés par les contenus déposés par les internautes, qui contribuent à l’évolution du réseau. Les données deviennent sources d’information, et les réseaux s’interconnectent entre eux via la standardisation des protocoles d’échange (géolocalisation par exemple).</p>
-<h3>Un Web ouvert</h3>
-<p>Le Web 2.0 est construit sur une logique de partage. Il a favorisé le développement d’une culture et d’usages axés sur l’ouverture et facilitant la réutilisation. D’une part, c’est un Web démocratisé par les logiciels libres ou à codes sources ouverts, produits en collaboration par des pairs (on peut penser par exemple au succès du développement coopératif du navigateur Firefox).<br />
-Si leurs codes source ne sont pas toujours ouverts, les environnements sociaux du Web 2.0 sont la plupart du temps gratuits. Ils encouragent également le développement de nouvelles fonctionnalités et l’intégration avec d’autres réseaux.<br />
-Le Web 2.0 a aussi été conçu comme un espace de contribution et d’interaction public. Les contenus sont souvent ouverts à tous et peu ou pas censurés, le contrôle se faisant essentiellement par les pairs. Bien que des restrictions à l’accès se généralisent, et que certains services commencent à pratiquer la censure (Facebook, Google, Twitter), la diffusion large des contributions demeure un des intérêts de la participation en ligne.</p>
-<h3>Un Web mobile</h3>
-<p>De plus en plus d’internautes se connectent au Web via des branchements sans fil ou des téléphones intelligents. Le Web 2.0, c’est pour tout le monde, partout, tout le temps. Les technologies nomades évoluent rapidement et connaissent un engouement extraordinaire (pensons par exemple aux tablettes numériques).</p>
-<h3>Un Web instantané</h3>
-<p>La plupart des applications du Web 2.0 fonctionnent en mode quasi simultané. Comme en mode asynchrone, l’émetteur et le récepteur n’ont pas à être disponibles au même moment. Les communications peuvent pourtant s’y faire instantanément, simplement et informellement comme dans un échange synchrone. On combine donc la flexibilité dans la gestion du temps et la réflexion préalable que permet la communication asynchrone avec le caractère convivial et instantané du synchrone. À l’inverse, on conserve la spontanéité des échanges synchrones mais grâce à l’enregistrement et aux possibilités de rediffusion et d’indexation du Web 2.0, on y a accès en tout temps et en tous lieux.</p>
-<h3>Un Web persistant</h3>
-<p>Ces informations numérisées, indexées, copiées, bien que conçues pour une diffusion instantanée, demeurent accessibles et s’ajoutent à l’identité numérique de chacun. La décision d’assurer ou non cette pérennité est déléguée à un tiers qui héberge les données. Elles peuvent donc disparaître sans qu’on le veuille ou au contraire demeurer accessibles ou réapparaître alors qu’elles n’ont plus d’intérêt ou véhiculent des renseignements maintenant compromettants.</p>
-<h3>Un Web multimédia</h3>
-<p>L’univers textuel dans lequel nous avons évolué jusqu’ici devient rapidement multimédia. Un milliard de vidéos seraient visionnées chaque jour sur le Web. Cet apport de contenu est facilité par la multiplication des équipements personnels de production numérisée (téléphones cellulaires, caméras numériques, caméras web, etc.) et de logiciels gratuits ou peu coûteux de traitement et de diffusion.</p>
-<h3>Un Web diversifié</h3>
-<p>Les moyens et les formes de communication se multiplient. Les mêmes individus communiquent en parallèle au moyen de nombreux outils en fonction de préférences individuelles et de la nature de l’échange. Il ne suffit plus de créer un site Web et de croire qu’il servira d’unique point d’entrée.</p>
-<h3>Un Web personnalisé</h3>
-<p>Le Web, même plus collaboratif, évolue vers une plus grande personnalisation. C’est le cas à la fois des contenus, qui sont davantage représentatifs d’un individu (profil, photos, opinions, etc.) et de leur organisation par cet individu, qui peut choisir et combiner les ressources en ligne pour y avoir accès selon ses intérêts et préférences.</p>
-<h3>Un Web d’abondance</h3>
-<p>Le Web 2.0 est, à bien des points de vue, un univers de démesure. Tant les statistiques qui s’y rapportent que la rapidité avec laquelle elles évoluent sont phénoménales. La quantité de données générée atteint des niveaux vertigineux et c’est probablement l’aspect le plus marquant de cette démesure, particulièrement en éducation. L’utilisateur doit donc apprendre à utiliser et à gérer ce foisonnement, notamment en utilisant les outils que le Web 2.0 offre pour gérer ce flot (agrégateurs, partage de signets, etc.).</p>
-<p><img data-attachment-id="2132" data-permalink="https://www.christianamauger.com/les-differentes-facettes-du-web-2-0/nichoirs" data-orig-file="https://i2.wp.com/www.christianamauger.com/wp-content/uploads/2012/02/nichoirs.jpg?fit=1024%2C1024&amp;ssl=1" data-orig-size="1024,1024" data-comments-opened="1" data-image-meta="{&quot;aperture&quot;:&quot;0&quot;,&quot;credit&quot;:&quot;&quot;,&quot;camera&quot;:&quot;&quot;,&quot;caption&quot;:&quot;&quot;,&quot;created_timestamp&quot;:&quot;0&quot;,&quot;copyright&quot;:&quot;&quot;,&quot;focal_length&quot;:&quot;0&quot;,&quot;iso&quot;:&quot;0&quot;,&quot;shutter_speed&quot;:&quot;0&quot;,&quot;title&quot;:&quot;&quot;,&quot;orientation&quot;:&quot;0&quot;}" data-image-title="communauté web 2.0" data-image-description="" data-medium-file="https://i2.wp.com/www.christianamauger.com/wp-content/uploads/2012/02/nichoirs.jpg?fit=680%2C680&amp;ssl=1" data-large-file="https://i2.wp.com/www.christianamauger.com/wp-content/uploads/2012/02/nichoirs.jpg?fit=1024%2C1024&amp;ssl=1" class="aligncenter size-medium wp-image-2132" title="communauté web 2.0" src="../i2.wp.com/www.christianamauger.com/wp-content/uploads/2012/02/nichoirsbbc0.jpg?resize=680%2C680&amp;ssl=1" alt="communauté web 2.0" width="680" height="680" srcset="https://i2.wp.com/www.christianamauger.com/wp-content/uploads/2012/02/nichoirs.jpg?resize=680%2C680&amp;ssl=1 680w, https://i2.wp.com/www.christianamauger.com/wp-content/uploads/2012/02/nichoirs.jpg?resize=100%2C100&amp;ssl=1 100w, https://i2.wp.com/www.christianamauger.com/wp-content/uploads/2012/02/nichoirs.jpg?w=1024&amp;ssl=1 1024w" sizes="(max-width: 639px) 98vw, (max-width: 1199px) 64vw, 680px" data-recalc-dims="1" /></p>
+
+Le [Web 2.0](123-web.html "1,2,3… Web") va avoir 7 ans en 2011. Concept marketing, expression séduisante alliant évolutions culturelles et évolutions technologiques, le Web 2.0 s’essouffle. Non, pas en soi, mais en tant qu’expression. Utile pour populariser le contexte (2.0, c'est cool), l'expression brouille les cartes et masque une réalité plus complexe.
+
+### Javellisation du Web 2.0
+
+À force d’être galvaudé, le terme perd son sens (s’il en avait vraiment un…). Chacun se l’approprie et en parle à sa manière, et en donne sa propre définition. Qu’est-ce que le Web 2.0 ? On ne sait plus trop. Entre les « gourous » des médias sociaux, les journalistes fascinés par Twitter, les politiciens qui veulent imiter Obama et les responsables marketing qui y voient une mine d’or, c’est difficile de démêler le vrai du faux, le superficiel de l’essentiel. Il faut aller au-delà de l’expression, et utiliser des termes chargés de sens, et non des « mots de javel ».
+
+Alors, qu’est-ce que le Web 2.0 ? La notion de « 2.0 » implique le passage à autre chose, la transformation radicale, voire la révolution. De 1 à 2, le fossé est large, il ne s’agit pas de 1,16 ou de 1,38. Or cela ne reflète pas du tout la réalité. L’adoption de nouveaux outils, et leur appropriation, au sein des organisations, est longue et souvent tumultueuse (et pénible). Il y a les réfractaires (« c’est une perte de temps »), les craintifs (« Big Brother est là »), les enthousiastes (qui le sont parfois trop, ou pour les mauvaises raisons), etc. La gestion du changement est un art en soi.
+
+C’est la même chose du côté des consommateurs. Si les produits évoluent très vite, leur utilisation s’incorpore tranquillement dans les modes de vie. Par exemple, l’iPad2 sort au moment où une grande partie de la population se demande encore à quoi peut bien servir un iPad. Vive l’obsolescence programmée ! Mais c’est un autre sujet… Revenons plutôt à notre bon vieux Web 2.0.
+
+Le Web 2.0 est souvent défini comme étant finalement le « web participatif », c’est-à-dire que les internautes peuvent interagir davantage (par rapport aux débuts du web). C’est synthétique, mais je trouve qu’aujourd’hui cela ne suffit plus. Participer, c’est bien mignon, mais pourquoi faire ?
+
+### Les quatre axes du Web (2.0)
+
+Le Web 2.0, c’est finalement la maturation du web et de ses fonctions. Une complexification par la multiplication des acteurs (les internautes) et de leurs pouvoirs d’interactions. Cette complexification se retrouve dans les 4 grands axes du web : informatif, commercial, social et collaboratif.
+
+- **Web informatif** : présentation de contenus (textes, images, vidéos, etc.), pensons à l’explosion de la blogosphère, et à des sites de plus en plus riches en contenus multimédia.
+- **Web commercial** : commerce électronique, publicités, abonnements en ligne (oui, ce n’est pas honteux de faire de l’argent sur Internet).
+- **Web social** : nous nous connectons les uns aux autres, que ce soit de manière professionnelle (LinkedIn) ou plus personnelle (Facebook).
+- **Web collaboratif** : le wiki fait la force.
+
+Ces dimensions sont présentes depuis le début du Web, leur développement s’est simplement radicalement accéléré à partir du début des années 2000. Il faut donc plus voir le Web 2.0 comme une évolution que comme une coupure.
+
+Cela s’applique également aux autres déclinaisons de « 2.0 ». Tout est « 2.0 » aujourd’hui : la politique, la mode, les boulangeries, les voitures, les [musées](vers-les-musees-2-0-1ere-partie.html "Vers les musées 2.0 (1ère partie)")… Nous (incluant la personne qui blogue) souffrons parfois de deuxpointzéroïte aiguë. Si on comprend ce 2.0 comme une évolution, un objectif à atteindre (d’un point A à un point B), cela me paraît acceptable. Mais attention, ne pas y voir une « révolution ».
+
+### De nouveaux défis
+
+Aujourd’hui, les quatre axes du Web mentionnés font face à de nouveaux défis. Car le web continue de se complexifier. Non, ne me parlez pas de Web 3.0, ce n’est pas le moment !
+
+Voyons voir les défis à relever :
+
+- **Web informatif** : nous sommes en surdose d’informations – l’infobésité nous guette sérieusement (des millions de « tweets », de blogs, de messages, d’infolettres, etc.), et la gestion efficace de l’information va être plus que jamais un enjeu pour les organisations. On parle déjà beaucoup de « curation » et de « [content curator](content-curator-un-mot-a-retenir-dans-le-web-social-de-2011.html "Content Curator, un mot à retenir dans le Web social de 2011") ».
+- **Web commercial** : où sont les modèles d’affaires viables ? Le risque d’une bulle 2.0 est grand. Attention aux mirages et aux entreprises gonflées aux médias sociaux (ex: [Facebook](facebook-vaudrait-50-milliards-de-dollars-et-alors.html "Facebook vaudrait 50 milliards de dollars (et alors?)") ?).
+- **Web social** : [nous sommes tous « égo »](influence-influenceurs-et-influences.html "Influence, influenceurs et influencés"), ou le narcissisme et l’individualisme à leur paroxysme.
+- **Web collaboratif** : si la collaboration peut être la solution aux défis des 3 autres axes, pour que la collaboration soit efficace, les individus doivent être éduqués, formés et impliqués. Ce processus demande une vision de la part des dirigeants et des ressources appropriées.
+
+### Web collaboratif
+
+Le web collaboratif est selon moi la dimension la plus intéressante du web. Moins médiatisé que « le social », plus complexe à mettre en œuvre que « l’informatif », le web collaboratif est amené à prendre de plus en plus de place. La mobilité accrue des travailleurs, le besoin de gérer efficacement les flux d’information, la modification du rapport au travail sont autant de facteurs qui vont encourager les organisations à explorer la voie de la collaboration.
+
+Pour instaurer des initiatives de web collaboratif, les défis sont nombreux. Il s’agit moins de défis technologiques que culturels. Les individus doivent être éduqués, formés et impliqués pour que les projets fonctionnent. La culture de l’organisation doit être propice à de tels projets. Des stratégies efficaces de gestion du changement doivent donc être mises en place pour accompagner les acteurs du web collaboratif. C’est là qu’entre en jeu un [stratège web](dessine-moi-un-stratege-web.html "Dessine-moi un stratège Web"), bien entendu.

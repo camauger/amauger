@@ -3,6 +3,7 @@ layout: post
 title: Les chartes d'utilisation des médias sociaux (introduction)
 date: 2012-07-04
 modif: 2015-11-10
+thumbnail: /assets/images/charte.jpg
 categories: [web]
 ---
 

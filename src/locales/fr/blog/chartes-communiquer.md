@@ -4,6 +4,7 @@ title: Les chartes d'utilisation des médias sociaux (communiquer)
 date: 2012-07-17
 modif: 2015-11-10
 categories: [web]
+thumbnail: /assets/images/charte.jpg
 ---
 
 La mise en place d’une charte d’utilisation des médias sociaux repose souvent sur [la nécessité d’encadrer, de structurer](les-chartes-dutilisation-des-medias-sociaux-encadrer.html) la relation entre ces nouveaux médias et les employés d’une organisation. La charte doit également appréhender correctement la nature des médias sociaux, qui sont avant tout des plateformes d’échange. Elle doit par conséquent s’appuyer sur une stratégie de communication, qui définit à la fois les contenus et les supports utilisés.

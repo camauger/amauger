@@ -3,7 +3,8 @@ layout: post
 title: Les chartes d'utilisation des médias sociaux, valoriser
 date: 2012-08-27
 modif: 2015-11-10
-categories: web]
+categories: [web]
+thumbnail: /assets/images/charte.jpg
 ---
 
 Cet article fait suite à une série sur les chartes d’utilisation des médias sociaux :
