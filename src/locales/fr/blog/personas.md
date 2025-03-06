@@ -14,8 +14,6 @@ Vous devez concevoir votre site comme un chemin, avec ses étapes, ou une histoi
 
 L’ensemble des éléments du site – design, contenus – doit être évidemment cohérent avec les objectifs fixés.
 
-![lego-indiana-hoth](https://i1.wp.com/www.christianamauger.com/wp-content/uploads/2015/04/AvanautLegoSW1159b2.jpg?resize=680%2C453&amp;ssl=1 "lego-indiana-hoth")
-
 Vous devez approfondir la relation avec les clients en leur offrant de la valeur ajoutée. Si vous demandez de l’information à vos internautes (remplir un formulaire avec des données importantes pour votre qualification commerciale), assurez-vous de lui donner suffisamment de valeur en retour. Vous devez également le rassurer sur l’utilisation qui sera faite des données fournies.
 
 Le bénéfice doit être pensé de manière réciproque, de manière à développer une relation durable.

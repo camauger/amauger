@@ -161,8 +161,7 @@ class PageBuilder:
                     output_path = self.dist_path / lang / taxonomy_url_slug / slug / 'index.html'
 
                 page_metadata = {
-                    'title': f"{taxonomy_type.capitalize()}: {taxonomy_name}",
-                    'description': f"Articles avec le {taxonomy_type} {taxonomy_name}",
+                    'title': taxonomy_name,
                     'lang': lang,
                     'url': tax_url,
                     'taxonomy': taxonomy_name,

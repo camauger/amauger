@@ -34,7 +34,6 @@ Il faut considérer deux types d’éducation :
 - Éducation à l’outil, afin de favoriser le développement de compétences qui pourront servir dans la vie professionnelle
 - Éducation à l’usage, afin de favoriser le développement d’une identité numérique positive et citoyenne
 
-[![Informer vos employés](../i0.wp.com/www.christianamauger.com/wp-content/uploads/2012/07/149294506_62d9aadb55_oee33.jpg?resize=600%2C447&ssl=1)](../i0.wp.com/www.christianamauger.com/wp-content/uploads/2012/07/149294506_62d9aadb55_oeb45.jpg?ssl=1)
 
 #### La gestion de l’identité numérique
 
@@ -60,8 +59,6 @@ Au-delà des préoccupations institutionnelles, chaque utilisateur doit disposer
 #### Les compétences techniques
 
 Les médias sociaux sont simples d’utilisation, mais il est nécessaire de prévoir un apprivoisement, si ce n’est une formation à l’outil. Des consignes ou des guides sont nécessaires de même qu’une période d’expérimentation.
-
-[![Des compétences techniques à développer](../i1.wp.com/www.christianamauger.com/wp-content/uploads/2012/07/2435823037_982e775726_oeb00.jpg?resize=595%2C432&ssl=1)](../i1.wp.com/www.christianamauger.com/wp-content/uploads/2012/07/2435823037_982e775726_oeb45.jpg?ssl=1)
 
 #### Des recommandations pour la dimension éducative d’une charte d’utilisation des médias sociaux
 

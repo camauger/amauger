@@ -5,6 +5,8 @@ date: 2012-07-17
 modif: 2015-11-10
 categories: [web]
 thumbnail: /assets/images/charte.jpg
+summary: La charte encadre les communications sur les médias sociaux. Pour qu’elle soit efficace, il faut d’abord comprendre le fonctionnement des communications sur ces nouveaux médias. Le risque ici étant de donner une réponse inappropriée à un phénomène qui ne s’inscrit pas dans les communications traditionnelles.
+
 ---
 
 La mise en place d’une charte d’utilisation des médias sociaux repose souvent sur [la nécessité d’encadrer, de structurer](chartes-encadrer) la relation entre ces nouveaux médias et les employés d’une organisation. La charte doit également appréhender correctement la nature des médias sociaux, qui sont avant tout des plateformes d’échange. Elle doit par conséquent s’appuyer sur une stratégie de communication, qui définit à la fois les contenus et les supports utilisés.
@@ -17,11 +19,9 @@ Les médias sociaux sont des outils de communication, mais il est important de c
 Les activités organisées dans les médias sociaux devraient donc en principe favoriser l’échange et la rétroaction. À ce titre, on pourrait rapprocher les médias sociaux et la démocratie participative.
 Il est important de concevoir les activités en fonction de la communauté dans laquelle évolue votre organisation.
 
-[![Ceci n'est pas un média social](../i2.wp.com/www.christianamauger.com/wp-content/uploads/2012/07/cecinestpasunmediasocial5a82.jpg?resize=544%2C408&ssl=1)](../i2.wp.com/www.christianamauger.com/wp-content/uploads/2012/07/cecinestpasunmediasocialeb45.jpg?ssl=1)
-
 #### Une présence continue
 
-Le [Web 2.0](les-differentes-facettes-du-web-2-0.html) est un univers de quasi-instantanéité. Ses usagers ont des attentes élevées en matière de rapidité de réponse. Si vous ne pouvez participer activement à la conversation, répondre rapidement, il vaut mieux ne pas l’initier, vous risqueriez de perdre votre crédibilité.
+Le Web 2.0 est un univers de quasi-instantanéité. Ses usagers ont des attentes élevées en matière de rapidité de réponse. Si vous ne pouvez participer activement à la conversation, répondre rapidement, il vaut mieux ne pas l’initier, vous risqueriez de perdre votre crédibilité.
 L’encadrement de cheminements interactifs comme ceux que permet le Web 2.0 demande donc non seulement plus de temps, mais aussi une disponibilité plus continue.
 Il est important d’établir, dès le départ, des plages de disponibilité.
 
@@ -29,8 +29,6 @@ Il est important d’établir, dès le départ, des plages de disponibilité.
 
 Les commentaires négatifs ne doivent pas faire paniquer l’organisation. Ce sont des occasions de mieux s’expliquer, ou de présenter les choses sous un autre angle. Dans les environnements sociaux du Web, les mécanismes d’auto-régulation sont assez puissants : les partisans de votre cause ont tendance à réagir fortement aux commentaires négatifs avant même que n’ayez pu intervenir.
 Bien sûr, des commentaires purement nuisibles, haineux ou diffamatoires apparaissent également. Il faut les traiter comme tels et en référer aux autorités du média social ou du site (ce n’est pas toujours un processus évident).
-
-[![Communiquer sur les médias sociaux](../i2.wp.com/www.christianamauger.com/wp-content/uploads/2012/07/3184988008_7ecba972e2_b50d5.jpg?resize=544%2C362&ssl=1)](../i2.wp.com/www.christianamauger.com/wp-content/uploads/2012/07/3184988008_7ecba972e2_beb45.jpg?ssl=1)
 
 #### Une stratégie de contenus
 

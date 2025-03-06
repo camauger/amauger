@@ -40,7 +40,7 @@ Voyons voir les défis à relever :
 
 - **Web informatif** : nous sommes en surdose d’informations – l’infobésité nous guette sérieusement (des millions de « tweets », de blogs, de messages, d’infolettres, etc.), et la gestion efficace de l’information va être plus que jamais un enjeu pour les organisations. On parle déjà beaucoup de « curation » et de « [content curator](content-curator-un-mot-a-retenir-dans-le-web-social-de-2011.html "Content Curator, un mot à retenir dans le Web social de 2011") ».
 - **Web commercial** : où sont les modèles d’affaires viables ? Le risque d’une bulle 2.0 est grand. Attention aux mirages et aux entreprises gonflées aux médias sociaux (ex: [Facebook](facebook-vaudrait-50-milliards-de-dollars-et-alors.html "Facebook vaudrait 50 milliards de dollars (et alors?)") ?).
-- **Web social** : [nous sommes tous « égo »](influence-influenceurs-et-influences.html "Influence, influenceurs et influencés"), ou le narcissisme et l’individualisme à leur paroxysme.
+- **Web social** : [nous sommes tous « égo »](influence "Influence, influenceurs et influencés"), ou le narcissisme et l’individualisme à leur paroxysme.
 - **Web collaboratif** : si la collaboration peut être la solution aux défis des 3 autres axes, pour que la collaboration soit efficace, les individus doivent être éduqués, formés et impliqués. Ce processus demande une vision de la part des dirigeants et des ressources appropriées.
 
 ### Web collaboratif

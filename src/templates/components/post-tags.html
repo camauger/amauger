@@ -9,12 +9,6 @@
       itemprop="keywords"
       itemtype="https://schema.org/keywords"
     >
-      <h2 id="keywords-heading" class="taxonomy-heading">
-        <span class="taxonomy-icon" aria-hidden="true">
-          <i class="fa-solid fa-star"></i>
-        </span>
-        <span class="taxonomy-label">{{ t.keywords_heading }}</span>
-      </h2>
       <ul class="taxonomy-list" role="list">
         {% for keyword in page.meta_keywords %}
         <li class="taxonomy-item" role="listitem" itemprop="keyword">
@@ -42,12 +36,6 @@
       itemprop="articleSection"
       itemtype="https://schema.org/category"
     >
-      <h2 id="categories-heading" class="taxonomy-heading">
-        <span class="taxonomy-icon" aria-hidden="true">
-          <i class="fa-solid fa-tag"></i>
-        </span>
-        <span class="taxonomy-label">{{ t.categories_heading }}</span>
-      </h2>
       <ul class="taxonomy-list" role="list">
         {% for category in page.categories %}
         <li class="taxonomy-item" role="listitem" itemprop="category">
@@ -69,3 +57,4 @@
   </div>
   {% endif %}
 </aside>
+<hr />

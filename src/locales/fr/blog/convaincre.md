@@ -45,4 +45,3 @@ La question de la longueur des textes me paraît toujours un peu futile. De mani
 
 Il est important de bien structurer vos contenus de manière à faciliter la recherche d’information et la lecture. L’internaute lira vos textes, quels que soient leur taille, si vos informations sont celles qui sont recherchées.
 
-Si vos contenus son

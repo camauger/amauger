@@ -8,7 +8,7 @@ thumbnail: /assets/images/marketingcontenu.jpg
 
 ---
 
-Sur le Web, le contenu est roi. Le [marketing de contenu](le-marketing-de-contenu-est-roi.html "Le marketing de contenu est roi") occupe donc a priori une place de choix dans les stratégies de développement d’une présence Web. Mais quand on parle de marketing de contenu, de quoi s’agit-il ?
+Sur le Web, le contenu est roi. Le [marketing de contenu](roi "Le marketing de contenu est roi") occupe donc a priori une place de choix dans les stratégies de développement d’une présence Web. Mais quand on parle de marketing de contenu, de quoi s’agit-il ?
 
 Le marketing de contenu est un terme générique qui englobe tous les formats de marketing impliquant la création ou le partage de contenu dans le but de développer, d’enrichir des relations avec des clientèles actuelles et potentielles. Un terme trop générique ?
 

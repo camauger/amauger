@@ -19,9 +19,6 @@ Ceci dit, vous devez aider Google à comprendre vos textes. Les moteurs de reche
 
 C’est là que la structure des textes entre en jeu. Titre, sous-titre, accroche, etc. Tous ces éléments qui facilitent la lecture pour l’être humain fonctionnent également pour les moteurs de recherche, sous la forme de balises html (h1, h2, etc.). Plus vos textes seront bien structurés, plus ils seront faciles à intégrer de manière à ce que les moteurs de recherche les analysent correctement.
 
-[![Portrait de blogueur par Gabriela Herman](../i2.wp.com/www.christianamauger.com/wp-content/uploads/2011/06/gherman-blogueur-25c95.jpg?resize=612%2C407&ssl=1)](http://www.gabrielaherman.com/)
-_Portrait de blogueur par Gabriela Herman_
-
 **Écrire pour les autres, mais pas pour tout le monde**
 
 Écrire pour le Web, c’est avant tout écrire pour les internautes. Pas tous les internautes, attention, mais ceux qui composent votre communauté.

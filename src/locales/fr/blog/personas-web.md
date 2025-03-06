@@ -24,8 +24,6 @@ Lors de la conception d’un site Web, la définition des personas est une étap
 
 Un bon exemple de l’utilisation directe du concept de personas est le site du cabinet d’études [Forrester](http://www.forrester.com/). Dès votre arrivée sur le site, vous êtes invité à définir votre occupation professionnelle, afin d’ensuite vous fournir des informations adaptées à votre travail.
 
-[![personas](../i0.wp.com/www.christianamauger.com/wp-content/uploads/2013/02/416665541_1f07283ecb_o10cf.jpg?fit=680%2C453&amp;ssl=1 "personas")](../i0.wp.com/www.christianamauger.com/wp-content/uploads/2013/02/416665541_1f07283ecb_oeb45.jpg?ssl=1)
-
 ## Quelques conseils sur la définition des personas
 
 La meilleure façon de commencer à définir les personas pour un nouveau site web est de rencontrer les acteurs qui sont les plus proches des visiteurs potentiels. En posant les bonnes questions, vous devriez être en mesure de déterminer :

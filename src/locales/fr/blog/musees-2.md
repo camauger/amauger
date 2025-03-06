@@ -7,7 +7,7 @@ categories: [web]
 thumbnail: /assets/images/musee.jpg
 ---
 
-Cet article fait suite à « [Vers les musées 2.0 (1ère partie)](vers-les-musees-2-0-1ere-partie.html "Vers les musées 2.0 (1ère partie)") » (logique, non ?). Dans mon article précédent, je posais la question : « un musée, c’est quoi ? »
+Cet article fait suite à « [Vers les musées 2.0 (1ère partie)](musees-1 "Vers les musées 2.0 (1ère partie)") » (logique, non ?). Dans mon article précédent, je posais la question : « un musée, c’est quoi ? »
 
 Pour moi, un musée, c’est un lieu dans lequel sont collectées des œuvres d’art. Mais pas seulement. Un musée, c’est une institution qui, en entreposant un patrimoine culturel, permet justement de le conserver. Le musée n’est donc pas qu’un entrepôt, il est aussi un acteur culturel.
 
