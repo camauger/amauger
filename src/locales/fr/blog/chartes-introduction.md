@@ -32,4 +32,4 @@ Les médias sociaux restent une source d’opportunités formidables pour une en
 
 Plusieurs entreprises ont choisi de mettre en place une politique très simple, misant sur le bon sens des individus. Il y a même des chartes d’utilisation des médias sociaux qui ne comportent qu’un seul point. Si, si, c’est possible de faire simple. Alan Murray, directeur adjoint du Wall Street Journal, affirme que la meilleure charte se résume en un point : _Ne sois pas stupide_.
 
-**(lire la suite – [chartes d’utilisation des médias sociaux : la nécessité de l’encadrement](les-chartes-dutilisation-des-medias-sociaux-encadrer.html))**
+**(lire la suite – [chartes d’utilisation des médias sociaux : la nécessité de l’encadrement](chartes-encadrer))**

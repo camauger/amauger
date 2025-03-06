@@ -9,10 +9,10 @@ thumbnail: /assets/images/charte.jpg
 
 Cet article fait suite à une série sur les chartes d’utilisation des médias sociaux :
 
-- [Introduction](les-chartes-dutilisation-des-medias-sociaux-introduction.html "Les chartes d’utilisation des médias sociaux : introduction")
-- [Encadrer](les-chartes-dutilisation-des-medias-sociaux-encadrer.html "Les chartes d’utilisation des médias sociaux : encadrer")
+- [Introduction](chartes-introduction "Les chartes d’utilisation des médias sociaux : introduction")
+- [Encadrer](chartes-encadrer "Les chartes d’utilisation des médias sociaux : encadrer")
 - Communiquer
-- [Éduquer](les-chartes-dutilisation-des-medias-sociaux-eduquer.html "Les chartes d’utilisation des médias sociaux : éduquer")
+- [Éduquer](chartes-eduquer "Les chartes d’utilisation des médias sociaux : éduquer")
 
 Tel que mentionné dans les précédents articles, une charte d’utilisation des médias sociaux ne peut se limiter à être une succession d’interdits. Elle doit favoriser l’usage de ces nouveaux médias. La mise en place d’une politique doit être considérée moins comme une contrainte que comme une opportunité pour une organisation. Les politiques d’utilisation ont malheureusement tendance à dire ce qu’il ne faut pas faire plutôt que d’encourager ce qu’il est bon de faire.
 

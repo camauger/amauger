@@ -7,7 +7,7 @@ categories: [web]
 thumbnail: /assets/images/charte.jpg
 ---
 
-La mise en place d’une charte d’utilisation des médias sociaux repose souvent sur [la nécessité d’encadrer, de structurer](les-chartes-dutilisation-des-medias-sociaux-encadrer.html) la relation entre ces nouveaux médias et les employés d’une organisation. La charte doit également appréhender correctement la nature des médias sociaux, qui sont avant tout des plateformes d’échange. Elle doit par conséquent s’appuyer sur une stratégie de communication, qui définit à la fois les contenus et les supports utilisés.
+La mise en place d’une charte d’utilisation des médias sociaux repose souvent sur [la nécessité d’encadrer, de structurer](chartes-encadrer) la relation entre ces nouveaux médias et les employés d’une organisation. La charte doit également appréhender correctement la nature des médias sociaux, qui sont avant tout des plateformes d’échange. Elle doit par conséquent s’appuyer sur une stratégie de communication, qui définit à la fois les contenus et les supports utilisés.
 
 #### Les médias sociaux ne sont pas des médias de masse
 
@@ -57,4 +57,4 @@ D’autre part, la notion d’accessibilité doit demeurer au cœur des préoccu
 
 #### Une question d’éducation et de responsabilisation
 
-Afin de faire en sorte que le droit de parole conféré par une charte d’utilisation soit vécu de manière positive par les acteurs de la communauté, ces derniers doivent être informés et responsabilisés adéquatement. **[Ceci est l’objet de l’article suivant de cette série.](les-chartes-dutilisation-des-medias-sociaux-eduquer.html)**
+Afin de faire en sorte que le droit de parole conféré par une charte d’utilisation soit vécu de manière positive par les acteurs de la communauté, ces derniers doivent être informés et responsabilisés adéquatement. **[Ceci est l’objet de l’article suivant de cette série.](chartes-eduquer)**

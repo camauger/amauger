@@ -7,7 +7,7 @@ thumbnail: /assets/images/influence.jpg
 
 ---
 
-Le [Web 2.0](123-web.html "1,2,3… Web") va avoir 7 ans en 2011. Concept marketing, expression séduisante alliant évolutions culturelles et évolutions technologiques, le Web 2.0 s’essouffle. Non, pas en soi, mais en tant qu’expression. Utile pour populariser le contexte (2.0, c'est cool), l'expression brouille les cartes et masque une réalité plus complexe.
+Le [Web 2.0](123web "1,2,3… Web") va avoir 7 ans en 2011. Concept marketing, expression séduisante alliant évolutions culturelles et évolutions technologiques, le Web 2.0 s’essouffle. Non, pas en soi, mais en tant qu’expression. Utile pour populariser le contexte (2.0, c'est cool), l'expression brouille les cartes et masque une réalité plus complexe.
 
 ### Javellisation du Web 2.0
 
@@ -47,4 +47,4 @@ Voyons voir les défis à relever :
 
 Le web collaboratif est selon moi la dimension la plus intéressante du web. Moins médiatisé que « le social », plus complexe à mettre en œuvre que « l’informatif », le web collaboratif est amené à prendre de plus en plus de place. La mobilité accrue des travailleurs, le besoin de gérer efficacement les flux d’information, la modification du rapport au travail sont autant de facteurs qui vont encourager les organisations à explorer la voie de la collaboration.
 
-Pour instaurer des initiatives de web collaboratif, les défis sont nombreux. Il s’agit moins de défis technologiques que culturels. Les individus doivent être éduqués, formés et impliqués pour que les projets fonctionnent. La culture de l’organisation doit être propice à de tels projets. Des stratégies efficaces de gestion de changement doivent donc être mises en place pour accompagner les acteurs du web collaboratif. C’est là qu’entre en jeu un [stratège web](dessine-moi-un-stratege-web.html "Dessine-moi un stratège Web"), bien entendu.
+Pour instaurer des initiatives de web collaboratif, les défis sont nombreux. Il s’agit moins de défis technologiques que culturels. Les individus doivent être éduqués, formés et impliqués pour que les projets fonctionnent. La culture de l’organisation doit être propice à de tels projets. Des stratégies efficaces de gestion de changement doivent donc être mises en place pour accompagner les acteurs du web collaboratif. C’est là qu’entre en jeu un [stratège web](dessine "Dessine-moi un stratège Web"), bien entendu.

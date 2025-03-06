@@ -7,7 +7,7 @@ categories: [web]
 thumbnail: /assets/images/convaincre.jpg
 ---
 
-Voici la suite de « [Écrire pour le Web : La revanche du contenu sur le contenant](ecrire-pour-le-web-la-revanche-du-contenu-sur-le-contenant.html "Écrire pour le Web : La revanche du contenu sur le contenant") ». Après avoir mentionné l’importance du contenu rédactionnel pour les sites Web, je me lance dans quelques pistes pour appréhender correctement l’écriture Web.
+Voici la suite de « [Écrire pour le Web : La revanche du contenu sur le contenant](ecrire "Écrire pour le Web : La revanche du contenu sur le contenant") ». Après avoir mentionné l’importance du contenu rédactionnel pour les sites Web, je me lance dans quelques pistes pour appréhender correctement l’écriture Web.
 
 **Objectifs, objectifs, objectifs**
 

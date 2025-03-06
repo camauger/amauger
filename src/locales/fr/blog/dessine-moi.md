@@ -50,4 +50,4 @@ La mise en œuvre de toute stratégie nécessite une gestion du changement. Le s
 
 ### Dessine-moi un stratège Web…
 
-![Dessine-moi un stratège Web](/assets/img/Stratège-Web-en-7-mots76a1.jpg)
+![Dessine-moi un stratège Web](/assets/images/dessine.jpg)

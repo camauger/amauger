@@ -8,16 +8,14 @@ thumbnail: /assets/images/charte.jpg
 ---
 
 Face à la popularité croissante des réseaux sociaux, les organisations ressentent le besoin d’encadrer l’utilisation qui est faite de ces nouveaux médias par leurs employés à travers la mise en place d’une charte ou d’une politique.
-Tel que mentionné dans [l’article précédent](les-chartes-dutilisation-des-medias-sociaux-introduction.html "Les chartes d’utilisation des médias sociaux : introduction"), une charte ne devrait pas se limiter à dire ce qu’il ne faut pas faire. Elle devrait comprendre des aspects plus positifs. J’ai regroupé ces différents aspects en 4 thématiques, qui feront chacune l’objet d’un article :
+Tel que mentionné dans [l’article précédent](chartes-introduction "Les chartes d’utilisation des médias sociaux : introduction"), une charte ne devrait pas se limiter à dire ce qu’il ne faut pas faire. Elle devrait comprendre des aspects plus positifs. J’ai regroupé ces différents aspects en 4 thématiques, qui feront chacune l’objet d’un article :
 
-1. [Encadrer](les-chartes-dutilisation-des-medias-sociaux-encadrer.html "Les chartes d’utilisation des médias sociaux : encadrer")
-2. [Communiquer](les-chartes-dutilisation-des-medias-sociaux-communiquer.html "Les chartes d’utilisation des médias sociaux : communiquer")
-3. [Éduquer](les-chartes-dutilisation-des-medias-sociaux-eduquer.html "Les chartes d’utilisation des médias sociaux : éduquer")
-4. [Valoriser](les-chartes-dutilisation-des-medias-sociaux-valoriser.html "Les chartes d’utilisation des médias sociaux : valoriser")
+1. [Encadrer](chartes-encadrer "Les chartes d’utilisation des médias sociaux : encadrer")
+2. [Communiquer](chartes-communiquer "Les chartes d’utilisation des médias sociaux : communiquer")
+3. [Éduquer](chartes-eduquer "Les chartes d’utilisation des médias sociaux : éduquer")
+4. [Valoriser](chartes-valoriser "Les chartes d’utilisation des médias sociaux : valoriser")
 
 Ces quatre thématiques devraient être présentes dans une charte. Commençons par la notion d’encadrement, qui est généralement le point de départ de la réflexion des organisations face à l’utilisation des nouveaux médias par les employés.
-
-[![Charte d'utilisation des médias sociaux](../i0.wp.com/www.christianamauger.com/wp-content/uploads/2012/07/Slide15a82.jpg?resize=544%2C408&ssl=1 "Charte d’utilisation des médias sociaux")](../i0.wp.com/www.christianamauger.com/wp-content/uploads/2012/07/Slide1eb45.jpg?ssl=1)
 
 #### De la nécessité de l’encadrement
 
@@ -45,8 +43,6 @@ Au-delà des risques, il est crucial de mettre de l’avant les aspects positifs
 Il est insuffisant de décréter des conditions d’utilisation, de surveiller et de punir. Sur Internet, la possibilité de contourner les règles est très présente. Les technologies évoluent plus vite que le cadre de contrôle.
 Lorsque les conditions d’utilisation sont trop lourdes, les usagers sont tentés de se tourner vers d’autres solutions, des services conviviaux et souvent gratuits, qui répondent à leurs besoins. Or ces services ne respectent pas nécessairement les lois en vigueur au Québec, et leur gratuité cache souvent le fait que ce sont avant tout des produits appartenant à de plus ou moins grandes entreprises.
 Une charte ne peut donc pas être simplement une succession d’interdits.
-
-[![Charte d'utilisation des médias sociaux](../i0.wp.com/www.christianamauger.com/wp-content/uploads/2012/07/3060694963_3d778f69dd_b50d5.jpg?resize=544%2C362&ssl=1 "Charte d’utilisation des médias sociaux")](../i0.wp.com/www.christianamauger.com/wp-content/uploads/2012/07/3060694963_3d778f69dd_beb45.jpg?ssl=1)
 
 #### La notion de territoire
 
@@ -90,12 +86,10 @@ _Des recommandations :_
 
 L’armée de l’air américaine (Air Force) a publié un guide pour promouvoir le bon usage des médias sociaux : « [Navigating the social network](wp-content/uploads/2012/07/AFD-120327-048.pdf) » (document PDF en anglais). Le ministère français de la défense a lui aussi publié un guide semblable qui trace les grandes lignes d’un usage approprié des nouveaux médias : « [Guide du bon usage des médias sociaux](wp-content/uploads/2012/07/telecharger.pdf) » (document PDF en français).
 
-[![navigating the social network](../i2.wp.com/www.christianamauger.com/wp-content/uploads/2012/07/navigating-the-social-network0c6f.png?resize=680%2C259&ssl=1 "navigating the social network")](../i2.wp.com/www.christianamauger.com/wp-content/uploads/2012/07/navigating-the-social-networkeb45.png?ssl=1)
-
 #### Conférer et structurer le droit de parole
 
 Destinée à l’ensemble des acteurs de la communauté, une charte doit être accompagnée d’une définition claire des territoires de légitimité de chacun d’entre eux.
 Encadrer les médias sociaux, c’est donc donner un droit de parole, lui conférer même une légitimité, et non créer une barrière. L’encadrement se situe donc dans une démarche positive de communication, et non d’interdiction.
 Conférer un droit de parole doit nécessairement s’accompagner d’une éducation adéquate. La charte d’utilisation des médias sociaux d’une organisation a donc vocation à être pédagogique.
 
-Si le souci d’encadrer l’utilisation des médias sociaux est légitime, il doit faire partie d’une vision plus large du rapport de l’organisation à ces nouveaux médias. **(lire la suite sur [chartes d’utilisation des médias sociaux et communication](les-chartes-dutilisation-des-medias-sociaux-communiquer.html "Les chartes d’utilisation des médias sociaux : communiquer"))**
+Si le souci d’encadrer l’utilisation des médias sociaux est légitime, il doit faire partie d’une vision plus large du rapport de l’organisation à ces nouveaux médias. **(lire la suite sur [chartes d’utilisation des médias sociaux et communication](chartes-communiquer "Les chartes d’utilisation des médias sociaux : communiquer"))**

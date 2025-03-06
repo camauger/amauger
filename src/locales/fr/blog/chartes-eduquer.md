@@ -7,7 +7,7 @@ categories: [web]
 thumbnail: /assets/images/charte.jpg
 ---
 
-Une charte d’utilisation des médias [encadre](les-chartes-dutilisation-des-medias-sociaux-encadrer.html) et [confère un droit de parole](les-chartes-dutilisation-des-medias-sociaux-communiquer.html) aux employés d’une organisation. Afin de faire en sorte que ce droit de parole soit vécu de manière positive, les employés doivent être informés et responsabilisés adéquatement.
+Une charte d’utilisation des médias [encadre](chartes-encadrer) et [confère un droit de parole](chartes-communiquer) aux employés d’une organisation. Afin de faire en sorte que ce droit de parole soit vécu de manière positive, les employés doivent être informés et responsabilisés adéquatement.
 
 Trop souvent, les chartes d’utilisation des médias sociaux limitent, mais ne responsabilisent pas. Elles ne présentent pas non plus de processus permettant d’éduquer les acteurs. Ces deux aspects doivent être présents, car non seulement ils favoriseront le succès de la démarche, mais ils permettront de prévenir bien des dérapages.
 
@@ -77,4 +77,4 @@ Les médias sociaux sont simples d’utilisation, mais il est nécessaire de pr�
   - Instaurer une flexibilité dans les mesures en place
 - Mettre en place des processus permettant une évolution rapide du cadre mis en place (du fait notamment de l’évolution rapide des technologies et des modes)
 
-La dimension éducative de la charte doit servir à aiguiller les usagers vers les bonnes pratiques et les encourager à se familiariser avec de la documentation et des principes d’éthique en ligne avant de participer à des activités sur les médias sociaux. **[lire la suite sur chartes d’utilisation des médias sociaux et valorisation](les-chartes-dutilisation-des-medias-sociaux-valoriser.html)**
+La dimension éducative de la charte doit servir à aiguiller les usagers vers les bonnes pratiques et les encourager à se familiariser avec de la documentation et des principes d’éthique en ligne avant de participer à des activités sur les médias sociaux. **[lire la suite sur chartes d’utilisation des médias sociaux et valorisation](chartes-valoriser)**
