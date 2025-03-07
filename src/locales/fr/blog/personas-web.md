@@ -24,7 +24,7 @@ Le concept de personas a été popularisé par Alan Cooper (créateur de Visual 
 
 ### Des personas statiques aux modèles comportementaux dynamiques
 
-En 2025, les personas ont évolué de simples fiches de personnages fictifs à des modèles comportementaux dynamiques et contextuels :
+En 2025, les personas ont évolué de simples fiches de personnages fictifs à des modèles comportementaux dynamiques et contextuels:
 
 - **Personas traditionnels (1998-2010)** : Profils fictifs statiques basés principalement sur des hypothèses et des données démographiques.
 

@@ -6,36 +6,40 @@ import build_link %}
   <div class="recents-posts--grid">
     {% for post in recent_posts %}
     <article class="card">
-      {% if post.thumbnail %}
-      <img src="{{ post.thumbnail }}" alt="" class="card-image" />
-      {% endif %}
-      <div class="card-content">
-        <h3 class="card-title">
-          <a href="{{ build_blog_link(post.slug, post.lang) }}"
-            >{{ post.title }}</a
+      <a href="{{ build_blog_link(post.slug, post.lang) }}" class="card-link">
+        {% if post.thumbnail %}
+        <img src="{{ post.thumbnail }}" alt="" class="card-image" />
+        {% endif %}
+        <div class="card-content">
+          <h3 class="card-title">
+            <a href="{{ build_blog_link(post.slug, post.lang) }}"
+              >{{ post.title }}</a
+            >
+          </h3>
+          {% if post.date %}
+          <time
+            datetime="{{ post.date | date('%Y-%m-%d') }}"
+            itemprop="datePublished"
           >
-        </h3>
-        {% if post.date %}
-        <time
-          datetime="{{ post.date | date('%Y-%m-%d') }}"
-          itemprop="datePublished"
-        >
-          {{ post.date | date('%d %B %Y') }}
-        </time>
-        {% endif %}
-        {% if post.updated %}
-        <time
-          datetime="{{ post.updated | date('%Y-%m-%d') }}"
-          itemprop="dateUpdated"
-        >
-          {{ post.updated | date('%d %B %Y') }}
-        </time>
-        {% endif %}
-        <p class="card-excerpt">{{ post.description }}</p>
-        <a href="{{ build_blog_link(post.slug, post.lang) }}" class="card-link">
-          {{ t.read_more }}
-        </a>
-      </div>
+            {{ post.date | date('%d %B %Y') }}
+          </time>
+          {% endif %} {% if post.updated %}
+          <time
+            datetime="{{ post.updated | date('%Y-%m-%d') }}"
+            itemprop="dateUpdated"
+          >
+            {{ post.updated | date('%d %B %Y') }}
+          </time>
+          {% endif %}
+          <p class="card-excerpt">{{ post.description }}</p>
+          <a
+            href="{{ build_blog_link(post.slug, post.lang) }}"
+            class="card-link"
+          >
+            {{ t.read_more }}
+          </a>
+        </div></a
+      >
     </article>
     {% endfor %}
   </div>
