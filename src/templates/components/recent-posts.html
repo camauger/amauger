@@ -8,7 +8,7 @@ import build_link %}
     <article class="card">
       <a href="{{ build_blog_link(post.slug, post.lang) }}" class="card-link">
         {% if post.thumbnail %}
-        <img src="{{ post.thumbnail }}" alt="" class="card-image" />
+        <img src="{{ post.thumbnail }}" alt="{{ post.title }}" class="card-image" />
         {% endif %}
         <div class="card-content">
           <h3 class="card-title">
