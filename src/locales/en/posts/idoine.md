@@ -142,4 +142,4 @@ Idoine doesn't aim to compete with more complex static site generators. Instead,
 
 If this resonates with you, give Idoine a try. Clone the template, create content, and experience the simplicity firsthand. Sometimes, less truly is more—exactly what makes Idoine perfectly _idoine_ for your needs.
 
-Discover more about Idoine on [GitHub](<[_Idoine_](https://github.com/camauger/idoine)>) and start building your next project with purposeful simplicity.
+Discover more about [Idoine](https://github.com/camauger/idoine) on GitHub and start building your next project with purposeful simplicity.

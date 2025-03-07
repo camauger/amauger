@@ -150,4 +150,4 @@ Si cette philosophie vous parle, essayez Idoine. Clonez le template, créez votr
 
 Souvenez-vous : parfois, moins c'est plus. Et c'est exactement ce qu'Idoine s'efforce d'être - _idoine_ pour vos besoins.
 
-Découvrez Idoine sur [GitHub](https://github.com/camauger/idoine).
+Découvrez [Idoine](https://github.com/camauger/idoine) sur GitHub.
