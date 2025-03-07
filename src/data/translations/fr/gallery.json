@@ -1,0 +1,20 @@
+{
+  "back_to_gallery": "Retourner à la galerie",
+  "download_large": "Télécharger l’image taille grande",
+  "download_medium": "Télécharger l’image taille moyenne",
+  "download_original": "Télécharger l’image originale",
+  "download_small": "Télécharger l’image taille petite",
+  "gallery_title": "Galerie d'images",
+  "image_download": "Télécharger l’image",
+  "image_gallery_title": "Galerie d'images",
+  "image_meta_description": "Découvrez l’image {image_name} et téléchargez-la en différentes tailles.",
+  "image_page_title": "Aperçu de l’image",
+  "image_page": "Voir la page de l’image",
+  "image_preview": "Aperçu de l’image",
+  "no_image_found": "Aucune image n’a été trouvée.",
+  "number_of_images": "Nombre d'images :",
+  "size_large": "Taille grande",
+  "size_medium": "Taille moyenne",
+  "size_original": "Originale",
+  "size_small": "Taille petite"
+}

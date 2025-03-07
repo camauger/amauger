@@ -1,0 +1,20 @@
+{
+  "blog": "Blog",
+  "categories": "Categories",
+  "draft": "Draft",
+  "latest_posts": "Latest posts",
+  "no_article": "{count, plural, =0{No articles} one{# article} other{# articles}}",
+  "post_header": "Post header",
+  "published_on": "Published on {date, date, medium}",
+  "read_more": "Read more",
+  "reading_time": "{minutes, plural, =0{Less than a minute} =1{1 minute} other{# minutes}} read",
+  "recent_posts": "Recent posts",
+  "related_posts": "Related posts",
+  "tags": "Tags",
+  "updated_on": "Updated on {date, date, medium}",
+  "view_all_posts": "View all posts",
+  "written_by": "Written by",
+  "post_footer": "Post footer",
+  "post_featured": "Featured Post",
+  "keywords": "Keywords"
+}

@@ -1,0 +1,69 @@
+{
+  "home_cta": "Discover my projects",
+  "about_title": "About",
+  "about": "About",
+  "all_rights_reserved": "All rights reserved",
+  "article_information": "Article Information",
+  "aspects_title": "Technoludist",
+  "back_home": "Back to home",
+  "close": "Close",
+  "dark_mode": "Dark mode",
+  "frontend_projects": "Front-end Development Projects",
+  "jeux_de_role_creations": "Role-playing Game Creations",
+  "keyword_link_label": "View all articles with this keyword",
+  "keyword_prefix": "Keyword: ",
+  "keywords_heading": "Keywords",
+  "keywords_icon": "Keywords",
+  "language": "Language",
+  "light_mode": "Light mode",
+  "menu": "Menu",
+  "nav_label": "Main menu",
+  "no_article_category": "No articles in this category.",
+  "not_found": "Page not found",
+  "published_date": "Published on {date, date, medium}",
+  "search_placeholder": "Search articles...",
+  "search": "Search",
+  "skip_to_content": "Skip to main content",
+  "social_links": "Social links",
+  "technologies_not_specified": "Technologies not specified",
+  "updated_date": "Updated on {date, date, medium}",
+  "keyword_no_article": "No articles found for this keyword.",
+  "skills_title": "My Skills",
+  "technical_skills": "Technical Skills",
+  "technical_skills_list": [
+    {
+      "name": "Languages",
+      "description": "HTML, CSS, JavaScript, Python"
+    },
+    {
+      "name": "Front-end Development",
+      "description": "HTML5, CSS3, JavaScript (ES6+), UI/UX"
+    },
+    {
+      "name": "Back-end Development",
+      "description": "Python (Flask, Django), PHP"
+    },
+    {
+      "name": "Database Management",
+      "description": "MySQL, PostgreSQL"
+    },
+    {
+      "name": "SEO & Web Performance",
+      "description": "Optimization, accessibility"
+    }
+  ],
+  "soft_skills": "Soft Skills",
+  "soft_skills_list": [
+    "Communication & teamwork",
+    "Agile project management",
+    "Analytical thinking & problem-solving"
+  ],
+  "categories_heading": "Categories",
+  "image_og_title": "Image Preview: {image_name}",
+  "bluesky_sharing": "Share on Bluesky",
+  "posts_list": "List of posts",
+  "roleplaying_games": "Role-playing Games",
+  "roleplaying_games_glossary": "Role-playing Games Glossary",
+  "my_games": "My role-playing games",
+  "idoine": "Powered by Idoine"
+}

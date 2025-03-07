@@ -1,0 +1,20 @@
+{
+  "no_image_found": "No image found.",
+  "image_preview": "Image Preview",
+  "image_page": "View image page",
+  "image_download": "Download Image",
+  "gallery_title": "Image Gallery",
+  "image_page_title": "Image Preview",
+  "image_meta_description": "View the image {image_name} and download it in various sizes.",
+  "download_small": "Download small size",
+  "download_medium": "Download medium size",
+  "download_large": "Download large size",
+  "download_original": "Download original",
+  "size_small": "Small",
+  "size_medium": "Medium",
+  "size_large": "Large",
+  "size_original": "Original",
+  "back_to_gallery": "Back to Gallery",
+  "image_gallery_title": "Image Gallery",
+  "number_of_images": "Number of images:"
+}

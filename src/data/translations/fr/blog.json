@@ -1,0 +1,20 @@
+{
+  "blog": "Blog",
+  "categories": "Catégories",
+  "draft": "Brouillon",
+  "keywords": "Mots-clés",
+  "latest_posts": "Derniers articles",
+  "no_article": "{count, plural, =0{No articles} one{# article} other{# articles}}",
+  "post_featured": "Article en vedette",
+  "post_footer": "Pied de page de l'article",
+  "post_header": "En-tête de l'article",
+  "published_on": "Published on {date, date, medium}",
+  "read_more": "Lire la suite",
+  "reading_time": "{minutes, plural, =0{Less than a minute} =1{1 minute} other{# minutes}} read",
+  "recent_posts": "Articles récents",
+  "related_posts": "Articles similaires",
+  "tags": "Étiquettes",
+  "updated_on": "Updated on {date, date, medium}",
+  "view_all_posts": "Voir tous les articles",
+  "written_by": "Écrit par"
+}
