@@ -48,6 +48,7 @@ class PostBuilder:
                 post_data = {
                     'title': metadata.get('title', 'Article sans titre'),
                     'date': metadata.get('date', ''),
+                    'updated': metadata.get('updated', ''),
                     'author': metadata.get('author', ''),
                     'url': (f"/{self.blog_url}/{metadata.get('slug', post_file.stem)}/"
                             if self.unilingual
@@ -61,7 +62,7 @@ class PostBuilder:
                     'lang': lang
                 }
                 posts.append(post_data)
-        posts.sort(key=lambda x: x['date'], reverse=True)
+        posts.sort(key=lambda x: x['updated'] if x.get('updated', '') else x['date'], reverse=True)
         return posts
 
     def paginate_posts(self, posts: list, lang: str) -> list:

@@ -1,151 +1,145 @@
 ---
 layout: post
 title: Idoine - A Purposefully Simple Static Site Generator
-date: 2025-02-26
+date: 2025-03-07
 slug: idoine
+thumbnail: /assets/images/lego.jpg
 categories: [idoine, web]
-summary: In a landscape where web frameworks continuously expand in complexity, Idoine takes an intentionally different approach.
+summary: In an era of increasingly complex web frameworks, Idoine stands out with intentional simplicity.
 ---
 
-In a landscape where web frameworks continuously expand in complexity, _Idoine_ (pronounced "ee-dwahn") takes an intentionally different approach. This minimalist static site generator embodies a "just enough" philosophy - providing exactly what you need to create functional, lightweight, and multilingual websites without unnecessary complexity.
+In an era of increasingly complex web frameworks, _Idoine_ (pronounced "ee-dwahn") stands out with intentional simplicity. This minimalist static site generator embodies a "just enough" philosophy—providing exactly what you need to create functional, lightweight, and multilingual websites without unnecessary complexity.
 
 ## The Story Behind the Name
 
-The name _Idoine_ comes from French, meaning "suitable," "appropriate," or "fit for purpose." This perfectly captures the project's philosophy: providing tools that are just right for the task at hand - no more, no less. In a world of feature-rich frameworks, Idoine chooses simplicity by design.
+The name [_Idoine_](https://github.com/camauger/idoine) comes from French, meaning "suitable," "appropriate," or "fit for purpose." This captures the project's philosophy: offering exactly the tools required—nothing more, nothing less. In a world dominated by feature-rich frameworks, Idoine deliberately embraces simplicity.
 
 ## A Deliberate Choice of Tools
 
-Instead of reinventing the wheel, Idoine builds upon proven, stable technologies:
+Rather than reinventing the wheel, Idoine leverages proven, stable technologies:
 
-- **Grunt**: For task automation and development workflow
-- **Python** with Jinja2: For templating and content generation
-- **SCSS**: For maintainable styling
-- **Markdown**: For content writing
-- **YAML**: Front matter for metadata
-  This carefully curated stack prioritizes simplicity and reliability over cutting-edge features.
+- **Grunt** – Task automation and streamlined workflows
+- **Python** with Jinja2 – Efficient templating and content generation
+- **SCSS** – Maintainable styling
+- **Markdown** – Straightforward content writing
+- **YAML** – Structured metadata through front matter
+
+This carefully curated stack prioritizes simplicity and reliability over cutting-edge complexity.
 
 ## Core Features
 
-While intentionally minimal, Idoine includes essential capabilities for modern static sites:
+Idoine includes essential capabilities for modern static sites:
 
-- **Multilingual Support**: Built-in internationalization using a simple directory structure
-- **Live Reload**: Development server with hot reloading for rapid iteration
-- **Asset Pipeline**: Automated processing of styles, scripts, and media files
-- **Production-Ready**: Optimized builds with CSS minification and proper asset handling
-- **Zero Configuration**: Works out of the box with sensible defaults
-- **Netlify Ready**: Seamless deployment with included Netlify configuration
+- **Multilingual Support** – Built-in internationalization using a clear directory structure
+- **Live Reload** – Development server with instant updates for rapid iteration
+- **Asset Pipeline** – Automated processing of styles, scripts, and media files
+- **Production-Ready** – Optimized builds with CSS minification and efficient asset handling
+- **Zero Configuration** – Immediate usability with sensible defaults
+- **Netlify Ready** – Seamless deployment with built-in Netlify configuration
 
 ## Under the Hood: The Build Pipeline
 
-Idoine's build process is transparent and efficient, orchestrated by Grunt with Python handling the content generation:
+Idoine's build process is transparent and efficient, orchestrated by Grunt with Python managing content generation.
 
 ### Development Workflow
 
-When you run `npm run dev`, Idoine:
+When you run `npm run dev`, Idoine performs the following steps:
 
-1. Builds all HTML pages from Markdown content using Python and Jinja2
+1. Generates HTML from Markdown using Python and Jinja2
 2. Compiles SCSS to CSS with source maps for debugging
-3. Applies Autoprefixer to ensure cross-browser compatibility
+3. Applies Autoprefixer for cross-browser compatibility
 4. Copies static assets to the distribution folder
 5. Starts a local server with live reload at `http://localhost:9000`
-6. Watches for changes to rebuild only what's necessary
+6. Watches for changes, rebuilding only necessary files
 
 ```javascript
-// From Gruntfile.js
 grunt.registerTask("dev", [
-  "shell:build_html", // Run Python build script
-  "convertMarkdown", // Process Markdown
-  "sass:dev", // Compile SCSS with source maps
-  "postcss:dev", // Apply Autoprefixer
-  "copy", // Copy static assets
-  "connect", // Start dev server
-  "watch", // Watch for changes
+  "shell:build_html",
+  "convertMarkdown",
+  "sass:dev",
+  "postcss:dev",
+  "copy",
+  "connect",
+  "watch",
 ]);
 ```
 
 ### Production Build
 
-For production (`npm run build`), Idoine optimizes everything:
+The production build (`npm run build`) optimizes all assets:
 
 1. Cleans the distribution directory for a fresh build
 2. Processes all Markdown and templates through Python
 3. Compiles SCSS with optimized settings
-4. Applies Autoprefixer for cross-browser support
-5. Minifies CSS to reduce file size
+4. Applies Autoprefixer for broader browser support
+5. Minifies CSS for smaller file sizes
 6. Copies and optimizes static assets
-   The Python build script handles the conversion from Markdown to HTML, applying templates and maintaining the multilingual structure. It processes front matter metadata, supporting custom page attributes and localized content.
+
+The Python build script converts Markdown content to HTML, applies templates, and manages multilingual structures. It also processes YAML front matter, enabling custom attributes and localized content.
 
 ## Getting Started
 
-Idoine is designed to get you up and running quickly with minimal friction. Here's a step-by-step guide to launch your first Idoine site:
+Idoine helps you quickly set up your first static site with minimal effort.
 
 ### Prerequisites
 
-Make sure you have the following installed:
+Make sure you have installed:
 
 - Node.js 18 or higher
 - Python 3.9 or higher
-- npm (comes with Node.js)
+- npm (bundled with Node.js)
 - Git
 
 ### Initial Setup
 
-    ````bash
-    # Clone the template repository
-    git clone [URL_TO_REPO]
-    cd idoine
-    # Install Node.js dependencies
-    npm install
-    # Optional but recommended: Create a Python virtual environment
-    python -m venv venv
-    source venv/bin/activate # On Unix/MacOS
-    # or
-    venv\Scripts\activate # On Windows
-    # Install Python dependencies
-    pip install -r requirements.txt
-    ````
+```bash
+git clone [https://github.com/camauger/idoine]
+cd idoine
+npm install
+python -m venv venv
+source venv/bin/activate
+venv\Scripts\activate
+pip install -r requirements.txt
+```
 
 ### Adding a New Language
 
-Idoine makes multilingual content straightforward:
+Creating multilingual content is straightforward:
 
 1. Create a new language directory:
-
    ```bash
    mkdir -p src/locales/es/pages
    ```
-
-2. Add content in the new language:
-
+2. Add localized content:
    ```bash
    touch src/locales/es/pages/index.md
    ```
-
-3. Edit the file with localized content.
-4. Restart the development server, and your site will now support the new language.
+3. Populate the new Markdown file with content.
+4. Restart the development server; your site now supports the new language.
 
 ### Customizing Templates
 
-To modify the site's appearance:
+Modify your site's appearance easily:
 
-1. Edit templates in the `templates/` directory to adjust layouts
-2. Modify SCSS files in `src/styles/` to change the styling
-3. Add custom fonts or images to `src/assets/`
-   The development server will automatically reload when you save changes, giving you immediate feedback.
+- Edit layouts in the `templates/` directory.
+- Update styling by editing SCSS files in `src/styles/`.
+- Add fonts or images to `src/assets/`.
+
+Live reload ensures immediate feedback as you save changes.
 
 ## A Template to Build Upon
 
-While Idoine is minimal, it's also designed to be extended. The project structure is clear and logical.
-
-The separation between content (`/src/locales`), presentation (`/templates`), and styling (`/src/styles`) makes it easy to maintain and extend your site as it grows. Content is written in Markdown with YAML front matter:
+Though minimalist, Idoine is designed for extensibility. Its clear project structure neatly separates content (`/src/locales`), templates (`/templates`), and styles (`/src/styles`), making your site easy to maintain as it evolves.
 
 ## Join the Simplicity Movement
 
-Idoine doesn't aim to compete with feature-rich static site generators. Instead, it offers a starting point for those who value:
+Idoine doesn't aim to compete with more complex static site generators. Instead, it provides a straightforward alternative for developers who value:
 
 - Simplicity over complexity
 - Convention over configuration
 - Focus over feature-bloat
-- Stability over bleeding-edge features
-  If this philosophy resonates with you, give Idoine a try. Clone the template, create your content, and enjoy a straightforward path to a multilingual static site.
-  Remember: sometimes, less is more. And that's exactly what Idoine strives to be - *idoine* for your needs.
+- Stability over cutting-edge experimentation
+
+If this resonates with you, give Idoine a try. Clone the template, create content, and experience the simplicity firsthand. Sometimes, less truly is more—exactly what makes Idoine perfectly _idoine_ for your needs.
+
+Discover more about Idoine on [GitHub](<[_Idoine_](https://github.com/camauger/idoine)>) and start building your next project with purposeful simplicity.

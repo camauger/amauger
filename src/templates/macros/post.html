@@ -33,6 +33,11 @@
       {{ post.date | date('long', post.lang) }}
     </time>
   {% endif %}
+  {% if post.updated %}
+    - <time datetime="{{ post.updated | date('%Y-%m-%d') }}" itemprop="dateUpdated">
+      {{ post.updated | date('long', post.lang) }}
+    </time>
+  {% endif %}
 
   {% if post.author %}
     <span class="meta-separator">|</span>

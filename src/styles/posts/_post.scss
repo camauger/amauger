@@ -81,7 +81,8 @@
     h2 {
       font-size: var(--text-xl);
     }
-
+    pre,
+    code,
     blockquote,
     ol,
     ul {
@@ -96,6 +97,16 @@
       margin-inline: auto;
       margin-bottom: var(--spacing-3);
       line-height: 1.6;
+    }
+
+    a {
+      color: var(--color-primary-dark);
+      text-decoration: none;
+      transition: color var(--transition-fast);
+
+      &:hover {
+        color: var(--color-primary);
+      }
     }
   }
 
@@ -188,5 +199,3 @@
     }
   }
 }
-
-

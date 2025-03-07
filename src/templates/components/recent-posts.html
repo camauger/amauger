@@ -23,6 +23,14 @@ import build_link %}
           {{ post.date | date('%d %B %Y') }}
         </time>
         {% endif %}
+        {% if post.updated %}
+        <time
+          datetime="{{ post.updated | date('%Y-%m-%d') }}"
+          itemprop="dateUpdated"
+        >
+          {{ post.updated | date('%d %B %Y') }}
+        </time>
+        {% endif %}
         <p class="card-excerpt">{{ post.description }}</p>
         <a href="{{ build_blog_link(post.slug, post.lang) }}" class="card-link">
           {{ t.read_more }}

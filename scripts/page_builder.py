@@ -122,9 +122,10 @@ class PageBuilder:
     def build_root_redirect(self) -> None:
         """Génère une redirection vers la page d'accueil pour la racine."""
         is_unilingual = len(self.site_config['languages']) == 1
-        redirection_url = "/" if is_unilingual else f"/{self.site_config['languages'][0]}/"
+        default_lang = self.site_config['default_lang'] or self.site_config['languages'][0]
+        redirection_url = "/" if is_unilingual else f"/{default_lang}/"
         redirection_html = f"""<!DOCTYPE html>
-<html lang="{self.site_config['languages'][0]}">
+<html lang="{default_lang}">
 <head>
     <meta charset="utf-8">
     <meta http-equiv="refresh" content="0; url={redirection_url}">
