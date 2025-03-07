@@ -1,4 +1,7 @@
 fr:
+  my_games: Mes jeux de rôle
+  roleplaying_games: Jeux de rôle
+  roleplaying_games_glossary: Glossaire des jeux de rôle
   about_title: "À propos"
   about: À propos
   all_rights_reserved: Tous droits réservés
@@ -224,4 +227,7 @@ en:
   categories: Categories
   keywords: Keywords
   tags: Tags
+  roleplaying_games: Role-playing Games
+  roleplaying_games_glossary: Role-playing Games Glossary
+  my_games: My role-playing games
 

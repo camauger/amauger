@@ -1,13 +1,87 @@
 <footer role="contentinfo">
   <div class="footer-content">
+    <section class="footer-games">
+      <h2>{{t.my_games}}</h2>
+      <nav aria-label="{{t.roleplaying_games}}">
+        <ul>
+          <li>
+            <a href="https://ludomancien.com/helvegen"
+              >Helvegen, jeu de rôle sur la mythologie nordique</a
+            >
+          </li>
+          <li>
+            <a href="https://ludomancien.com/fosse"
+              >Fossé, jeu de rôle à distance</a
+            >
+          </li>
+          <li>
+            <a href="https://ludomancien.com/kairos-minos">Kairos Minos</a>
+          </li>
+          <li>
+            <a href="https://ludomancien.com/malice"
+              >Malice, jeu de princesses et de labyrinthe</a
+            >
+          </li>
+          <li>
+            <a href="https://ludomancien.com/defi-trois-fois-forge-PTGPTB"
+              >La Marque du Chat</a
+            >
+          </li>
+          <li><a href="https://ludomancien.com/aristie">Aristie</a></li>
+          <li>
+            <a
+              href="https://ludomancien.com/vous-etes-dans-une-auberge-jeu-de-role"
+              >Vous êtes dans une auberge</a
+            >
+          </li>
+          <li><a href="https://locquemare.com/">Locquemare</a></li>
+          <li>
+            <a href="https://ludomancien.com/verglas/verglas"
+              >Verglas, jeu de rôle sur la fin d'un monde</a
+            >
+          </li>
+        </ul>
+      </nav>
+    </section>
+    <section class="footer-web">
+      <h2>Mes autres sites web</h2>
+      <nav aria-label="Ressources sur le jeu de rôle">
+        <ul>
+          <li>
+            <a
+              href="https://jeuxderole.org/tags/glossaire"
+              target="_blank"
+              rel="noopener noreferrer"
+              >{{t.roleplaying_games_glossary}}</a
+            >
+          </li>
+          <li><a href="https://ludomancien.com/">Ludomancien</a></li>
+        </ul>
+      </nav>
+    </section>
+    <section class="footer-contact">
+      <h2>Coordonnées</h2>
+      <nav aria-label="Ressources sur le jeu de rôle">
+      <ul>
+        <li>
+          <a href="mailto:christian@amauger.com">christian@amauger.com</a>
+        </li>
+        <li>
+          <a href="https://christianamauger.itch.io/">Itch.io</a>
+        </li>
+      </ul>
+    </nav>
+    </section>
+  </div>
+
+  <div class="footer-bottom">
     <p class="footer-text">
       &copy; {{ site.year }} {{ site.title }}. {{ t.all_rights_reserved }}
     </p>
-    {% if site.social_media.github or site.social_media.twitter %}
-    <nav aria-label="{{ t.social_links }}" class="footer-nav">
+    {% if site.social_media.github %}
+    <nav class="footer-social" aria-label="{{ t.social_links }}">
       <ul class="social-links">
         <!-- GitHub Link -->
-        {% if site.social_media.github %}
         <li>
           <a
             href="{{ site.social_media.github.url }}"
@@ -17,7 +91,6 @@
             {{ site.social_media.github.name }}
           </a>
         </li>
-        {% endif %}
       </ul>
     </nav>
     {% endif %}
