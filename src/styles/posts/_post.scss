@@ -25,9 +25,12 @@
       max-width: var(--post-width);
       margin-inline: auto;
       text-align: center;
-      font-size: var(--text-3xl);
+      font-size: var(--text-lg);
       font-family: var(--font-decorative);
       margin-bottom: var(--spacing-2);
+      @media screen and (min-width: 768px) {
+        font-size: var(--text-3xl);
+      }
     }
 
     p[data-info="reading-time"],
@@ -80,7 +83,10 @@
     }
 
     h2 {
-      font-size: var(--text-xl);
+      font-size: var(--text-lg);
+      @media screen and (min-width: 768px) {
+        font-size: var(--text-xl);
+      }
     }
     pre,
     code,

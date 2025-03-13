@@ -38,7 +38,11 @@ body > footer {
   margin-block: 2rem;
   margin-inline: auto;
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
+  @media screen and (min-width: 768px) {
+    flex-direction: row;
+  }
+
   gap: 2rem;
 }
 

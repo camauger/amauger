@@ -1,69 +1,69 @@
 {
-  "my_games": "Mes jeux de rôle",
-  "roleplaying_games": "Jeux de rôle",
-  "roleplaying_games_glossary": "Glossaire des jeux de rôle",
-  "about_title": "À propos",
-  "about": "À propos",
-  "all_rights_reserved": "Tous droits réservés",
-  "article_information": "Informations sur l'article",
-  "aspects_title": "Technoludiste",
-  "back_home": "Retour à l'accueil",
-  "bluesky_sharing": "Partager sur Bluesky",
-  "categories_heading": "Catégories",
-  "close": "Fermer",
-  "dark_mode": "Mode sombre",
-  "frontend_projects": "Projets de développement front-end",
-  "home_cta": "Découvrir mes projets",
-  "image_og_title": "Aperçu de l’image {image_name}",
-  "jeux_de_role_creations": "Créations de jeux de rôle",
-  "keyword_link_label": "Voir tous les articles avec ce mot-clé",
-  "keyword_no_article": "Aucun article trouvé pour ce mot-clé.",
-  "keyword_prefix": "Mot-clé: ",
-  "keywords_heading": "Mots-clés",
-  "keywords_icon": "Mots-clés",
-  "language": "Langue",
-  "light_mode": "Mode clair",
-  "menu": "Menu",
-  "nav_label": "Menu principal",
-  "no_article_category": "Aucun article dans cette catégorie.",
-  "not_found": "Page non trouvée",
-  "posts_list": "Liste des articles",
-  "published_date": "Published on {date, date, medium}",
-  "search_placeholder": "Rechercher des articles...",
-  "search": "Rechercher",
-  "skills_title": "Mes Compétences",
-  "skip_to_content": "Aller au contenu principal",
-  "social_links": "Réseaux sociaux",
-  "technical_skills": "Compétences Techniques",
-  "technologies_not_specified": "Technologies non spécifiées",
-  "updated_date": "Updated on {date, date, medium}",
-  "technical_skills_list": [
-    {
-      "name": "Langages",
-      "description": "HTML, CSS, JavaScript, Python"
-    },
-    {
-      "name": "Développement Front-end",
-      "description": "HTML5, CSS3, JavaScript (ES6+), UI/UX"
-    },
-    {
-      "name": "Développement Back-end",
-      "description": "Python (Flask, Django), PHP"
-    },
-    {
-      "name": "Gestion de bases de données",
-      "description": "MySQL, PostgreSQL"
-    },
-    {
-      "name": "SEO et Performance Web",
-      "description": "Optimisation, accessibilité"
-    }
-  ],
-  "soft_skills": "Compétences Générales",
-  "soft_skills_list": [
-    "Communication et travail en équipe",
-    "Gestion de projet agile",
-    "Esprit d’analyse et résolution de problèmes"
-  ],
-  "idoine": "Propulsé par Idoine"
+    "my_games": "Mes jeux de rôle",
+    "roleplaying_games": "Jeux de rôle",
+    "roleplaying_games_glossary": "Glossaire des jeux de rôle",
+    "about_title": "À propos",
+    "about": "À propos",
+    "all_rights_reserved": "Tous droits réservés",
+    "article_information": "Informations sur l'article",
+    "aspects_title": "Technoludiste",
+    "back_home": "Retour à l'accueil",
+    "bluesky_sharing": "Partager sur Bluesky",
+    "categories_heading": "Catégories",
+    "close": "Fermer",
+    "dark_mode": "Mode sombre",
+    "frontend_projects": "Projets de développement front-end",
+    "home_cta": "Découvrir mes projets",
+    "image_og_title": "Aperçu de l’image {image_name}",
+    "jeux_de_role_creations": "Créations de jeux de rôle",
+    "keyword_link_label": "Voir tous les articles avec ce mot-clé",
+    "keyword_no_article": "Aucun article trouvé pour ce mot-clé.",
+    "keyword_prefix": "Mot-clé: ",
+    "keywords_heading": "Mots-clés",
+    "keywords_icon": "Mots-clés",
+    "language": "Langue",
+    "light_mode": "Mode clair",
+    "menu": "Menu",
+    "nav_label": "Menu principal",
+    "no_article_category": "Aucun article dans cette catégorie.",
+    "not_found": "Page non trouvée",
+    "posts_list": "Liste des articles",
+    "published_date": "Published on {date, date, medium}",
+    "search_placeholder": "Rechercher des articles...",
+    "search": "Rechercher",
+    "skills_title": "Mes Compétences",
+    "skip_to_content": "Aller au contenu principal",
+    "social_links": "Réseaux sociaux",
+    "technical_skills": "Compétences Techniques",
+    "technologies_not_specified": "Technologies non spécifiées",
+    "updated_date": "Updated on {date, date, medium}",
+    "technical_skills_list": [
+        {
+            "name": "Langages",
+            "description": "HTML, CSS, JavaScript, Python"
+        },
+        {
+            "name": "Développement Front-end",
+            "description": "HTML5, CSS3, JavaScript (ES6+), UI/UX"
+        },
+        {
+            "name": "Développement Back-end",
+            "description": "Python (Flask, Django), PHP"
+        },
+        {
+            "name": "Gestion de bases de données",
+            "description": "MySQL, PostgreSQL"
+        },
+        {
+            "name": "SEO et Performance Web",
+            "description": "Optimisation, accessibilité"
+        }
+    ],
+    "soft_skills": "Compétences Générales",
+    "soft_skills_list": [
+        "Communication et travail en équipe",
+        "Gestion de projet agile",
+        "Esprit d’analyse et résolution de problèmes"
+    ],
+    "idoine": "Propulsé par Idoine"
 }
