@@ -1,37 +1,207 @@
-<section class="portfolio">
-  <h2>{{ t.portfolio_title }}</h2>
-  <h3>{{ t.portfolio_subtitle }}</h3>
+<section class="portfolio-codex" id="portfolio">
+  <div class="portfolio-container">
+    <!-- Section Header -->
+    <header class="portfolio-header">
+      <div class="portfolio-header-content">
+        <span class="portfolio-eyebrow">{{ t.portfolio_subtitle }}</span>
+        <h2 class="portfolio-title">{{ t.portfolio_title }}</h2>
+      </div>
+      <div class="portfolio-header-decoration">
+        <svg width="100" height="100" viewBox="0 0 100 100" fill="none">
+          <circle cx="50" cy="50" r="40" stroke="currentColor" stroke-width="2" opacity="0.3"/>
+          <circle cx="50" cy="50" r="25" stroke="currentColor" stroke-width="2" opacity="0.5"/>
+          <circle cx="50" cy="50" r="10" fill="currentColor" opacity="0.7"/>
+        </svg>
+      </div>
+    </header>
 
-  <div class="portfolio-grid">
+    <!-- Frontend Projects - Asymmetric Layout -->
     <div class="portfolio-category">
-      <h3>{{ t.frontend_projects }}</h3>
-      {% for project in projects.frontend[:3] %}
-      {% with project=project %}
-      {% include 'components/project-card.html' %}
-      {% endwith %}
-      {% endfor %}
+      <div class="portfolio-category-header">
+        <h3 class="portfolio-category-title">
+          <span class="category-number">01</span>
+          <span class="category-name">{{ t.frontend_projects }}</span>
+        </h3>
+      </div>
+
+      <div class="portfolio-grid portfolio-grid-frontend">
+        {% for project in projects.frontend[:3] %}
+        <article class="project-card-codex project-card-{{ loop.index }}" data-category="frontend">
+          <div class="project-card-image-wrapper">
+            <img
+              src="{{ project.image | default('/images/default.png') }}"
+              alt="{{ project.title | default(t.project_title_default) }}"
+              loading="lazy"
+              class="project-card-image"
+            />
+            <div class="project-card-overlay">
+              <div class="project-card-tech-hover">
+                {% if project.technologies %}
+                  {% for tech in project.technologies %}
+                    <span class="tech-badge-hover">{{ tech }}</span>
+                  {% endfor %}
+                {% endif %}
+              </div>
+            </div>
+          </div>
+
+          <div class="project-card-content">
+            <span class="project-card-category">Frontend</span>
+            <h4 class="project-card-title">{{ project.title | default(t.project_title_default) }}</h4>
+            <p class="project-card-description">{{ project.description | default(t.project_description_default) }}</p>
+
+            <div class="project-card-tech">
+              {% if project.technologies %}
+                {% for tech in project.technologies %}
+                  <span class="tech-badge">{{ tech }}</span>
+                {% endfor %}
+              {% else %}
+                <span class="tech-badge">{{ t.technologies_not_specified }}</span>
+              {% endif %}
+            </div>
+
+            {% if project.link %}
+            <a href="{{ project.link }}" class="project-card-link" aria-label="{{ t.learn_more }}: {{ project.title | default(t.project_title_default) }}">
+              <span>{{ t.learn_more }}</span>
+              <svg width="16" height="16" viewBox="0 0 16 16" fill="none">
+                <path d="M6 12L10 8L6 4" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
+              </svg>
+            </a>
+            {% endif %}
+          </div>
+        </article>
+        {% endfor %}
+      </div>
     </div>
 
+    <!-- RPG Projects - Different Asymmetric Pattern -->
     <div class="portfolio-category">
-      <h3>{{ t.jeux_de_role_creations }}</h3>
-      {% for project in projects.jeux_de_role[:3] %}
-      {% with project=project %}
-      {% include 'components/project-card.html' %}
-      {% endwith %}
-      {% endfor %}
+      <div class="portfolio-category-header">
+        <h3 class="portfolio-category-title">
+          <span class="category-number">02</span>
+          <span class="category-name">{{ t.jeux_de_role_creations }}</span>
+        </h3>
+      </div>
+
+      <div class="portfolio-grid portfolio-grid-rpg">
+        {% for project in projects.jeux_de_role[:3] %}
+        <article class="project-card-codex project-card-{{ loop.index }}" data-category="rpg">
+          <div class="project-card-image-wrapper">
+            <img
+              src="{{ project.image | default('/images/default.png') }}"
+              alt="{{ project.title | default(t.project_title_default) }}"
+              loading="lazy"
+              class="project-card-image"
+            />
+            <div class="project-card-overlay">
+              <div class="project-card-tech-hover">
+                {% if project.technologies %}
+                  {% for tech in project.technologies %}
+                    <span class="tech-badge-hover">{{ tech }}</span>
+                  {% endfor %}
+                {% endif %}
+              </div>
+            </div>
+          </div>
+
+          <div class="project-card-content">
+            <span class="project-card-category">RPG Design</span>
+            <h4 class="project-card-title">{{ project.title | default(t.project_title_default) }}</h4>
+            <p class="project-card-description">{{ project.description | default(t.project_description_default) }}</p>
+
+            <div class="project-card-tech">
+              {% if project.technologies %}
+                {% for tech in project.technologies %}
+                  <span class="tech-badge">{{ tech }}</span>
+                {% endfor %}
+              {% else %}
+                <span class="tech-badge">{{ t.technologies_not_specified }}</span>
+              {% endif %}
+            </div>
+
+            {% if project.link %}
+            <a href="{{ project.link }}" class="project-card-link" aria-label="{{ t.learn_more }}: {{ project.title | default(t.project_title_default) }}">
+              <span>{{ t.learn_more }}</span>
+              <svg width="16" height="16" viewBox="0 0 16 16" fill="none">
+                <path d="M6 12L10 8L6 4" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
+              </svg>
+            </a>
+            {% endif %}
+          </div>
+        </article>
+        {% endfor %}
+      </div>
     </div>
 
+    <!-- Digital Strategy Projects - Third Pattern -->
     <div class="portfolio-category">
-      <h3>{{ t.strategie_numerique }}</h3>
-      {% for project in projects.strategie_numerique[:3] %}
-      {% with project=project %}
-      {% include 'components/project-card.html' %}
-      {% endwith %}
-      {% endfor %}
+      <div class="portfolio-category-header">
+        <h3 class="portfolio-category-title">
+          <span class="category-number">03</span>
+          <span class="category-name">{{ t.strategie_numerique }}</span>
+        </h3>
+      </div>
+
+      <div class="portfolio-grid portfolio-grid-strategy">
+        {% for project in projects.strategie_numerique[:3] %}
+        <article class="project-card-codex project-card-{{ loop.index }}" data-category="strategy">
+          <div class="project-card-image-wrapper">
+            <img
+              src="{{ project.image | default('/images/default.png') }}"
+              alt="{{ project.title | default(t.project_title_default) }}"
+              loading="lazy"
+              class="project-card-image"
+            />
+            <div class="project-card-overlay">
+              <div class="project-card-tech-hover">
+                {% if project.technologies %}
+                  {% for tech in project.technologies %}
+                    <span class="tech-badge-hover">{{ tech }}</span>
+                  {% endfor %}
+                {% endif %}
+              </div>
+            </div>
+          </div>
+
+          <div class="project-card-content">
+            <span class="project-card-category">{{ page.lang == 'fr' ? 'Stratégie' : 'Strategy' }}</span>
+            <h4 class="project-card-title">{{ project.title | default(t.project_title_default) }}</h4>
+            <p class="project-card-description">{{ project.description | default(t.project_description_default) }}</p>
+
+            <div class="project-card-tech">
+              {% if project.technologies %}
+                {% for tech in project.technologies %}
+                  <span class="tech-badge">{{ tech }}</span>
+                {% endfor %}
+              {% else %}
+                <span class="tech-badge">{{ t.technologies_not_specified }}</span>
+              {% endif %}
+            </div>
+
+            {% if project.link %}
+            <a href="{{ project.link }}" class="project-card-link" aria-label="{{ t.learn_more }}: {{ project.title | default(t.project_title_default) }}">
+              <span>{{ t.learn_more }}</span>
+              <svg width="16" height="16" viewBox="0 0 16 16" fill="none">
+                <path d="M6 12L10 8L6 4" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
+              </svg>
+            </a>
+            {% endif %}
+          </div>
+        </article>
+        {% endfor %}
+      </div>
+    </div>
+
+    <!-- View More CTA -->
+    <div class="portfolio-footer">
+      <a href="/{{ page.lang }}/portfolio" class="portfolio-cta" aria-label="{{ t.portfolio_button }}">
+        <span class="portfolio-cta-text">{{ t.portfolio_button }}</span>
+        <span class="portfolio-cta-icon">
+          <svg width="24" height="24" viewBox="0 0 24 24" fill="none">
+            <path d="M5 12H19M19 12L12 5M19 12L12 19" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+          </svg>
+        </span>
+      </a>
     </div>
   </div>
-
-  <button type="button" aria-label="{{ t.portfolio_button }}" onclick="window.location.href='/{{ page.lang }}/portfolio'">
-    {{ t.portfolio_button }}
-  </button>
 </section>

@@ -2,8 +2,54 @@
 
 {% block content %}
 
-<article class="about">
-  {{ content | safe }}
+<article class="about-codex">
+  <div class="about-hero">
+    <div class="about-hero-content">
+      <span class="about-eyebrow">{{ page.lang == 'fr' ? 'À Propos' : 'About' }}</span>
+      <h1 class="about-title">{{ page.title }}</h1>
+
+      <!-- Decorative element -->
+      <div class="about-ornament">
+        <svg width="100" height="8" viewBox="0 0 100 8" fill="none">
+          <line x1="0" y1="4" x2="35" y2="4" stroke="currentColor" stroke-width="2"/>
+          <circle cx="50" cy="4" r="3" fill="currentColor"/>
+          <line x1="65" y1="4" x2="100" y2="4" stroke="currentColor" stroke-width="2"/>
+        </svg>
+      </div>
+    </div>
+  </div>
+
+  <div class="about-content-wrapper">
+    <div class="about-main-content">
+      {{ content | safe }}
+    </div>
+
+    <!-- Visual Timeline/Stats Section -->
+    <aside class="about-sidebar">
+      <div class="about-card">
+        <h3 class="about-card-title">{{ page.lang == 'fr' ? 'Compétences' : 'Skills' }}</h3>
+        <div class="about-skills">
+          <span class="about-skill">Web Development</span>
+          <span class="about-skill">RPG Design</span>
+          <span class="about-skill">Digital Strategy</span>
+          <span class="about-skill">UI/UX</span>
+          <span class="about-skill">Accessibility</span>
+        </div>
+      </div>
+
+      <div class="about-card about-card-highlight">
+        <div class="about-card-icon">
+          <svg width="40" height="40" viewBox="0 0 40 40" fill="none">
+            <path d="M20 5L25 15L35 16.5L27.5 24L29.5 35L20 30L10.5 35L12.5 24L5 16.5L15 15L20 5Z" stroke="currentColor" stroke-width="2" fill="none"/>
+          </svg>
+        </div>
+        <h4 class="about-card-highlight-title">{{ page.lang == 'fr' ? 'Passion' : 'Passion' }}</h4>
+        <p class="about-card-highlight-text">
+          {{ page.lang == 'fr' ? 'Créer des expériences numériques mémorables et des univers immersifs' : 'Creating memorable digital experiences and immersive worlds' }}
+        </p>
+      </div>
+    </aside>
+  </div>
 </article>
 
 {% endblock %}

@@ -3,11 +3,90 @@
 {% set hero_description = page.hero_description | default('') %}
 {% set hero_cta = page.hero_cta | default('') %}
 
-<section class="hero">
-  <div class="hero-overlay"></div>
-  <div class="hero-content">
-    <h1>{{ page.title }}</h1>
-    <p class="hero-description">{{ page.home_description }}</p>
-    <a href="/{{ page.lang }}/about" class="btn btn-primary">{{ page.home_cta }}</a>
+<section class="hero-codex">
+  <!-- Background layers with parallax -->
+  <div class="hero-background">
+    <div class="hero-bg-gradient"></div>
+    <div class="hero-bg-pattern"></div>
+    <div class="hero-bg-noise"></div>
+  </div>
+
+  <!-- Ornamental frame elements -->
+  <div class="hero-frame">
+    <div class="hero-frame-corner hero-frame-tl"></div>
+    <div class="hero-frame-corner hero-frame-tr"></div>
+    <div class="hero-frame-corner hero-frame-bl"></div>
+    <div class="hero-frame-corner hero-frame-br"></div>
+  </div>
+
+  <!-- Main content -->
+  <div class="hero-container">
+    <div class="hero-content">
+      <!-- Title with dramatic typography -->
+      <div class="hero-title-wrapper">
+        <span class="hero-eyebrow" data-animate="fade-in">{{ page.lang == 'fr' ? 'Bienvenue' : 'Welcome' }}</span>
+        <h1 class="hero-title" data-animate="slide-up">
+          <span class="hero-title-line">{{ page.title }}</span>
+        </h1>
+      </div>
+
+      <!-- Description with editorial styling -->
+      <div class="hero-description-wrapper" data-animate="fade-in-delay">
+        <p class="hero-description">{{ page.home_description }}</p>
+
+        <!-- Stats/Info cards - RPG style -->
+        <div class="hero-stats">
+          <div class="hero-stat" data-animate="scale-in">
+            <span class="hero-stat-label">{{ page.lang == 'fr' ? 'Développeur' : 'Developer' }}</span>
+            <span class="hero-stat-value">Web</span>
+          </div>
+          <div class="hero-stat" data-animate="scale-in-delay-1">
+            <span class="hero-stat-label">{{ page.lang == 'fr' ? 'Créateur' : 'Creator' }}</span>
+            <span class="hero-stat-value">RPG</span>
+          </div>
+          <div class="hero-stat" data-animate="scale-in-delay-2">
+            <span class="hero-stat-label">{{ page.lang == 'fr' ? 'Stratège' : 'Strategist' }}</span>
+            <span class="hero-stat-value">{{ page.lang == 'fr' ? 'Numérique' : 'Digital' }}</span>
+          </div>
+        </div>
+      </div>
+
+      <!-- CTA with dramatic styling -->
+      <div class="hero-cta-wrapper" data-animate="fade-in-up">
+        <a href="/{{ page.lang }}/about" class="hero-cta-primary">
+          <span class="hero-cta-text">{{ page.home_cta }}</span>
+          <span class="hero-cta-icon">
+            <svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <path d="M7.5 15L12.5 10L7.5 5" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+            </svg>
+          </span>
+        </a>
+        <a href="#portfolio" class="hero-cta-secondary">
+          <span>{{ page.lang == 'fr' ? 'Voir mes projets' : 'View my work' }}</span>
+        </a>
+      </div>
+    </div>
+
+    <!-- Visual element - Abstract geometric decoration -->
+    <div class="hero-visual" data-animate="parallax">
+      <div class="hero-visual-shape hero-visual-circle"></div>
+      <div class="hero-visual-shape hero-visual-square"></div>
+      <div class="hero-visual-shape hero-visual-triangle"></div>
+
+      <!-- Floating accent elements -->
+      <div class="hero-accent hero-accent-1"></div>
+      <div class="hero-accent hero-accent-2"></div>
+      <div class="hero-accent hero-accent-3"></div>
+    </div>
+  </div>
+
+  <!-- Scroll indicator -->
+  <div class="hero-scroll-indicator" data-animate="bounce">
+    <span class="hero-scroll-text">{{ page.lang == 'fr' ? 'Défiler' : 'Scroll' }}</span>
+    <div class="hero-scroll-icon">
+      <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+        <path d="M12 5V19M12 19L5 12M12 19L19 12" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+      </svg>
+    </div>
   </div>
 </section>

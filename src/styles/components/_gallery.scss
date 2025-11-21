@@ -1,3 +1,287 @@
+/* ========================================
+   GALLERY - NARRATIVE CODEX
+   Creative grid with interactive transitions
+   ======================================== */
+
+.gallery {
+  position: relative;
+  padding: var(--spacing-12) var(--spacing-4);
+  background: var(--color-background);
+
+  @media screen and (min-width: 768px) {
+    padding: var(--spacing-16) var(--spacing-6);
+  }
+
+  header {
+    max-width: var(--container-width);
+    margin: 0 auto var(--spacing-12);
+    text-align: center;
+
+    h1 {
+      font-family: var(--font-display);
+      font-size: clamp(var(--text-3xl), 5vw, var(--text-5xl));
+      font-weight: 700;
+      color: var(--color-text);
+      margin-bottom: var(--spacing-4);
+    }
+
+    p {
+      font-family: var(--font-mono);
+      font-size: var(--text-sm);
+      color: var(--color-text-muted);
+      text-transform: uppercase;
+      letter-spacing: 0.1em;
+    }
+  }
+
+  section {
+    max-width: var(--container-width);
+    margin-inline: auto;
+  }
+
+  footer {
+    max-width: var(--container-width);
+    margin-inline: auto;
+    margin-top: var(--spacing-12);
+  }
+}
+
+/* ========================================
+   Gallery Grid - Masonry-Inspired
+   ======================================== */
+
+.gallery-codex {
+  width: 100%;
+}
+
+.gallery-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(320px, 1fr));
+  gap: var(--spacing-6);
+  grid-auto-flow: dense;
+
+  @media (max-width: 640px) {
+    grid-template-columns: 1fr;
+    gap: var(--spacing-4);
+  }
+
+  /* Create asymmetric pattern */
+  .gallery-item {
+    &:nth-child(5n + 1),
+    &:nth-child(7n + 3) {
+      grid-column: span 1;
+      grid-row: span 2;
+
+      @media (max-width: 1024px) {
+        grid-column: span 1;
+        grid-row: span 1;
+      }
+    }
+
+    &:nth-child(6n + 2) {
+      grid-column: span 2;
+
+      @media (max-width: 1024px) {
+        grid-column: span 1;
+      }
+    }
+  }
+}
+
+/* ========================================
+   Gallery Items
+   ======================================== */
+
+.gallery-item {
+  position: relative;
+  overflow: hidden;
+  border-radius: var(--border-radius-xl);
+  background: var(--color-background-elevated);
+  box-shadow: var(--shadow-md);
+  transition: all var(--transition-normal);
+  animation: fadeInScale 0.6s ease backwards;
+  animation-delay: calc(var(--index, 0) * 0.05s);
+
+  &:hover {
+    transform: translateY(-8px);
+    box-shadow: var(--shadow-2xl);
+    z-index: 10;
+
+    .gallery-image {
+      transform: scale(1.15) rotate(2deg);
+    }
+
+    .gallery-overlay {
+      opacity: 1;
+    }
+
+    .gallery-frame {
+      opacity: 1;
+      transform: scale(0.95);
+    }
+
+    .gallery-icon {
+      transform: scale(1) rotate(90deg);
+    }
+  }
+}
+
+.gallery-link {
+  display: block;
+  text-decoration: none;
+  color: inherit;
+}
+
+/* ========================================
+   Image Wrapper
+   ======================================== */
+
+.gallery-image-wrapper {
+  position: relative;
+  width: 100%;
+  padding-top: 75%; /* 4:3 aspect ratio */
+  overflow: hidden;
+  background: var(--color-background-alt);
+}
+
+.gallery-image {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transition: transform var(--transition-slow);
+}
+
+/* ========================================
+   Overlay
+   ======================================== */
+
+.gallery-overlay {
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(
+    to bottom,
+    rgba(0, 0, 0, 0.1) 0%,
+    rgba(0, 0, 0, 0.8) 100%
+  );
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  opacity: 0;
+  transition: opacity var(--transition-normal);
+}
+
+.gallery-overlay-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: var(--spacing-4);
+  text-align: center;
+  padding: var(--spacing-4);
+}
+
+.gallery-icon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  background: rgba(255, 255, 255, 0.2);
+  backdrop-filter: blur(8px);
+  border: 2px solid rgba(255, 255, 255, 0.4);
+  color: var(--color-white);
+  transform: scale(0.8);
+  transition: transform var(--transition-bounce);
+}
+
+.gallery-name {
+  font-family: var(--font-display);
+  font-size: var(--text-xl);
+  font-weight: 700;
+  color: var(--color-white);
+  text-shadow: 0 2px 8px rgba(0, 0, 0, 0.3);
+}
+
+/* ========================================
+   Decorative Frame
+   ======================================== */
+
+.gallery-frame {
+  position: absolute;
+  inset: var(--spacing-3);
+  border: 2px solid var(--color-white);
+  border-radius: var(--border-radius-lg);
+  opacity: 0;
+  transition: all var(--transition-normal);
+  pointer-events: none;
+}
+
+/* ========================================
+   Empty State
+   ======================================== */
+
+.gallery-empty {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: var(--spacing-6);
+  padding: var(--spacing-16) var(--spacing-6);
+  text-align: center;
+  color: var(--color-text-muted);
+
+  svg {
+    opacity: 0.3;
+  }
+
+  p {
+    font-family: var(--font-sans);
+    font-size: var(--text-lg);
+    color: var(--color-text-light);
+    margin: 0;
+  }
+}
+
+/* ========================================
+   Animations
+   ======================================== */
+
+@keyframes fadeInScale {
+  from {
+    opacity: 0;
+    transform: scale(0.9) translateY(20px);
+  }
+  to {
+    opacity: 1;
+    transform: scale(1) translateY(0);
+  }
+}
+
+/* ========================================
+   Dark Mode
+   ======================================== */
+
+[data-theme="dark"] {
+  .gallery-item {
+    background: var(--color-background-alt);
+  }
+
+  .gallery-overlay {
+    background: linear-gradient(
+      to bottom,
+      rgba(0, 0, 0, 0.3) 0%,
+      rgba(0, 0, 0, 0.9) 100%
+    );
+  }
+}
+
+/* ========================================
+   Legacy gallery-list support
+   ======================================== */
+
 .gallery-list {
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
@@ -5,6 +289,10 @@
   padding: 0;
   margin: 2rem 0;
   list-style: none;
+
+  @media (min-width: 1024px) {
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+  }
 
   .gallery-item {
     position: relative;
@@ -58,10 +346,5 @@
       box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
       transform: translateY(-4px);
     }
-  }
-}
-@media (min-width: 1024px) {
-  .gallery-list {
-    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
   }
 }

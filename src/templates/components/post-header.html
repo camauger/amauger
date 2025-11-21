@@ -1,26 +1,103 @@
 {% from 'macros/images.html' import render_image %}
 
-<header role="banner" aria-label="{{t.post_header}}">
+<header class="post-header-codex" role="banner" aria-label="{{t.post_header}}">
+  <!-- Status Badge -->
   {% if page.draft %}
-  <span role="status" aria-live="polite">{{t.draft}}</span>
+  <span class="post-draft-badge" role="status" aria-live="polite">
+    <svg width="16" height="16" viewBox="0 0 16 16" fill="none">
+      <path d="M8 1V8L12 10" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
+      <circle cx="8" cy="8" r="7" stroke="currentColor" stroke-width="2"/>
+    </svg>
+    {{t.draft}}
+  </span>
   {% endif %}
 
-  <h1 itemprop="headline">{{ page.title }}</h1>
-  <hr />
+  <!-- Title with dramatic typography -->
+  <div class="post-header-title-wrapper">
+    <h1 class="post-header-title" itemprop="headline">
+      {{ page.title }}
+    </h1>
+
+    <!-- Decorative element -->
+    <div class="post-header-ornament">
+      <svg width="120" height="8" viewBox="0 0 120 8" fill="none">
+        <line x1="0" y1="4" x2="40" y2="4" stroke="currentColor" stroke-width="2"/>
+        <circle cx="60" cy="4" r="3" fill="currentColor"/>
+        <line x1="80" y1="4" x2="120" y2="4" stroke="currentColor" stroke-width="2"/>
+      </svg>
+    </div>
+  </div>
+
+  <!-- Excerpt with editorial styling -->
   {% if page.excerpt %}
-  <p class="post-excerpt">{{ page.excerpt }}</p>
-  <hr />
-  {% endif %} {% include "components/post-meta.html" %} {% if page.readingTime
-  %}
-  <p data-info="reading-time" aria-label="{{t.reading_time}}">
-    {{t.reading_time}} {{ page.readingTime }}
-  </p>
-  {% endif %} {% if other_language_post %}
-  <a href="{{ other_language_post.url }}"
-    >Voir en {{ other_language_post.lang }}</a
-  >
+  <div class="post-header-excerpt-wrapper">
+    <p class="post-header-excerpt">{{ page.excerpt }}</p>
+  </div>
   {% endif %}
-  <hr />
-  {% if page.thumbnail %} {{render_image(page.thumbnail, page.title,
-  page.thumbnailCaption)}} {% endif %}
+
+  <!-- Meta Information - Editorial Magazine Style -->
+  <div class="post-header-meta">
+    <div class="post-meta-grid">
+      <!-- Author -->
+      {% if page.author or site.author %}
+      <div class="post-meta-item post-meta-author">
+        <span class="post-meta-label">{{ t.written_by }}</span>
+        <span class="post-meta-value" itemprop="author" itemscope itemtype="https://schema.org/Person">
+          <span itemprop="name">{{ page.author if page.author else site.author }}</span>
+        </span>
+      </div>
+      {% endif %}
+
+      <!-- Date -->
+      {% if page.date %}
+      <div class="post-meta-item post-meta-date">
+        <span class="post-meta-label">{{ t.published_date }}</span>
+        <time class="post-meta-value" datetime="{{ page.date | date('%Y-%m-%d') }}" itemprop="datePublished">
+          {{ page.date | date('long', page.lang) }}
+        </time>
+      </div>
+      {% endif %}
+
+      <!-- Reading Time -->
+      {% if page.readingTime %}
+      <div class="post-meta-item post-meta-reading">
+        <span class="post-meta-label">{{ t.reading_time }}</span>
+        <span class="post-meta-value" data-info="reading-time" aria-label="{{t.reading_time}}">
+          {{ page.readingTime }}
+        </span>
+      </div>
+      {% endif %}
+
+      <!-- Updated Date -->
+      {% if page.updated %}
+      <div class="post-meta-item post-meta-updated">
+        <span class="post-meta-label">{{ t.updated_date }}</span>
+        <time class="post-meta-value" datetime="{{ page.updated | date('%Y-%m-%d') }}" itemprop="dateModified">
+          {{ page.updated | date('long', page.lang) }}
+        </time>
+      </div>
+      {% endif %}
+    </div>
+
+    <!-- Language Switcher -->
+    {% if other_language_post %}
+    <a href="{{ other_language_post.url }}" class="post-meta-lang-switch">
+      <svg width="20" height="20" viewBox="0 0 20 20" fill="none">
+        <path d="M10 1C14.9706 1 19 5.02944 19 10C19 14.9706 14.9706 19 10 19C5.02944 19 1 14.9706 1 10C1 5.02944 5.02944 1 10 1Z" stroke="currentColor" stroke-width="1.5"/>
+        <path d="M1 10H19M10 1C12.5 4 13.5 7 13.5 10C13.5 13 12.5 16 10 19C7.5 16 6.5 13 6.5 10C6.5 7 7.5 4 10 1Z" stroke="currentColor" stroke-width="1.5"/>
+      </svg>
+      <span>Voir en {{ other_language_post.lang }}</span>
+    </a>
+    {% endif %}
+  </div>
+
+  <!-- Featured Image with Editorial Treatment -->
+  {% if page.thumbnail %}
+  <figure class="post-header-image">
+    {{render_image(page.thumbnail, page.title, page.thumbnailCaption)}}
+    {% if page.thumbnailCaption %}
+    <figcaption class="post-header-caption">{{ page.thumbnailCaption }}</figcaption>
+    {% endif %}
+  </figure>
+  {% endif %}
 </header>

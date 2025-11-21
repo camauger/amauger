@@ -1,0 +1,259 @@
+/* ========================================
+   POST HEADER - NARRATIVE CODEX
+   Editorial magazine-style article headers
+   ======================================== */
+
+.post-header-codex {
+  max-width: var(--post-width);
+  margin: 0 auto var(--spacing-12);
+  padding-top: var(--spacing-12);
+
+  @media (max-width: 768px) {
+    padding-top: var(--spacing-8);
+    margin-bottom: var(--spacing-8);
+  }
+}
+
+/* ========================================
+   Draft Badge
+   ======================================== */
+
+.post-draft-badge {
+  display: inline-flex;
+  align-items: center;
+  gap: var(--spacing-2);
+  padding: var(--spacing-2) var(--spacing-4);
+  font-family: var(--font-mono);
+  font-size: var(--text-xs);
+  font-weight: 600;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: var(--color-secondary);
+  background: rgba(231, 111, 81, 0.1);
+  border: 1px solid var(--color-secondary);
+  border-radius: var(--border-radius);
+  margin-bottom: var(--spacing-6);
+
+  svg {
+    animation: spin 2s linear infinite;
+  }
+}
+
+@keyframes spin {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}
+
+/* ========================================
+   Title Section
+   ======================================== */
+
+.post-header-title-wrapper {
+  margin-bottom: var(--spacing-8);
+  text-align: center;
+}
+
+.post-header-title {
+  font-family: var(--font-display);
+  font-size: clamp(var(--text-3xl), 6vw, var(--text-5xl));
+  font-weight: 700;
+  line-height: 1.2;
+  letter-spacing: -0.02em;
+  color: var(--color-text);
+  margin: 0 0 var(--spacing-6) 0;
+  text-wrap: balance;
+}
+
+.post-header-ornament {
+  display: flex;
+  justify-content: center;
+  color: var(--color-primary);
+  opacity: 0.6;
+}
+
+/* ========================================
+   Excerpt - Drop Cap Style
+   ======================================== */
+
+.post-header-excerpt-wrapper {
+  margin-bottom: var(--spacing-8);
+  padding: var(--spacing-6) 0;
+  border-top: 1px solid var(--color-border);
+  border-bottom: 1px solid var(--color-border);
+}
+
+.post-header-excerpt {
+  font-family: var(--font-body);
+  font-size: var(--text-xl);
+  line-height: 1.6;
+  color: var(--color-text-light);
+  margin: 0;
+  font-style: italic;
+  text-align: center;
+  text-wrap: balance;
+
+  &::before {
+    content: '"';
+    font-family: var(--font-display);
+    font-size: var(--text-3xl);
+    color: var(--color-primary);
+    opacity: 0.5;
+    margin-right: var(--spacing-2);
+  }
+
+  &::after {
+    content: '"';
+    font-family: var(--font-display);
+    font-size: var(--text-3xl);
+    color: var(--color-primary);
+    opacity: 0.5;
+    margin-left: var(--spacing-2);
+  }
+
+  @media (max-width: 768px) {
+    font-size: var(--text-lg);
+  }
+}
+
+/* ========================================
+   Meta Information Grid
+   ======================================== */
+
+.post-header-meta {
+  margin-bottom: var(--spacing-10);
+  padding: var(--spacing-8) 0;
+  border-top: 2px solid var(--color-border);
+  border-bottom: 2px solid var(--color-border);
+}
+
+.post-meta-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: var(--spacing-6);
+  margin-bottom: var(--spacing-6);
+
+  @media (max-width: 640px) {
+    grid-template-columns: 1fr;
+    gap: var(--spacing-4);
+  }
+}
+
+.post-meta-item {
+  display: flex;
+  flex-direction: column;
+  gap: var(--spacing-2);
+}
+
+.post-meta-label {
+  font-family: var(--font-mono);
+  font-size: var(--text-xs);
+  font-weight: 600;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: var(--color-text-muted);
+}
+
+.post-meta-value {
+  font-family: var(--font-sans);
+  font-size: var(--text-base);
+  font-weight: 500;
+  color: var(--color-text);
+}
+
+/* Special styling for author */
+.post-meta-author {
+  .post-meta-value {
+    font-family: var(--font-display);
+    font-size: var(--text-lg);
+    font-weight: 600;
+    color: var(--color-primary);
+  }
+}
+
+/* Language Switcher */
+.post-meta-lang-switch {
+  display: inline-flex;
+  align-items: center;
+  gap: var(--spacing-2);
+  padding: var(--spacing-3) var(--spacing-4);
+  font-family: var(--font-sans);
+  font-size: var(--text-sm);
+  font-weight: 600;
+  color: var(--color-text);
+  background: var(--color-background-alt);
+  border: 1px solid var(--color-border);
+  border-radius: var(--border-radius-lg);
+  text-decoration: none;
+  transition: all var(--transition-normal);
+
+  &:hover {
+    border-color: var(--color-primary);
+    color: var(--color-primary);
+    background: rgba(42, 157, 143, 0.05);
+  }
+}
+
+/* ========================================
+   Featured Image - Full Bleed Editorial
+   ======================================== */
+
+.post-header-image {
+  position: relative;
+  margin: 0 calc(-1 * var(--spacing-6));
+  margin-bottom: var(--spacing-10);
+  border-radius: var(--border-radius-xl);
+  overflow: hidden;
+  box-shadow: var(--shadow-xl);
+
+  @media (max-width: 768px) {
+    margin-left: calc(-1 * var(--spacing-4));
+    margin-right: calc(-1 * var(--spacing-4));
+    border-radius: 0;
+  }
+
+  img {
+    width: 100%;
+    height: auto;
+    display: block;
+    object-fit: cover;
+  }
+}
+
+.post-header-caption {
+  padding: var(--spacing-4) var(--spacing-6);
+  font-family: var(--font-body);
+  font-size: var(--text-sm);
+  font-style: italic;
+  color: var(--color-text-light);
+  background: var(--color-background-alt);
+  border-top: 1px solid var(--color-border);
+  text-align: center;
+
+  @media (max-width: 768px) {
+    padding: var(--spacing-3) var(--spacing-4);
+    font-size: var(--text-xs);
+  }
+}
+
+/* ========================================
+   Dark Mode
+   ======================================== */
+
+[data-theme="dark"] {
+  .post-draft-badge {
+    background: rgba(231, 111, 81, 0.15);
+  }
+
+  .post-meta-lang-switch {
+    background: var(--color-background);
+    border-color: var(--color-border);
+
+    &:hover {
+      background: rgba(42, 157, 143, 0.1);
+    }
+  }
+
+  .post-header-caption {
+    background: var(--color-background);
+  }
+}

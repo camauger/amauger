@@ -1,89 +1,151 @@
 :root {
-  /* Couleurs principales */
+  /* ========================================
+     NARRATIVE CODEX DESIGN SYSTEM
+     A fusion of editorial luxury + RPG + developer precision
+     ======================================== */
+
+  /* Couleurs principales - Enhanced Palette */
   --color-primary: #2a9d8f;
   --color-primary-light: #4cc9b0;
-  --color-primary-dark: #237a68;
+  --color-primary-dark: #1a6b5f;
   --color-secondary: #e76f51;
   --color-secondary-dark: #d65a3e;
+  --color-secondary-light: #ff9b7f;
+
+  /* Extended Color Palette */
+  --color-accent: #6b46c1;
+  --color-accent-light: #8b5cf6;
+  --color-ink: #0f1419;
+  --color-cream: #fef5ed;
+  --color-sage: #9fb1a8;
 
   /* Couleurs de texte et fond */
-  --color-text: #333333;
-  --color-text-light: #7d7d7d;
-  --color-background: #fafafa;
-  --color-background-alt: #f5f5f5;
-  --color-border: #e0e0e0;
+  --color-text: #1a1a1a;
+  --color-text-light: #6b7280;
+  --color-text-muted: #9ca3af;
+  --color-background: #fefdfb;
+  --color-background-alt: #f8f6f3;
+  --color-background-elevated: #ffffff;
+  --color-border: #e5e7eb;
+  --color-border-strong: #d1d5db;
   --color-white: #ffffff;
 
-  --footer-color-background: #2d3748;
+  --footer-color-background: #0f1419;
 
-  /* Polices de caractères */
-  --font-sans: "Poppins", sans-serif;
+  /* Polices de caractères - Narrative Codex Typography */
+  --font-display: "Cormorant Garamond", "Lora", Georgia, serif;
+  --font-sans: "DM Sans", "Inter", system-ui, sans-serif;
+  --font-body: "Lora", Georgia, serif;
+  --font-mono: "JetBrains Mono", "Fira Code", "Consolas", monospace;
+
   --font-primary: var(--font-sans);
-  --font-decorative: "Lora", serif;
-  --font-secondary: var(--font-decorative);
+  --font-decorative: var(--font-display);
+  --font-secondary: var(--font-body);
 
-  /* Typography */
+  /* Typography Scale - Refined */
+  --text-xs: 0.875rem;
   --text-sm: 1rem;
-  --text-base: 1.2rem;
-  --text-lg: 1.6rem;
-  --text-xl: 2rem;
-  --text-2xl: 2.4rem;
-  --text-3xl: 3rem;
-  --text-4xl: 4rem;
-  --post-font-size: 1.05rem;
+  --text-base: 1.125rem;
+  --text-lg: 1.25rem;
+  --text-xl: 1.5rem;
+  --text-2xl: 2rem;
+  --text-3xl: 2.75rem;
+  --text-4xl: 3.75rem;
+  --text-5xl: 5rem;
+  --text-6xl: 6.5rem;
+  --post-font-size: 1.125rem;
 
-  /* Espacement */
-  --spacing-1: 0.4rem;
-  --spacing-2: 0.8rem;
-  --spacing-3: 1.2rem;
-  --spacing-4: 1.6rem;
-  --spacing-6: 2.4rem;
-  --spacing-8: 3.2rem;
-  --spacing-12: 4.8rem;
+  /* Espacement - Extended Scale */
+  --spacing-1: 0.25rem;
+  --spacing-2: 0.5rem;
+  --spacing-3: 0.75rem;
+  --spacing-4: 1rem;
+  --spacing-5: 1.5rem;
+  --spacing-6: 2rem;
+  --spacing-8: 3rem;
+  --spacing-10: 4rem;
+  --spacing-12: 6rem;
+  --spacing-16: 8rem;
+  --spacing-20: 10rem;
 
   /* Layout */
-  --container-width: 120rem;
-  --post-width: 42rem;
-  --recent-posts-width: 80rem;
-  /* Bordures et rayons */
-  --border-radius: 0.4rem;
-  --border-radius-lg: 0.8rem;
+  --container-width: 140rem;
+  --content-width: 85rem;
+  --post-width: 48rem;
+  --recent-posts-width: 85rem;
 
-  /* Ombres */
-  --shadow-sm: 0 2px 4px rgba(0, 0, 0, 0.1);
-  --shadow-md: 0 4px 8px rgba(0, 0, 0, 0.12);
-  --shadow-lg: 0 8px 16px rgba(0, 0, 0, 0.15);
+  /* Bordures et rayons - Refined */
+  --border-radius-sm: 0.25rem;
+  --border-radius: 0.5rem;
+  --border-radius-lg: 1rem;
+  --border-radius-xl: 1.5rem;
+  --border-radius-2xl: 2rem;
 
-  /* Transitions */
-  --transition-fast: 0.3s;
-  --transition-normal: 0.5s;
+  /* Ombres - Dramatic Depth */
+  --shadow-xs: 0 1px 2px rgba(0, 0, 0, 0.05);
+  --shadow-sm: 0 2px 8px rgba(0, 0, 0, 0.08);
+  --shadow-md: 0 4px 16px rgba(0, 0, 0, 0.1);
+  --shadow-lg: 0 8px 32px rgba(0, 0, 0, 0.12);
+  --shadow-xl: 0 16px 48px rgba(0, 0, 0, 0.15);
+  --shadow-2xl: 0 24px 64px rgba(0, 0, 0, 0.2);
+  --shadow-colored: 0 8px 32px rgba(42, 157, 143, 0.2);
+  --shadow-glow: 0 0 32px rgba(107, 70, 193, 0.3);
 
-  /* Z-index */
+  /* Transitions - Refined Timing */
+  --transition-fast: 0.15s cubic-bezier(0.4, 0, 0.2, 1);
+  --transition-normal: 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+  --transition-slow: 0.5s cubic-bezier(0.4, 0, 0.2, 1);
+  --transition-bounce: 0.5s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+
+  /* Z-index Scale */
+  --z-base: 0;
+  --z-dropdown: 50;
+  --z-sticky: 70;
+  --z-overlay: 80;
   --z-nav: 90;
   --z-modal: 100;
-  --z-overlay: 80;
+  --z-toast: 110;
 
-  /* Utilitaires pour les dégradés */
-  --gradient-primary: linear-gradient(
-    to right,
-    var(--color-primary),
-    var(--color-primary-light)
-  );
-  --gradient-dark: linear-gradient(180deg, rgba(0, 0, 0, 0.2), transparent);
+  /* Gradients - Narrative Codex */
+  --gradient-primary: linear-gradient(135deg, var(--color-primary) 0%, var(--color-primary-light) 100%);
+  --gradient-secondary: linear-gradient(135deg, var(--color-secondary) 0%, var(--color-secondary-light) 100%);
+  --gradient-accent: linear-gradient(135deg, var(--color-accent) 0%, var(--color-accent-light) 100%);
+  --gradient-sunset: linear-gradient(135deg, var(--color-secondary) 0%, var(--color-accent) 100%);
+  --gradient-ocean: linear-gradient(135deg, var(--color-primary) 0%, var(--color-accent) 100%);
+  --gradient-dark: linear-gradient(180deg, rgba(0, 0, 0, 0.4) 0%, transparent 100%);
+  --gradient-light: linear-gradient(180deg, rgba(255, 255, 255, 0.9) 0%, transparent 100%);
+
+  /* Noise Texture (SVG) */
+  --noise-texture: url("data:image/svg+xml,%3Csvg viewBox='0 0 400 400' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='noiseFilter'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.9' numOctaves='4' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23noiseFilter)' opacity='0.05'/%3E%3C/svg%3E");
 }
 
-/* Dark mode */
+/* Dark mode - Narrative Codex Night Edition */
 [data-theme="dark"] {
-  --color-text: #e0e0e0;
-  --color-text-light: #a0aec0;
-  --color-background: #121212;
-  --color-background-alt: #1e1e1e;
+  --color-text: #f5f5f5;
+  --color-text-light: #9ca3af;
+  --color-text-muted: #6b7280;
+  --color-background: #0a0e14;
+  --color-background-alt: #14181f;
+  --color-background-elevated: #1a1f29;
   --color-border: #2d3748;
+  --color-border-strong: #374151;
+
+  --color-cream: #2d2519;
+  --color-ink: #f5f5f5;
 
   /* Ajustement des ombres pour le mode sombre */
-  --shadow-sm: 0 2px 4px rgba(0, 0, 0, 0.3);
-  --shadow-md: 0 4px 8px rgba(0, 0, 0, 0.35);
-  --shadow-lg: 0 8px 16px rgba(0, 0, 0, 0.4);
+  --shadow-xs: 0 1px 2px rgba(0, 0, 0, 0.4);
+  --shadow-sm: 0 2px 8px rgba(0, 0, 0, 0.5);
+  --shadow-md: 0 4px 16px rgba(0, 0, 0, 0.6);
+  --shadow-lg: 0 8px 32px rgba(0, 0, 0, 0.7);
+  --shadow-xl: 0 16px 48px rgba(0, 0, 0, 0.8);
+  --shadow-2xl: 0 24px 64px rgba(0, 0, 0, 0.9);
+  --shadow-colored: 0 8px 32px rgba(42, 157, 143, 0.3);
+  --shadow-glow: 0 0 32px rgba(107, 70, 193, 0.4);
+
+  /* Enhanced gradients for dark mode */
+  --gradient-dark: linear-gradient(180deg, rgba(0, 0, 0, 0.6) 0%, transparent 100%);
+  --gradient-light: linear-gradient(180deg, rgba(255, 255, 255, 0.05) 0%, transparent 100%);
 
   /* Aspects */
   --primary-bg-color: var(--color-background-alt);
