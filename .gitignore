@@ -41,6 +41,7 @@ yarn-error.log*
 # Fichiers de configuration locaux et variables d'environnement
 .env
 *.local
+.venv/
 
 # Dossier de coverage (tests)
 coverage/

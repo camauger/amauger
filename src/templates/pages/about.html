@@ -5,7 +5,7 @@
 <article class="about-codex">
   <div class="about-hero">
     <div class="about-hero-content">
-      <span class="about-eyebrow">{{ page.lang == 'fr' ? 'À Propos' : 'About' }}</span>
+      <span class="about-eyebrow">{{ 'À Propos' if page.lang == 'fr' else 'About' }}</span>
       <h1 class="about-title">{{ page.title }}</h1>
 
       <!-- Decorative element -->
@@ -27,7 +27,7 @@
     <!-- Visual Timeline/Stats Section -->
     <aside class="about-sidebar">
       <div class="about-card">
-        <h3 class="about-card-title">{{ page.lang == 'fr' ? 'Compétences' : 'Skills' }}</h3>
+        <h3 class="about-card-title">{{ 'Compétences' if page.lang == 'fr' else 'Skills' }}</h3>
         <div class="about-skills">
           <span class="about-skill">Web Development</span>
           <span class="about-skill">RPG Design</span>
@@ -43,9 +43,9 @@
             <path d="M20 5L25 15L35 16.5L27.5 24L29.5 35L20 30L10.5 35L12.5 24L5 16.5L15 15L20 5Z" stroke="currentColor" stroke-width="2" fill="none"/>
           </svg>
         </div>
-        <h4 class="about-card-highlight-title">{{ page.lang == 'fr' ? 'Passion' : 'Passion' }}</h4>
+        <h4 class="about-card-highlight-title">{{ 'Passion' if page.lang == 'fr' else 'Passion' }}</h4>
         <p class="about-card-highlight-text">
-          {{ page.lang == 'fr' ? 'Créer des expériences numériques mémorables et des univers immersifs' : 'Creating memorable digital experiences and immersive worlds' }}
+          {{ 'Créer des expériences numériques mémorables et des univers immersifs' if page.lang == 'fr' else 'Creating memorable digital experiences and immersive worlds' }}
         </p>
       </div>
     </aside>
