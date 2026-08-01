@@ -1,10 +1,5 @@
 [build]
-  command = """
-    npm install -g grunt-cli sass &&
-    npm install &&
-    pip install -r requirements.txt &&
-    npm run build
-  """
+  command = "npm install -g grunt-cli sass && npm install && pip install -r requirements.txt && npm run build"
   publish = "dist"
 
 [build.environment]

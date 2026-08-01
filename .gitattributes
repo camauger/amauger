@@ -1,0 +1,4 @@
+# Forcer LF pour les configs exécutées sur Linux (Netlify, CI)
+netlify.toml text eol=lf
+*.sh text eol=lf
+*.mjs text eol=lf
