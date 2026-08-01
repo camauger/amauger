@@ -20,13 +20,13 @@
   "nav_label": "Main menu",
   "no_article_category": "No articles in this category.",
   "not_found": "Page not found",
-  "published_date": "Published on {date, date, medium}",
+  "published_date": "Published on",
   "search_placeholder": "Search articles...",
   "search": "Search",
   "skip_to_content": "Skip to main content",
   "social_links": "Social links",
   "technologies_not_specified": "Technologies not specified",
-  "updated_date": "Updated on {date, date, medium}",
+  "updated_date": "Updated on",
   "keyword_no_article": "No articles found for this keyword.",
   "skills_title": "My Skills",
   "technical_skills": "Technical Skills",
@@ -65,5 +65,7 @@
   "roleplaying_games": "Role-playing Games",
   "roleplaying_games_glossary": "Role-playing Games Glossary",
   "my_games": "My role-playing games",
+  "my_websites": "My other websites",
+  "contact_details": "Contact details",
   "idoine": "Powered by Idoine"
 }

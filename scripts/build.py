@@ -10,7 +10,6 @@ from utils import markdown_filter, format_date_filter, slugify
 import argparse
 import logging
 import sys
-from translation_utils import TranslationManager
 sys.stdout.reconfigure(encoding='utf-8')
 
 logging.basicConfig(
@@ -41,6 +40,9 @@ class SiteBuilder:
         self.projects = config_loader.load_projects()
         self.site_config = config_loader.load_site_config()
 
+        default_lang = self.site_config.get(
+            'default_lang', self.site_config.get('languages', ['en'])[0])
+
         self.jinja_env = Environment(
             loader=FileSystemLoader(str(self.src_path / 'templates')),
             autoescape=select_autoescape(['html', 'xml'])
@@ -52,6 +54,7 @@ class SiteBuilder:
         self.is_multilingual = len(self.site_config.get('languages', [])) > 1
         self.jinja_env.globals['is_multilingual'] = self.is_multilingual
         self.jinja_env.globals['is_unilingual'] = not self.is_multilingual
+        self.jinja_env.globals['lang'] = default_lang
 
         self.static_manager = StaticFileManager(self.src_path, self.dist_path)
 
@@ -64,37 +67,6 @@ class SiteBuilder:
         self.page_builder = PageBuilder(self.src_path, self.dist_path, self.site_config,
                                         self.translations, self.jinja_env, self.projects,
                                         post_builder=self.post_builder)
-        # Create the translation manager
-        default_lang = self.site_config.get(
-            'default_lang', self.site_config.get('languages', ['en'])[0])
-        self.translation_manager = TranslationManager(
-            self.translations, default_lang)
-        # Define the translate filter
-
-        def translate_filter(key, lang=None, **params):
-            """
-            Jinja2 filter for translations with ICU MessageFormat support.
-            Usage: {{ 'blog.post_count' | t(lang=page.lang, count=5) }}
-            """
-            current_lang = lang or self.jinja_env.globals.get('lang', default_lang)
-            return self.translation_manager.get(key, current_lang, params)
-
-        self.jinja_env = Environment(
-            loader=FileSystemLoader(str(self.src_path / 'templates')),
-            autoescape=select_autoescape(['html', 'xml'])
-        )
-        self.jinja_env.filters['date'] = format_date_filter
-        self.jinja_env.filters['markdown'] = markdown_filter
-        self.jinja_env.filters['slugify'] = slugify
-        # Add the translation filter
-        self.jinja_env.filters['t'] = translate_filter
-
-        self.is_multilingual = len(
-            self.site_config.get('languages', [])) > 1
-        self.jinja_env.globals['is_multilingual'] = self.is_multilingual
-        self.jinja_env.globals['is_unilingual'] = not self.is_multilingual
-        # Set default language
-        self.jinja_env.globals['lang'] = default_lang
 
     def build(self):
         try:
@@ -123,9 +95,6 @@ class SiteBuilder:
                     categories.setdefault(category, []).append(post)
                 for keyword in post.get('meta_keywords', []):
                     keywords.setdefault(keyword, []).append(post)
-
-            self.page_builder.build_category_pages(categories)
-            self.page_builder.build_keyword_pages(keywords)
 
             logging.info(
                 f"{ICON_CATEGORY} Génération des pages pour les catégories...")

@@ -3,15 +3,17 @@
     npm install -g grunt-cli sass &&
     npm install &&
     pip install -r requirements.txt &&
-    grunt build
+    npm run build
   """
   publish = "dist"
-
-[[redirects]]
-  from = "/*"
-  to = "/index.html"
-  status = 200
 
 [build.environment]
   NODE_VERSION = "18"
   PYTHON_VERSION = "3.9"
+
+# Langue par défaut à la racine (évite la meta-refresh seule)
+[[redirects]]
+  from = "/"
+  to = "/fr/"
+  status = 301
+  force = true

@@ -22,12 +22,6 @@
 
   p {
     margin-bottom: var(--spacing-6);
-    text-align: justify;
-    text-justify: inter-word;
-
-    @media (max-width: 768px) {
-      text-align: left;
-    }
 
     /* Drop cap for first paragraph */
     &:first-of-type:first-letter {
@@ -103,12 +97,12 @@
      ======================================== */
 
   a {
-    color: var(--color-primary);
+    color: var(--color-link);
     text-decoration: none;
     background-image: linear-gradient(
       to right,
-      var(--color-primary) 0%,
-      var(--color-primary) 100%
+      var(--color-link) 0%,
+      var(--color-link) 100%
     );
     background-size: 0 2px;
     background-position: 0 100%;
@@ -118,7 +112,7 @@
 
     &:hover {
       background-size: 100% 2px;
-      color: var(--color-primary-dark);
+      color: var(--color-link-hover);
     }
   }
 
@@ -271,7 +265,7 @@
     background: var(--color-background-alt);
     border: 1px solid var(--color-border);
     border-radius: var(--border-radius);
-    color: var(--color-secondary);
+    color: var(--color-secondary-text);
   }
 
   pre {

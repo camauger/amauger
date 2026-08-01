@@ -28,8 +28,12 @@ class PageBuilder:
                     content = page_file.read_text(encoding='utf-8')
                     metadata = extract_metadata(content)
                     tid = str(metadata.get("translation_id", page_file.stem))
-                    page_url = ("/" if page_file.stem == 'home'
-                                else (f"/{page_file.stem}/" if is_unilingual else f"/{lang}/{page_file.stem}/"))
+                    if page_file.stem == 'home':
+                        page_url = "/" if is_unilingual else f"/{lang}/"
+                    elif is_unilingual:
+                        page_url = f"/{page_file.stem}/"
+                    else:
+                        page_url = f"/{lang}/{page_file.stem}/"
                     mapping.setdefault(tid, {})[lang] = page_url
         return mapping
 
@@ -124,13 +128,16 @@ class PageBuilder:
         is_unilingual = len(self.site_config['languages']) == 1
         default_lang = self.site_config['default_lang'] or self.site_config['languages'][0]
         redirection_url = "/" if is_unilingual else f"/{default_lang}/"
+        base_url = self.site_config.get('base_url', '').rstrip('/')
+        canonical = f"{base_url}{redirection_url}"
         redirection_html = f"""<!DOCTYPE html>
 <html lang="{default_lang}">
 <head>
     <meta charset="utf-8">
     <meta http-equiv="refresh" content="0; url={redirection_url}">
-    <link rel="canonical" href="{redirection_url}">
-    <title>Redirection...</title>
+    <link rel="canonical" href="{canonical}">
+    <title>Redirection — {self.site_config.get('title', '')}</title>
+    <meta name="robots" content="noindex">
 </head>
 <body>
     <p>Redirection vers <a href="{redirection_url}">la version du site</a>.</p>

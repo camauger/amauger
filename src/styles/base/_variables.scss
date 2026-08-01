@@ -5,12 +5,17 @@
      ======================================== */
 
   /* Couleurs principales - Enhanced Palette */
-  --color-primary: #2a9d8f;
+  /* #207e70 : même teinte que l'ancien #2a9d8f, mais 4.8:1 sur blanc (AA) */
+  --color-primary: #207e70;
   --color-primary-light: #4cc9b0;
   --color-primary-dark: #1a6b5f;
   --color-secondary: #e76f51;
   --color-secondary-dark: #d65a3e;
   --color-secondary-light: #ff9b7f;
+  /* Texte de même teinte que secondary, lisible sur fond clair (5.6:1) */
+  --color-secondary-text: #b13c1e;
+  /* Texte posé sur un fond --color-secondary (6:1) */
+  --color-on-secondary: #0f1419;
 
   /* Extended Color Palette */
   --color-accent: #6b46c1;
@@ -21,8 +26,8 @@
 
   /* Couleurs de texte et fond */
   --color-text: #1a1a1a;
-  --color-text-light: #6b7280;
-  --color-text-muted: #9ca3af;
+  --color-text-light: #4b5563; /* 7.5:1 sur fond clair */
+  --color-text-muted: #6b7280; /* 4.8:1 sur fond clair */
   --color-background: #fefdfb;
   --color-background-alt: #f8f6f3;
   --color-background-elevated: #ffffff;
@@ -30,7 +35,14 @@
   --color-border-strong: #d1d5db;
   --color-white: #ffffff;
 
+  /* Liens (rôle sémantique, ajusté par thème) */
+  --color-link: var(--color-primary-dark);
+  --color-link-hover: var(--color-primary);
+
+  /* Footer : fond sombre constant dans les deux thèmes */
   --footer-color-background: #0f1419;
+  --footer-color-text: #9ca3af; /* 7.3:1 sur #0f1419 */
+  --footer-color-link: var(--color-primary-light); /* 9.1:1 sur #0f1419 */
 
   /* Polices de caractères - Narrative Codex Typography */
   --font-display: "Cormorant Garamond", "Lora", Georgia, serif;
@@ -69,6 +81,7 @@
   --spacing-20: 10rem;
 
   /* Layout */
+  --header-height: 4rem; /* hauteur unique du header fixe (body et menu mobile en dépendent) */
   --container-width: 140rem;
   --content-width: 85rem;
   --post-width: 48rem;
@@ -123,7 +136,10 @@
 [data-theme="dark"] {
   --color-text: #f5f5f5;
   --color-text-light: #9ca3af;
-  --color-text-muted: #6b7280;
+  --color-text-muted: #8b95a5; /* 6.2:1 sur #0a0e14 */
+  --color-link: var(--color-primary-light);
+  --color-link-hover: #7ce0cf;
+  --color-secondary-text: var(--color-secondary-light);
   --color-background: #0a0e14;
   --color-background-alt: #14181f;
   --color-background-elevated: #1a1f29;
@@ -146,22 +162,4 @@
   /* Enhanced gradients for dark mode */
   --gradient-dark: linear-gradient(180deg, rgba(0, 0, 0, 0.6) 0%, transparent 100%);
   --gradient-light: linear-gradient(180deg, rgba(255, 255, 255, 0.05) 0%, transparent 100%);
-
-  /* Aspects */
-  --primary-bg-color: var(--color-background-alt);
-  --secondary-bg-color: var(--color-border);
-  --white-color: var(--color-white);
-  --primary-text-color: var(--color-text);
-  --secondary-text-color: var(--color-text-light);
-  --box-shadow-color: var(--shadow-md);
-  --hover-box-shadow-color: var(--shadow-lg);
-  --gap: var(--spacing-8);
-  --padding-large: var(--spacing-12) var(--spacing-8);
-  --padding-medium: var(--spacing-6) var(--spacing-8);
-  --border-radius: var(--border-radius-lg);
-  --scale-normal: 0.9;
-  --scale-hover: 1.05;
-  --font-size-large: var(--text-2xl);
-  --font-size-medium: var(--text-base);
-  --line-height: 1.6;
 }

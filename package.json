@@ -2,6 +2,7 @@
     "name": "christianamauger.com",
     "version": "1.0.0",
     "description": "Site personnel basé sur le template Idoine",
+    "homepage": "https://christianamauger.com",
     "template": {
         "repository": "https://github.com/camauger/idoine",
         "version": "1.0.0",
@@ -10,12 +11,17 @@
     "main": "Gruntfile.js",
     "scripts": {
         "dev": "grunt dev",
-        "build": "grunt sass:prod && python scripts/build.py --build"
+        "build": "grunt build && npm run seo",
+        "sitemap": "node scripts/generate-sitemap.mjs",
+        "robots": "node scripts/generate-robots.mjs",
+        "verify-seo": "node scripts/verify-seo.mjs",
+        "seo": "npm run sitemap && npm run robots && npm run verify-seo"
     },
     "author": "Christian Amauger <christian@amauger.com>",
     "license": "MIT",
     "devDependencies": {
-        "autoprefixer": "9.8.6",
+        "@lodder/grunt-postcss": "^3.1.1",
+        "autoprefixer": "^10.5.4",
         "gray-matter": "^4.0.3",
         "grunt": "^1.6.1",
         "grunt-cli": "^1.5.0",
@@ -26,11 +32,15 @@
         "grunt-contrib-watch": "^1.1.0",
         "grunt-mkdir": "^1.1.0",
         "grunt-newer": "^1.3.0",
-        "grunt-postcss": "^0.9.0",
         "grunt-sass": "^3.1.0",
         "grunt-shell": "^3.0.1",
         "load-grunt-tasks": "^5.1.0",
         "marked": "^15.0.7",
+        "postcss": "^8.5.25",
         "sass": "^1.69.0"
+    },
+    "overrides": {
+        "minimatch": "^3.1.5",
+        "ws": "^8.18.0"
     }
 }

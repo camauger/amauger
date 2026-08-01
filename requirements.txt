@@ -9,12 +9,8 @@ python-frontmatter>=1.0.0
 # Internationalisation et formatage
 Babel>=2.9.0
 Unidecode>=1.3.0
-pyicumessageformat
 
 # Utilitaires de développement
 pytest>=7.0.0
 black>=22.0.0
 flake8>=4.0.0
-
-# Serveur de développement
-pathlib>=1.0.0

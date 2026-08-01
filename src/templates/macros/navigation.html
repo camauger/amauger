@@ -5,10 +5,9 @@
   {% else %}
     {% set url = '/' ~ page.lang ~ '/' if not slug else '/' ~ page.lang ~ '/' ~ slug ~ '/' %}
   {% endif %}
-  <li role="none">
+  <li>
     <a href="{{ url }}"
-       {% if page.url == url %}aria-current="page"{% endif %}
-       role="menuitem">
+       {% if page.url == url %}aria-current="page"{% endif %}>
       {{ label }}
     </a>
   </li>

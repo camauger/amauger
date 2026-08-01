@@ -3,6 +3,7 @@ import logging
 from pathlib import Path
 from utils import build_page
 from frontmatter_parser import parse_frontmatter
+from metadata import extract_metadata
 
 
 class PostBuilder:
@@ -149,23 +150,47 @@ class PostBuilder:
         return posts[:count]
 
     def _build_home_page(self, recent_posts: list, lang: str) -> None:
+        """Génère l'accueil à partir de home.md (métadonnées SEO) + posts récents."""
+        home_file = self.src_path / 'locales' / lang / 'pages' / 'home.md'
+        metadata = {}
+        if home_file.exists():
+            metadata = extract_metadata(home_file.read_text(encoding='utf-8'))
+
+        page_url = "/" if self.unilingual else f"/{lang}/"
+        content_translations = {}
+        for alt_lang in self.site_config.get('languages', []):
+            content_translations[alt_lang] = (
+                "/" if self.unilingual else f"/{alt_lang}/"
+            )
+
         page_metadata = {
-            'title': self.translations[lang].get('home_title', 'Accueil'),
-            'description': self.translations[lang].get('home_description', ''),
+            **metadata,
             'lang': lang,
+            'url': page_url,
+            'content_translations': content_translations,
+            'title': metadata.get(
+                'title',
+                self.translations[lang].get('home_title', 'Accueil'),
+            ),
+            'description': metadata.get(
+                'description',
+                self.translations[lang].get('home_description', ''),
+            ),
             'home_cta': self.translations[lang].get('home_cta', 'En savoir plus'),
-            'home_image': self.translations[lang].get('home_image', ''),
         }
-        output = self.jinja_env.get_template(self.home_template).render(
+        template_name = metadata.get('template', self.home_template)
+        output = self.jinja_env.get_template(template_name).render(
             page=page_metadata,
             recent_posts=recent_posts,
             t=self.translations[lang],
             site=self.site_config,
-            projects=self.projects
+            projects=self.projects,
         )
-        output_path = (self.dist_path / 'index.html'
-                       if self.unilingual
-                       else self.dist_path / lang / 'index.html')
+        output_path = (
+            self.dist_path / 'index.html'
+            if self.unilingual
+            else self.dist_path / lang / 'index.html'
+        )
         output_path.parent.mkdir(parents=True, exist_ok=True)
         output_path.write_text(output, encoding='utf-8')
 

@@ -158,6 +158,15 @@
   }
 }
 
+/* Featured portfolio — 2×2 grid of real projects */
+.portfolio-grid-featured {
+  grid-template-columns: repeat(2, 1fr);
+
+  @media (max-width: 768px) {
+    grid-template-columns: 1fr;
+  }
+}
+
 /* Frontend Grid - Pattern 1: Large-Small-Medium */
 .portfolio-grid-frontend {
   grid-template-columns: 2fr 1fr;

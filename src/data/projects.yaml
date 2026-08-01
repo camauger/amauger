@@ -1,50 +1,57 @@
-frontend:
-  - title: "Site Web de Portfolio"
-    description: "Un site web de portfolio moderne et réactif."
-    image: "assets/images/landscape.jpg"
-    technologies: ["HTML", "CSS", "JavaScript"]
-    link: "/projects/portfolio-site"
-  - title: "Application de Gestion de Tâches"
-    description: "Une application web pour gérer vos tâches quotidiennes."
-    image: "assets/images/landscape.jpg"
-    technologies: ["React", "Redux", "CSS"]
-    link: "/projects/task-manager"
-  - title: "Blog Personnel"
-    description: "Un blog personnel avec des fonctionnalités de publication et de commentaire."
-    image: "assets/images/landscape.jpg"
-    technologies: ["Gatsby", "GraphQL", "Sass"]
-    link: "/projects/personal-blog"
+# Projets portfolio — sites réels
+featured:
+  - slug: jeuxderole
+    title:
+      fr: "jeuxderole.org"
+      en: "jeuxderole.org"
+    description:
+      fr: "Glossaire francophone collaboratif du jeu de rôle : définitions précises, terminologie claire et ressources pour la communauté."
+      en: "Collaborative French-language RPG glossary: precise definitions, clear terminology, and resources for the community."
+    category:
+      fr: "Ressource communautaire"
+      en: "Community resource"
+    image: "/assets/images/arche-livres.jpg"
+    link: "https://jeuxderole.org"
+    technologies: ["Contenu", "Accessibilité", "Static site"]
 
-jeux_de_role:
-  - title: "Aventure Épique"
-    description: "Un jeu de rôle épique avec des quêtes et des aventures."
-    image: "assets/images/landscape.jpg"
-    technologies: ["Unity", "C#"]
-    link: "/projects/epic-adventure"
-  - title: "Mystères Enigmatique"
-    description: "Un jeu de rôle mystérieux avec des énigmes à résoudre."
-    image: "assets/images/landscape.jpg"
-    technologies: ["Unreal Engine", "Blueprints"]
-    link: "/projects/mystery-game"
-  - title: "Royaume Fantastique"
-    description: "Un jeu de rôle fantastique avec des créatures magiques."
-    image: "assets/images/landscape.jpg"
-    technologies: ["Godot", "GDScript"]
-    link: "/projects/fantasy-realm"
+  - slug: ludomancien
+    title:
+      fr: "Ludomancien"
+      en: "Ludomancien"
+    description:
+      fr: "Maison d'édition et blog de jeux de rôle : catalogues de jeux, articles, outils et carnets de création pour enrichir les tables."
+      en: "RPG publishing house and blog: game catalogues, articles, tools, and design notes for the tabletop community."
+    category:
+      fr: "Édition & création"
+      en: "Publishing & design"
+    image: "/assets/images/lego.jpg"
+    link: "https://ludomancien.com"
+    technologies: ["Editorial", "Web design", "UX"]
 
-strategie_numerique:
-  - title: "Campagne de Marketing Digital"
-    description: "Une campagne de marketing digital pour augmenter la visibilité en ligne."
-    image: "assets/images/landscape.jpg"
-    technologies: ["SEO", "Google Ads", "Analytics"]
-    link: "/projects/digital-marketing-campaign"
-  - title: "Optimisation du Référencement"
-    description: "Optimisation du référencement pour améliorer le classement dans les moteurs de recherche."
-    image: "assets/images/landscape.jpg"
-    technologies: ["SEO", "Content Marketing", "Backlinking"]
-    link: "/projects/seo-optimization"
-  - title: "Stratégie de Contenu"
-    description: "Développement d'une stratégie de contenu pour engager les utilisateurs."
-    image: "assets/images/landscape.jpg"
-    technologies: ["Content Creation", "Social Media", "Analytics"]
-    link: "/projects/content-strategy"
+  - slug: atelierstelme
+    title:
+      fr: "Atelier St-Elme"
+      en: "Atelier St-Elme"
+    description:
+      fr: "Site institutionnel d'un organisme à but non lucratif dédié à l'enseignement de la céramique et du vitrail à Beauport."
+      en: "Institutional website for a nonprofit dedicated to teaching ceramics and stained glass in Beauport."
+    category:
+      fr: "Site institutionnel"
+      en: "Institutional site"
+    image: "/assets/images/dessine.jpg"
+    link: "https://atelierstelme.ca"
+    technologies: ["WordPress", "UX", "Accessibilité"]
+
+  - slug: sahb
+    title:
+      fr: "SAHB"
+      en: "SAHB"
+    description:
+      fr: "Société d'art et d'histoire de Beauport — vitrine numérique pour expositions, événements, école d'arts et patrimoine local."
+      en: "Beauport Art and History Society — digital showcase for exhibitions, events, art school, and local heritage."
+    category:
+      fr: "Culture & patrimoine"
+      en: "Culture & heritage"
+    image: "/assets/images/musee.jpg"
+    link: "https://sahb.ca"
+    technologies: ["CMS", "Événements", "Accessibilité"]

@@ -1,5 +1,6 @@
 ---
-title: Welcome to my blog
-description: A space where I share my thoughts, discoveries and experiences
+title: Frontend Developer & RPG Designer
+description: Portfolio and blog of Christian Amauger — frontend development, digital strategy, and tabletop RPG design.
 template: pages/home.html
+thumbnail: /assets/images/default.jpg
 ---

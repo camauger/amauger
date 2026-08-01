@@ -5,7 +5,7 @@
 
   h1 {
     font-size: 2.2rem;
-    color: var(--color-primary, #2b6cb0);
+    color: var(--color-primary);
     margin-bottom: 1.5rem;
   }
 
@@ -27,7 +27,7 @@
 
     figcaption {
       font-size: 0.9rem;
-      color: var(--color-text-secondary, #666);
+      color: var(--color-text-light);
       margin-top: 0.5rem;
       font-style: italic;
     }
@@ -38,7 +38,7 @@
 
     h2 {
       font-size: 1.5rem;
-      color: var(--color-primary, #2b6cb0);
+      color: var(--color-primary);
       margin-bottom: 1rem;
     }
 
@@ -56,15 +56,15 @@
           display: inline-flex;
           align-items: center;
           padding: 0.5rem 1rem;
-          background-color: var(--color-primary, #2b6cb0);
-          color: #fff;
+          background-color: var(--color-primary);
+          color: var(--color-white);
           border-radius: 8px;
           font-size: 0.9rem;
           text-decoration: none;
           transition: background-color 0.3s ease;
 
           &:hover {
-            background-color: darken(#2b6cb0, 10%);
+            background-color: var(--color-primary-dark);
           }
         }
       }
@@ -78,12 +78,12 @@
     a {
       font-size: 1rem;
       text-decoration: none;
-      color: var(--color-primary, #2b6cb0);
+      color: var(--color-link);
       font-weight: bold;
       transition: color 0.3s ease;
 
       &:hover {
-        color: darken(#2b6cb0, 15%);
+        color: var(--color-link-hover);
       }
     }
   }

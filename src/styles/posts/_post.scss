@@ -25,7 +25,8 @@
       max-width: var(--post-width);
       margin-inline: auto;
       text-align: center;
-      font-size: var(--text-lg);
+      /* --text-2xl : garde le h1 plus grand que les h2 du contenu sur mobile */
+      font-size: var(--text-2xl);
       font-family: var(--font-decorative);
       margin-bottom: var(--spacing-2);
       @media screen and (min-width: 768px) {
@@ -61,61 +62,7 @@
     }
   }
 
-  &-content {
-    max-width: 100%;
-    margin-inline: var(--spacing-2);
-    margin-bottom: var(--spacing-6);
-    font-size: var(--text-base);
-    line-height: 1.65;
-
-    pre,
-    h2,
-    h3,
-    h4 {
-      max-width: var(--post-width);
-      margin-inline: auto;
-    }
-
-    h2,
-    h3 {
-      text-align: center;
-      margin-block: var(--spacing-4);
-    }
-
-    h2 {
-      font-size: var(--text-lg);
-      @media screen and (min-width: 768px) {
-        font-size: var(--text-xl);
-      }
-    }
-    pre,
-    code,
-    blockquote,
-    ol,
-    ul {
-      font-size: var(--post-font-size);
-      max-width: var(--post-width);
-      margin-inline: auto;
-    }
-
-    p {
-      font-size: var(--post-font-size);
-      max-width: var(--post-width);
-      margin-inline: auto;
-      margin-bottom: var(--spacing-3);
-      line-height: 1.6;
-    }
-
-    a {
-      color: var(--color-primary-dark);
-      text-decoration: none;
-      transition: color var(--transition-fast);
-
-      &:hover {
-        color: var(--color-primary);
-      }
-    }
-  }
+  /* Le contenu de l'article est stylé par posts/_post-content.scss */
 
   footer {
     max-width: var(--post-width);
@@ -132,12 +79,12 @@
 
       li {
         a {
-          color: var(--color-primary-dark);
+          color: var(--color-link);
           text-decoration: none;
           transition: color var(--transition-fast);
 
           &:hover {
-            color: var(--color-primary);
+            color: var(--color-link-hover);
           }
         }
       }
@@ -147,7 +94,7 @@
   /* Éléments additionnels */
   div[role="status"] {
     background-color: var(--color-secondary);
-    color: var(--color-white);
+    color: var(--color-on-secondary);
     padding: var(--spacing-1) var(--spacing-2);
     border-radius: var(--border-radius);
     font-weight: bold;
@@ -189,11 +136,6 @@
       .post-meta {
         font-size: var(--text-base);
       }
-    }
-
-    &-content {
-      margin-inline: auto;
-      font-size: var(--text-lg);
     }
 
     footer {

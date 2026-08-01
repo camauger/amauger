@@ -14,13 +14,13 @@ body > footer {
     margin-bottom: var(--spacing-2);
   }
   a {
-    color: var(--color-primary);
+    color: var(--footer-color-link);
     text-decoration: none;
     transition: color var(--transition-fast);
 
     &:hover,
     &:focus {
-      color: var(--color-primary-dark);
+      text-decoration: underline;
     }
   }
 
@@ -47,7 +47,7 @@ body > footer {
 }
 
 .footer-text {
-  color: var(--color-text-light);
+  color: var(--footer-color-text);
   font-size: var(--text-sm);
 }
 

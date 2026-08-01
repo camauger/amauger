@@ -29,7 +29,7 @@ This runs `grunt dev`, which:
 - Builds the HTML via `python scripts/build.py --build`
 - Compiles Sass with source maps
 - Copies static assets
-- Starts a local server at <http://localhost:9000> with LiveReload
+- Starts a local server at <http://localhost:3000> with LiveReload
 - Watches `src/`, `content/`, and `templates/` for changes
 
 Stop the server with `Ctrl+C`. Restart if you modify `scripts/` or the Grunt config.

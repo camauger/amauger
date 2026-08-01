@@ -105,6 +105,10 @@ module.exports = function (grunt) {
         src: "**/*",
         dest: "dist/assets/images/",
       },
+      redirects: {
+        src: "_redirects",
+        dest: "dist/_redirects",
+      },
     },
 
     shell: {
@@ -117,7 +121,7 @@ module.exports = function (grunt) {
     connect: {
       server: {
         options: {
-          port: 9000,
+          port: 3000,
           hostname: "localhost",
           base: "dist",
           livereload: true,

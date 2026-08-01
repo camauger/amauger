@@ -66,6 +66,6 @@ about_image: /assets/images/strategy.jpg
     <h2>Contact Me</h2>
     <div class="contact-content">
       <p>If you have an ambitious project, an innovative idea, or simply a desire to discuss digital trends and creative design, I am always open to new collaborations and enriching conversations.</p>
-      <a href="mailto:christian@amauger.com" class="btn btn-primary"><i class="fa-solid fa-envelope"></i> Contact me</a>
+      <a href="mailto:christian@amauger.com" class="btn btn-primary">Contact me</a>
     </div>
   </section>

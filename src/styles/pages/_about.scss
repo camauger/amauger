@@ -27,17 +27,6 @@
   }
 }
 
-.about-eyebrow {
-  display: inline-block;
-  font-family: var(--font-mono);
-  font-size: var(--text-sm);
-  font-weight: 600;
-  letter-spacing: 0.15em;
-  text-transform: uppercase;
-  color: var(--color-primary);
-  margin-bottom: var(--spacing-4);
-}
-
 .about-title {
   font-family: var(--font-display);
   font-size: clamp(var(--text-4xl), 7vw, var(--text-6xl));
@@ -88,18 +77,6 @@
     font-weight: 700;
     color: var(--color-text);
     margin: var(--spacing-10) 0 var(--spacing-6) 0;
-    position: relative;
-    padding-bottom: var(--spacing-3);
-
-    &::after {
-      content: '';
-      position: absolute;
-      bottom: 0;
-      left: 0;
-      width: 60px;
-      height: 3px;
-      background: var(--gradient-primary);
-    }
 
     @media (max-width: 768px) {
       font-size: var(--text-2xl);
@@ -116,12 +93,6 @@
 
   p {
     margin-bottom: var(--spacing-6);
-    text-align: justify;
-    text-justify: inter-word;
-
-    @media (max-width: 768px) {
-      text-align: left;
-    }
 
     /* Drop cap for first paragraph */
     &:first-of-type:first-letter {
@@ -135,16 +106,21 @@
     }
   }
 
-  a {
-    color: var(--color-primary);
+  a:not(.btn) {
+    color: var(--color-link);
     text-decoration: none;
     border-bottom: 2px solid transparent;
     transition: border-color var(--transition-normal);
     font-weight: 500;
 
     &:hover {
-      border-bottom-color: var(--color-primary);
+      border-bottom-color: var(--color-link-hover);
+      color: var(--color-link-hover);
     }
+  }
+
+  a.btn {
+    border-bottom: none;
   }
 
   ul, ol {

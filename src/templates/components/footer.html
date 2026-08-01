@@ -1,8 +1,8 @@
-<footer role="contentinfo">
+<footer>
   <div class="footer-content">
     <section class="footer-games">
-      <h2>{{t.my_games}}</h2>
-      <nav aria-label="{{t.roleplaying_games}}">
+      <h2 id="footer-games-title">{{ t.my_games }}</h2>
+      <nav aria-labelledby="footer-games-title">
         <ul>
           <li>
             <a href="https://ludomancien.com/helvegen"
@@ -44,12 +44,12 @@
       </nav>
     </section>
     <section class="footer-web">
-      <h2>Mes autres sites web</h2>
-      <nav aria-label="Ressources sur le jeu de rôle">
+      <h2 id="footer-web-title">{{ t.my_websites }}</h2>
+      <nav aria-labelledby="footer-web-title">
         <ul>
           <li>
             <a
-              href="https://jeuxderole.org/tags/glossaire"
+              href="https://jeuxderole.org"
               target="_blank"
               rel="noopener noreferrer"
               >{{t.roleplaying_games_glossary}}</a
@@ -60,8 +60,8 @@
       </nav>
     </section>
     <section class="footer-contact">
-      <h2>Coordonnées</h2>
-      <nav aria-label="Ressources sur le jeu de rôle">
+      <h2 id="footer-contact-title">{{ t.contact_details }}</h2>
+      <nav aria-labelledby="footer-contact-title">
       <ul>
         <li>
           <a href="mailto:christian@amauger.com">christian@amauger.com</a>

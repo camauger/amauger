@@ -30,10 +30,10 @@
 
   &-secondary {
     background: var(--color-secondary);
-    color: var(--color-white);
+    color: var(--color-on-secondary);
 
     &:hover {
-      background: var(--color-secondary-dark);
+      background: var(--color-secondary-light);
     }
   }
 

@@ -1,21 +1,21 @@
 .container {
   max-width: var(--container-width);
   margin: 0 auto;
-  padding: 0 var(--spacing-unit);
+  padding: 0 var(--spacing-4);
 }
 
 .grid {
   display: grid;
-  gap: var(--spacing-unit);
+  gap: var(--spacing-4);
 
-  @media (min-width: var(--bp-medium)) {
+  @media (min-width: 768px) {
     grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
   }
 }
 
 .flex {
   display: flex;
-  gap: var(--spacing-unit);
+  gap: var(--spacing-4);
 }
 
 .flex-center {
@@ -33,15 +33,15 @@
 .flex-column {
   display: flex;
   flex-direction: column;
-  gap: var(--spacing-unit);
+  gap: var(--spacing-4);
 }
 
 .flex-wrap {
   display: flex;
   flex-wrap: wrap;
-  gap: var(--spacing-unit);
+  gap: var(--spacing-4);
 }
 
 body {
-  padding-top: 100px; // This is the height of the fixed header
+  padding-top: var(--header-height); // hauteur du header fixe (token unique)
 }
